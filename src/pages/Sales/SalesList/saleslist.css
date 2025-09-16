@@ -1,0 +1,424 @@
+.sales-list-main {
+  background: #f3f6f9;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 1440px) {
+  .sales-list-main {
+    padding: 1.875rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .sales-list-main {
+    padding: 0.625rem;
+    padding-bottom: 0;
+  }
+}
+.sales-list-main .table-wrap .table-header-main .print-button-main .new-button {
+  width: 146px;
+}
+.sales-list-main .table-wrap .table {
+  background: transparent;
+  padding: 0;
+}
+.sales-list-main .table-wrap .table h1 {
+  margin: 0;
+}
+.sales-list-main .sales-list-table {
+  height: calc(100vh - 312px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fff;
+}
+@media screen and (min-width: 1500px) {
+  .sales-list-main .sales-list-table {
+    height: calc(100vh - 332px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sales-list-main .sales-list-table {
+    height: 420px;
+  }
+}
+.sales-list-main .sales-list-table .ant-spin {
+  top: 2.25rem;
+}
+.sales-list-main .sales-list-table .ant-spin-nested-loading {
+  background: #fff;
+  height: calc(100vh - 312px);
+  overflow-x: auto;
+}
+@media screen and (min-width: 1500px) {
+  .sales-list-main .sales-list-table .ant-spin-nested-loading {
+    height: calc(100vh - 332px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sales-list-main .sales-list-table .ant-spin-nested-loading {
+    height: 420px;
+  }
+}
+.sales-list-main .sales-list-table .ant-table-content {
+  background: #fff;
+  position: relative;
+}
+.sales-list-main .sales-list-table .ant-table-content .ant-empty-normal {
+  position: absolute;
+  top: 10rem;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+.sales-list-main .sales-list-table table colgroup col {
+  width: 16px !important;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 55px;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .sales-list-main .sales-list-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-column-sort {
+  background: #fff;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0 1rem;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell:first-child {
+  text-align: center;
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell-fix-right {
+  position: sticky !important;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell:last-child {
+  text-align: center;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+  border-start-end-radius: 0;
+}
+.sales-list-main .sales-list-table table .ant-table-thead tr .ant-table-cell-row-hover {
+  background-color: transparent;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  font-size: 0.813rem;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-red {
+  color: #ea3548;
+  background-color: transparent;
+  border: 0.063rem solid #ea3548;
+  padding: 0.25rem 0.5rem;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-success {
+  background: #edfffb;
+  color: #03b288;
+  border-color: #03b288;
+  padding: 0.25rem 0.5rem;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell p {
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.75rem;
+  }
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-column-sort {
+  background: transparent;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell-fix-right {
+  position: sticky !important;
+  z-index: 0;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(3) {
+  cursor: pointer;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(3) p {
+  max-width: 254px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) {
+  cursor: pointer;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) p {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  text-align: center;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div a {
+  margin-left: 0.563rem;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .sms-icon span svg {
+  fill: #2196f3 !important;
+  margin-left: 0.563rem;
+  width: 17px;
+}
+@media screen and (max-width: 768px) {
+  .sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .sms-icon span svg {
+    width: 15px;
+  }
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span {
+  cursor: pointer;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+  height: 100%;
+  width: 19px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+@media screen and (max-width: 768px) {
+  .sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+    width: 15px;
+  }
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) svg {
+  fill: #14ba93;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div a span:nth-child(1) svg {
+  fill: #575fe9;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .mail-icon {
+  margin-left: 0.563rem;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .mail-icon svg {
+  fill: #e68e29;
+}
+@media screen and (max-width: 768px) {
+  .sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .mail-icon svg {
+    height: 18px;
+    width: 15px;
+  }
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image {
+  cursor: pointer;
+  margin-left: 0.563rem;
+}
+.sales-list-main .sales-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image img {
+  fill: #fff;
+  height: 100%;
+  width: 19px;
+  font-weight: 600;
+}
+.sales-list-main .table-wrap .table {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.sales-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button {
+  width: 140px;
+}
+
+.pay-details-modal {
+  width: 760px !important;
+}
+@media screen and (max-width: 992px) {
+  .pay-details-modal {
+    width: 792px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pay-details-modal {
+    width: 600px !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .pay-details-modal {
+    width: 100% !important;
+  }
+}
+.pay-details-modal .ant-modal-content {
+  padding: 0 !important;
+}
+.pay-details-modal .ant-modal-content .ant-modal-close {
+  top: 0.625rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.pay-details-modal .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.pay-details-modal .ant-modal-content .ant-modal-close:hover {
+  background: rgba(220, 53, 69, 0.2196078431);
+  border: 0.063rem solid #dc3545;
+}
+.pay-details-modal .ant-modal-content .ant-modal-close:hover .ant-modal-close-x .ant-modal-close-icon svg {
+  fill: #dc3545;
+}
+.pay-details-modal .ant-modal-content .ant-modal-header {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+}
+.pay-details-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-size: 1.125rem;
+  padding: 0 0 0.313rem 0;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body {
+  max-height: 510px;
+  overflow-x: hidden;
+  padding: 0.563rem 0.938rem;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .input-area-main .ant-select-disabled {
+  background-color: #ececec !important;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .input-area-main .ant-select-disabled .ant-select-selector .ant-select-selection-item {
+  color: #717171;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .input-area-main .dropdown_input {
+  background: #f3f6f9;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .table-wrap .table {
+  padding: 0;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table {
+  margin-bottom: 1rem;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table table {
+  border: 0.063rem solid #deebff;
+  border-collapse: collapse;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+  border: 0.063rem solid #deebff;
+  background: #fafafa;
+  border-radius: 0;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table table .ant-table-tbody tr .ant-table-cell {
+  padding: 0.75rem;
+  border: 0.063rem solid #deebff;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .table-wrap .table .back-transfer-table table {
+  border: 0.063rem solid #deebff;
+  border-collapse: collapse;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .table-wrap .table .back-transfer-table table .ant-table-thead tr th {
+  border: 0.063rem solid #deebff;
+  background: #fafafa;
+  border-radius: 0;
+  padding: 0.75rem;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .table-wrap .table .back-transfer-table table .ant-table-tbody tr td {
+  border: 0.063rem solid #deebff;
+  padding: 0.75rem;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .pending-amount-main .pending-amount {
+  font-weight: 500;
+  background-color: rgba(236, 236, 236, 0.7607843137);
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  padding: 1rem;
+  color: #5b6670;
+  font-size: 0.938rem;
+  font-weight: 500;
+  margin: 1rem 0 0 auto;
+}
+@media screen and (max-width: 1440px) {
+  .pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .pending-amount-main .pending-amount {
+    font-size: 0.813rem;
+  }
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .pending-amount-main .input-wrap .input-area-main {
+  height: 65px;
+}
+.pay-details-modal .ant-modal-content .ant-modal-body .payment-method-main .bank-transfer-table-main .pending-amount-main .input-wrap .input-area-main .price-input {
+  background: #f3f6f9;
+  height: 53px;
+}
+
+.sms-modal-main {
+  width: 350px !important;
+  padding-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .sms-modal-main {
+    width: 260px !important;
+  }
+}
+.sms-modal-main .ant-modal-body {
+  position: relative;
+}
+.sms-modal-main .ant-modal-body .email-image {
+  width: 130px;
+  margin: 0 auto;
+}
+.sms-modal-main .ant-modal-body .email-image svg {
+  width: 100%;
+}
+.sms-modal-main .ant-modal-body .sms-image-text {
+  position: absolute;
+  top: 6.875rem;
+  left: 1.25rem;
+  font-size: 0.938rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .sms-modal-main .ant-modal-body .sms-image-text {
+    font-size: 0.75rem;
+  }
+}
+.sms-modal-main .ant-modal-footer .btn-main {
+  display: flex;
+  gap: 1.25rem;
+}
+.sms-modal-main .ant-modal-footer .btn-main .cancel-btn {
+  background: transparent !important;
+  color: #dc3545 !important;
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  border: 0.063rem solid #dc3545;
+}
+.sms-modal-main .ant-modal-footer .btn-main .cancel-btn::after {
+  content: "";
+  background: #dc3545;
+  border: 0.063rem solid #dc3545;
+}
+.sms-modal-main .ant-modal-footer .btn-main .cancel-btn:hover {
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  border: 0.063rem solid #dc3545;
+  border-color: #dc3545 !important;
+  color: #fff !important;
+}/*# sourceMappingURL=saleslist.css.map */

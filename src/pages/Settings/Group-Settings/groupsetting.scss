@@ -1,0 +1,198 @@
+@import "../../../styles/variable.scss";
+
+.group-settings-main {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 0.875rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table-header-main {
+      .print-button-main {
+        .new-button {
+          width: 200px;
+          @media screen and (max-width: 768px) {
+            width: 170px;
+          }
+        }
+      }
+    }
+    .table {
+      background: $bg-transparent;
+      padding: $zero;
+    }
+  }
+  .group-settings-table {
+    height: calc(100vh - 240px);
+    overflow-y: $auto;
+    overflow-x: $overflow-hidden;
+    background: $white;
+    @media screen and (min-width: 1500px) {
+      height: calc(100vh - 266px);
+    }
+    @media screen and (max-width: 1200px) {
+      height: 300px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 360px;
+    }
+    .ant-spin-nested-loading {
+      height: calc(100vh - 240px);
+      background: $white;
+      overflow: $auto;
+      @media screen and (min-width: 1500px) {
+        height: calc(100vh - 266px);
+      }
+      @media screen and (max-width: 1200px) {
+        height: 300px;
+      }
+      @media screen and (max-width: 768px) {
+        height: 360px;
+      }
+      .ant-spin-container {
+        height: $hundred-p;
+        .ant-table-empty {
+          height: $hundred-p;
+          .ant-table-container {
+            height: $hundred-p;
+            .ant-table-content {
+              height: $hundred-p;
+              table {
+                height: $hundred-p;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ant-table-content {
+      background: $white;
+    }
+    table {
+      .ant-table-wrapper {
+        overflow-x: $auto;
+        overflow-y: $overflow-hidden;
+      }
+      colgroup {
+        col {
+          width: 16px !important;
+        }
+      }
+      .ant-table-thead {
+        tr {
+          th {
+            position: $position-sticky !important;
+            top: $zero;
+            z-index: 3;
+            height: 45px;
+          }
+          .ant-table-cell {
+            padding: 0.563rem;
+            .ant-checkbox-wrapper {
+              .ant-checkbox {
+                .ant-checkbox-inner {
+                  border: 0.063rem $border-style-solid $blue-lotus;
+                }
+              }
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: $blue-lotus;
+                }
+              }
+            }
+          }
+          .ant-table-column-sort{
+            background: $white;
+          }
+          .ant-table-cell:first-child {
+            padding-left: $zero;
+            border-start-start-radius: $zero;
+          }
+          .ant-table-cell:last-child {
+            width: 130px;
+            text-align: $center;
+            border-start-end-radius: $zero;
+            box-shadow: $table-box-shadow;
+          }
+        }
+      }
+      .ant-table-tbody {
+        .ant-table-row {
+          .ant-table-cell {
+            padding: 0.563rem;
+            .ant-checkbox-wrapper {
+              .ant-checkbox {
+                .ant-checkbox-inner {
+                  border: 0.063rem $border-style-solid $blue-lotus;
+                }
+              }
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: $blue-lotus;
+                }
+              }
+            }
+          }
+          .ant-table-column-sort{
+            background: $white;
+          }
+          .ant-table-cell:first-child {
+            padding-left: $zero;
+          }
+          .ant-table-cell:last-child {
+            position: $position-sticky !important;
+            z-index: $z-index-one;
+            .system-action-icon-none{
+              span{
+              cursor: $cursor-not-allowed!important;
+                svg{
+                  fill: $oslo-grey !important;
+                }
+              }
+              svg:last-child {
+                cursor: $cursor-not-allowed ;
+                path {
+                  stroke: $oslo-grey;
+                }
+              }
+            }
+            div {
+              display: $d-flex;
+              align-items: $center;
+              justify-content: $center;
+              span {
+                svg {
+                  height: 19px;
+                  width: $hundred-p;
+                  object-fit: $none;
+                  @media screen and (max-width: 768px) {
+                    height: 18px;
+                    width: 15px;
+                  }
+                }
+              }
+              span:nth-child(1) {
+                cursor: $cursor-pointer;
+                margin-left: $zero;
+                svg {
+                  fill: $blue-lotus;
+                }
+              }
+              svg:last-child {
+                margin-left: 0.563rem;
+              }
+            }
+          }
+          .ant-table-cell-fix-right {
+            position: $position-static !important;
+          }
+        }
+      }
+    }
+  }
+}

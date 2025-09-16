@@ -1,0 +1,98 @@
+.input-wrap {
+  position: relative;
+}
+.input-wrap .error-count-msg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.input-wrap .error-count-msg .error-msg {
+  width: 100%;
+  color: #dc3545;
+  font-size: 0.813rem;
+  font-weight: 400;
+}
+.input-wrap .error-count-msg .count {
+  color: #717171;
+  font-size: 0.688rem;
+  font-weight: 300;
+  margin: 0.125rem 0 0;
+}
+.input-wrap .error-msg {
+  text-transform: capitalize;
+}
+.input-wrap .numeric-input {
+  position: relative;
+  padding-left: 3rem;
+  box-sizing: border-box;
+}
+.input-wrap .numeric-input-padding {
+  position: relative;
+  padding-left: 1.25rem !important;
+  box-sizing: border-box;
+}
+.input-wrap .error-msg {
+  color: #dc3545;
+  font-size: 0.813rem;
+  font-weight: 400;
+  margin: 0.313rem 0 0;
+}
+.input-wrap .input-area-main::-moz-placeholder {
+  color: #838a95;
+  font-family: "Inter", sans-serif !important;
+}
+.input-wrap .input-area-main::placeholder {
+  color: #838a95;
+  font-family: "Inter", sans-serif !important;
+}
+.input-wrap .input-area-main .password-eye-icon {
+  position: absolute;
+  right: 0.435rem;
+  top: 0.75rem;
+  background: transparent !important;
+}
+
+.error-msg-main {
+  position: absolute;
+  left: 0.438rem;
+  bottom: 0.875rem;
+}
+.error-msg-main .error-msg {
+  font-size: 0.813rem;
+}
+@media screen and (max-width: 575px) {
+  .error-msg-main {
+    bottom: 0;
+  }
+}
+
+.ant-input-out-of-range input {
+  color: #1e293b !important;
+}
+
+.ant-select-single .ant-select-selector {
+  color: #797c79 !important;
+  padding: 0 1.25rem 0 1.25rem !important;
+}
+
+.input-label {
+  color: #000000;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  line-height: 1.281rem;
+}
+@media screen and (max-width: 768px) {
+  .input-label {
+    font-size: 0.75rem;
+  }
+}
+
+.ant-select .ant-select-arrow {
+  font-size: 0.938rem;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-select-single.ant-select-open .ant-select-selection-item {
+  color: #797c79 !important;
+}/*# sourceMappingURL=formField.css.map */

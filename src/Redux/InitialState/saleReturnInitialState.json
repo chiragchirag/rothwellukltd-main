@@ -1,0 +1,13 @@
+{
+  "saleReturnProductData": [],
+  "saleReturnProductOfList": [],
+  "taxTotal": 0,
+  "saleReturnTransactionData": [],
+  "viewSaleReturnData": {},
+  "currentPage": 1,
+  "limit": 100,
+  "total": 0,
+  "returnSubTotal": 0,
+  "returnTaxTotal": 0,
+  "returnDiscountTotal": 0
+}

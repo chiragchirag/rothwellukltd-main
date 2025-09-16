@@ -1,0 +1,156 @@
+@import "../../../styles/variable.scss";
+
+.bundle-item-main {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .create-bundle-item-inputs {
+    .input-main {
+      position: $position-relative;
+      .suggestion-list {
+        top: 5rem;
+      }
+    }
+    .input-wrap {
+      .ant-picker {
+        .ant-picker-input {
+          input {
+            &::placeholder {
+              color: $shuttle-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+  .loader-icon {
+    height: 500px;
+  }
+  .create-bundle-item-wrap {
+    .table-wrap {
+      .table-header-main {
+        margin-bottom: $zero;
+      }
+      .table {
+        padding: $zero;
+        background-color: $white;
+        .create-bundle-item-table {
+          overflow: $auto;
+          margin: $zero 1.25rem;
+          padding: $zero;
+          height: 421px;
+          @media screen and (min-width: 1500px) {
+            height: calc(100vh - 373px);
+          }
+          table {
+            .ant-table-thead {
+              tr {
+                .ant-table-cell {
+                  position: $position-sticky;
+                  top: $zero;
+                  z-index: 3;
+                  background-color: $white;
+                  padding: 0.563rem;
+                  border-start-start-radius: $zero;
+                }
+                .ant-table-cell:first-child {
+                  padding-left: $zero;
+                }
+                .ant-table-cell:last-child {
+                  text-align: $center;
+                  box-shadow: $table-box-shadow;
+                  border-start-end-radius: $zero;
+                }
+              }
+            }
+            .ant-table-tbody {
+              .ant-table-row {
+                .ant-table-cell {
+                  padding: 0.563rem;
+                  p {
+                    margin: $zero;
+                  }
+                  .input-wrap {
+                    .input-area-main {
+                      height: 50px;
+                      .ant-input {
+                        width: 80px;
+                        height: 33px;
+                        background: $alice-blue;
+                        color: $venus;
+                      }
+                      .error-count-msg{
+                        margin-top: 0.25rem;
+                      }
+                    }
+                  }
+                  .ant-tag-red {
+                    color: $red;
+                    background-color: $bg-transparent;
+                    border: 0.063rem $border-style-solid $red;
+                    padding: 0.25rem 0.5rem;
+                  }
+                  .ant-tag-success {
+                    background: $clear-day;
+                    color: $persian-green;
+                    border-color: $persian-green;
+                    padding: 0.25rem 0.5rem;
+                  }
+                }
+                .ant-table-cell:first-child {
+                  padding-left: $zero;
+                }
+                .ant-table-cell:nth-child(2) {
+                  max-width: 150px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                }
+
+                .ant-table-cell:nth-child(3) {
+                  max-width: 170px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                }
+                .ant-table-cell:nth-child(8) {
+                  max-width: 150px;
+                  width: 150px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                }
+                .ant-table-cell:last-child {
+                  text-align: $center;
+                  div {
+                    .ant-image {
+                      cursor: $cursor-pointer;
+                      img {
+                        height: $hundred-p;
+                        width: 19px;
+                        @media screen and (max-width: 768px) {
+                          width: 15px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .save-btn {
+    width: 100px;
+    margin-top: 1.25rem;
+  }
+}

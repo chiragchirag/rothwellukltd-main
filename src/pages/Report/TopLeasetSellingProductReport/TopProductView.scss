@@ -1,0 +1,157 @@
+@import "../../../styles/variable.scss";
+
+.top-product-report-main {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table-header-main {
+      display: $d-block;
+      .filter-button-main {
+        display: $d-block;
+        .input-wrap{
+          width: $hundred-p;
+          margin-bottom: 0.438rem;
+          .input-label{
+            margin-bottom: 0.125rem;
+          }
+          .input-area-main{
+            height: 50px;
+            .ant-select{
+              width: $hundred-p;
+              height: 50px;
+              border: 0.063rem $border-style-solid $border-transparent;
+              .ant-select-selector{
+                .ant-select-selection-search{
+                  padding-left: 0.625rem;
+                }
+              }
+            }
+          }
+          .date-picker-input {
+            @media screen and (max-width: 992px) {
+              margin-bottom: $zero;
+            }
+          }
+        }
+      }
+      .print-button-main{
+        justify-content: $end;
+        flex-wrap: $nowrap;
+        margin-top: 1rem !important;
+        .common-button{
+          width: 100px;
+          margin-left: 1rem;
+        }
+        .common-button:nth-child(2){
+          background: $persian-green !important;
+          border: $none;
+          box-shadow:
+            #03b2885e 0px 6px 12px -2px,
+            #03b28845 0px 3px 7px -3px;
+          &::after {
+            content: "";
+            background: linear-gradient(
+              132deg,
+              $neon-blue 4.27%,
+              $medium-slate-blue
+            );
+          }
+          &:hover {
+            box-shadow:
+              #4c4de361 0px 6px 12px -2px,
+              #4c4de342 0px 3px 7px -3px;
+          }
+        }
+      }
+    }
+    .table {
+      background: $bg-transparent;
+      padding: $zero;
+    }
+  }
+  .top-product-report-table {
+    height: calc(100vh - 347px);
+    background: $white;
+    overflow-x: $overflow-hidden;
+    overflow-y: $auto;
+    @media screen and (min-width: 1500px) {
+      height: calc(100vh - 373px);
+    }
+    @media screen and (max-width: 1200px) {
+      height: 320px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 336px;
+    }
+    .ant-spin {
+      top: 2.25rem;
+    }
+    .ant-spin-nested-loading {
+      height: calc(100vh - 347px);
+      background: $white;
+      overflow-x: $auto;
+      @media screen and (min-width: 1500px) {
+        height: calc(100vh - 373px);
+      }
+      @media screen and (max-width: 1200px) {
+        height: 320px;
+      }
+      @media screen and (max-width: 768px) {
+        height: 336px;
+      }
+    }
+    table {
+      .ant-table-thead {
+        tr {
+          .ant-table-cell {
+            position: $position-sticky;
+            top: $zero;
+            z-index: $z-index-one;
+            background-color: $white;
+            height: 45px;
+            padding: 0.563rem;
+            text-transform: $text-transform-uppercase;
+          }
+          .ant-table-cell:first-child{
+            border-start-start-radius: $zero;
+            padding-left: $zero;
+          }
+          .ant-table-cell:last-child {
+            right: $zero;
+            box-shadow: $table-box-shadow;
+            border-start-end-radius: $zero;
+          }
+        }
+      }
+      .ant-table-tbody {
+        .ant-table-row {
+          .ant-table-cell {
+            padding: 0.563rem;
+          }
+          .ant-table-cell:first-child{
+            padding-left: $zero;
+          }
+          .ant-table-cell:nth-child(3){
+            max-width: 150px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:last-child {
+            position: $position-sticky;
+            right: $zero;
+            background: $white;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.new-expenses-main {
+  padding: 1.25rem;
+}
+@media screen and (min-width: 1440px) {
+  .new-expenses-main {
+    padding: 1.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .new-expenses-main {
+    padding: 0.625rem;
+  }
+}
+.new-expenses-main .expenses-loader {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+.new-expenses-main .expenses-new-wrap .expenses-details-textarea {
+  height: 157px !important;
+}
+.new-expenses-main .save-btn {
+  width: 100px;
+}/*# sourceMappingURL=newExpenses.css.map */

@@ -1,0 +1,40 @@
+.success-modal-main {
+  width: 350px !important;
+  padding-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .success-modal-main {
+    width: 260px !important;
+  }
+}
+.success-modal-main .success-animation-image-main {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.success-modal-main .success-animation-image-main .success-image-main {
+  width: 120px;
+  margin: 0 auto;
+}
+.success-modal-main .success-animation-image-main .success-image-main svg {
+  width: 100%;
+}
+.success-modal-main .success-animation-image-main p {
+  margin: 0;
+}
+.success-modal-main .ant-modal-content .success-image-text {
+  position: absolute;
+  top: 6.25rem;
+  left: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .success-modal-main .ant-modal-content .success-image-text {
+    font-size: 0.75rem;
+  }
+}
+.success-modal-main .ant-modal-content .ant-modal-footer {
+  display: none;
+}/*# sourceMappingURL=successmodal.css.map */

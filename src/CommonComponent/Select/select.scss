@@ -1,0 +1,118 @@
+@import "../../styles/variable.scss";
+
+.dropdown_input {
+  width: $hundred-p;
+  height: 50px;
+  background: $white;
+  border: 0.063rem $border-style-solid $border-transparent;
+  border-radius: 0.25rem;
+  padding: 0.75rem $zero;
+  .ant-select-selector {
+    .ant-select-selection-item {
+      font-size: 0.875rem;
+      @media screen and (max-width: 1250px) {
+        font-size: 0.813rem;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+    }
+    .ant-select-selection-placeholder {
+      color: $tealish-gray !important;
+      font-size: 0.875rem;
+      @media screen and (max-width: 1250px) {
+        font-size: 0.813rem;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+    }
+  }
+  &::placeholder {
+    color: $tealish-gray !important;
+    font-family: $font-family !important;
+  }
+  &:focus-within {
+    box-shadow: $none;
+  }
+  .ant-select-selector {
+    background: $bg-transparent !important;
+    border: $none;
+    border-color: $border-transparent !important;
+    box-shadow: $none !important;
+  }
+}
+.ant-select-open {
+  border: 0.063rem $border-style-solid $medium-slate-blue;
+  box-shadow: $none;
+  outline: $none;
+}
+.search-input {
+  height: 39px;
+  background: $alice-blue;
+  padding: 0.75rem;
+  margin-bottom: 0.313rem;
+  align-items: $center;
+  border: 0.063rem $border-style-solid $border-transparent;
+  border-radius: 0.25rem;
+  &:hover {
+    background: $alice-blue;
+    border-color: $alice-blue;
+  }
+  &:focus-within {
+    background: $alice-blue;
+    border-color: $border-transparent;
+    box-shadow: $none;
+  }
+  .ant-input-suffix {
+    cursor: $cursor-pointer;
+  }
+}
+.ant-select-dropdown {
+  border-radius: 0.375rem;
+  z-index: 9999;
+  .ant-select-item {
+    min-height: $zero;
+    padding: $zero 0.75rem;
+  }
+  .rc-virtual-list-holder-inner {
+    .ant-select-item-option {
+      min-height: 39px;
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      border-radius: 0.25rem !important;
+      .ant-select-item-option-content {
+        color: $midnight;
+        font-weight: $font-weight-normal;
+        font-size: 0.875rem;
+      }
+    }
+    .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+      background: $medium-slate-blue !important;
+      .ant-select-item-option-content {
+        color: $white;
+      }
+    }
+  }
+  .rc-virtual-list-scrollbar {
+    display: $none;
+  }
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background: $white;
+  color: $manatee;
+  font-size: 0.875rem;
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-select-single:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  padding: $zero 0.938rem $zero 1.25rem !important;
+}
+:where(.css-1xg9z9n).ant-select-dropdown
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  color: $white !important;
+  border-radius: $zero;
+}

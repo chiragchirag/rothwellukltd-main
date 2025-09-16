@@ -1,0 +1,111 @@
+@import "../../../styles/variable.scss";
+
+.transaction-button-main {
+  width: $hundred-p;
+  .transaction-button {
+    width: $hundred-p;
+    display: $d-flex;
+    align-items: $center;
+    justify-content: $center;
+    gap: 0.375rem;
+    border: $none;
+    background: $persian-green !important;
+    box-shadow:
+      #03b2885e 0px 6px 12px -2px,
+      #03b28845 0px 3px 7px -3px;
+    padding: 0.844rem 0.938rem;
+    &::after {
+      content: "";
+      background: linear-gradient(132deg, $neon-blue 4.27%, $medium-slate-blue);
+    }
+    &:hover {
+      box-shadow:
+        #4c4de361 0px 6px 12px -2px,
+        #4c4de342 0px 3px 7px -3px;
+    }
+    .ant-image {
+      display: $d-flex;
+    }
+  }
+}
+.view-user-receipt {
+  .ant-modal-content {
+    padding: 0.688rem;
+    .ant-modal-footer {
+      text-align: $center;
+      .print-receipt {
+        width: $fit-content;
+        font-size: 0.875rem;
+        margin-top: 0.313rem;
+        padding: $zero 0.875rem;
+      }
+    }
+  }
+}
+.sms-modal-main {
+  width: 430px !important;
+  padding-bottom: $zero;
+  @media screen and (max-width: 768px) {
+    width: 260px !important;
+  }
+  .ant-modal-body {
+    position: $position-relative;
+    .input-wrap {
+      margin-bottom: 1.25rem;
+      margin-top: -3.125rem;
+      .input-area-main {
+        height: 55px;
+        .ant-input {
+          height: 55px;
+          background: $alice-blue;
+        }
+      }
+    }
+    .email-image {
+      width: 130px;
+      margin: $zero $auto;
+      svg {
+        width: $hundred-p;
+      }
+    }
+    .sms-image-text {
+      position: $position-absolute;
+      top: 6.875rem;
+      left: 4.375rem;
+      font-size: 0.938rem;
+      font-weight: $font-weight-medium;
+      text-align: $center;
+      margin-top: $zero;
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+    }
+  }
+  .ant-modal-footer {
+    .btn-main {
+      display: $d-flex;
+      gap: 1.25rem;
+      .cancel-btn {
+        background: $bg-transparent !important;
+        color: $jasper !important;
+        box-shadow:
+          #dc354575 0px 6px 12px -2px,
+          #dc35454f 0px 3px 7px -3px;
+        border: 0.063rem $border-style-solid $jasper;
+        &::after {
+          content: "";
+          background: $jasper;
+          border: 0.063rem $border-style-solid $jasper;
+        }
+        &:hover {
+          box-shadow:
+            #dc354575 0px 6px 12px -2px,
+            #dc35454f 0px 3px 7px -3px;
+          border: 0.063rem $border-style-solid $jasper;
+          border-color: $jasper !important ;
+          color: $white !important;
+        }
+      }
+    }
+  }
+}

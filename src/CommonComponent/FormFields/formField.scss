@@ -1,0 +1,100 @@
+@import "../../styles/variable.scss";
+
+.input-wrap {
+  position: $position-relative;
+  .error-count-msg {
+    display: $d-flex;
+    align-items: $center;
+    justify-content: $flex-end;
+    .error-msg {
+      width: $hundred-p;
+      color: $jasper;
+      font-size: 0.75rem;
+      font-weight: $font-weight-normal;
+    }
+    .count {
+      color: $dimgray;
+      font-size: 0.688rem;
+      font-weight: $font-weight-light;
+      margin: 0.125rem $zero $zero;
+    }
+  }
+  .error-msg {
+    text-transform: $text-transform-capitalize;
+  }
+  .numeric-input {
+    position: $position-relative;
+    height: 50px;
+    padding-left: 3rem;
+    box-sizing: $box-sizing-border;
+  }
+  .numeric-input-padding {
+    position: $position-relative;
+    padding-left: 1.25rem !important;
+    box-sizing: $box-sizing-border;
+  }
+  .error-msg {
+    color: $jasper;
+    font-size: 0.75rem;
+    font-weight: $font-weight-normal;
+    margin: 0.313rem $zero $zero;
+  }
+  .input-area-main {
+    &::placeholder {
+      color: $tealish-gray;
+      font-family: $font-family !important;
+    }
+    .password-eye-icon {
+      position: $position-absolute;
+      right: 0.435rem;
+      top: 0.375rem;
+      background: $bg-transparent !important;
+    }
+  }
+}
+.error-msg-main {
+  position: $position-absolute;
+  left: 0.438rem;
+  bottom: 0.875rem;
+  .error-msg {
+    font-size: 0.75rem;
+  }
+  @media screen and (max-width: 575px) {
+    bottom: $zero;
+  }
+}
+.ant-input-out-of-range {
+  input {
+    color: $midnight !important;
+  }
+}
+.ant-select-single {
+  .ant-select-selector {
+    color: $boulder !important;
+    padding: $zero 1.25rem $zero 1.25rem !important;
+  }
+}
+.input-label {
+  color: $black;
+  display: $d-block;
+  font-size: 0.875rem;
+  font-weight: $font-weight-medium;
+  margin-bottom: 0.313rem;
+  line-height: 1.281rem;
+  font-size: 0.938rem;
+  @media screen and (max-width: 1250px) {
+    font-size: 0.813rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.813rem;
+  }
+}
+.ant-select {
+  .ant-select-arrow {
+    font-size: 0.938rem;
+  }
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-select-single.ant-select-open
+  .ant-select-selection-item {
+  color: $boulder !important;
+}

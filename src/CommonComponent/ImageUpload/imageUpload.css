@@ -1,0 +1,68 @@
+.upload-images-box-main {
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+}
+@media screen and (max-width: 425px) {
+  .upload-images-box-main {
+    padding: 0.75rem;
+  }
+}
+.upload-images-box-main .ant-upload-drag {
+  background: transparent;
+  padding: 2.5rem 0.625rem;
+}
+.upload-images-box-main .ant-upload-drag .ant-upload-btn {
+  padding: 0;
+}
+.upload-images-box-main .ant-upload-hint {
+  color: #8d929a !important;
+  font-weight: 400;
+  line-height: 1.281rem;
+}
+@media screen and (max-width: 768px) {
+  .upload-images-box-main .ant-upload-hint {
+    font-size: 0.75rem !important;
+  }
+}
+.upload-images-box-main .ant-upload-hint .select-text {
+  color: #6366f1;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .upload-images-box-main .ant-upload-hint .select-text {
+    font-size: 0.75rem;
+  }
+}
+.upload-images-box-main .checkbox-main span:nth-child(2) {
+  color: #8d929a;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.281rem;
+}
+.upload-images-box-main .checkbox-main .ant-checkbox .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 0.125rem solid #6366f1;
+  margin-right: 0.313rem;
+}
+.upload-images-box-main .upload-image {
+  margin-bottom: 1rem;
+}
+.upload-images-box-main .error-msg {
+  color: #dc3545;
+  font-size: 0.813rem;
+  font-weight: 400;
+  margin: 0.313rem 0 0;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper .ant-upload-drag:not(.ant-upload-disabled):hover,
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper .ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: #d9d9d9 !important;
+}
+
+.ant-upload-wrapper .ant-upload-drag .ant-upload-drag-icon .anticon {
+  color: #acacac !important;
+}/*# sourceMappingURL=imageUpload.css.map */

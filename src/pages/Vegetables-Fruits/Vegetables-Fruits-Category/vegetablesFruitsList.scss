@@ -1,0 +1,366 @@
+@import "../../../styles/variable.scss";
+
+.Vegetables-main {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table {
+      background: $bg-transparent;
+      padding: $zero;
+    }
+    .table-header-main {
+      .print-button-main {
+        .generate-backup-button {
+          width: 170px;
+          height: 50px;
+          @media screen and (max-width: 768px) {
+            width: 150px;
+            height: 40px;
+          }
+        }
+      }
+      .filter-button-main {
+        .suggestion-list-main {
+          position: $position-relative;
+        }
+      }
+    }
+  }
+  .vegetables-list-table {
+    height: calc(100vh - 302px);
+    overflow-x: $overflow-hidden;
+    background: $white;
+    overflow-y: $auto;
+    @media screen and (min-width: 1500px) {
+      height: calc(100vh - 322px);
+    }
+    @media screen and (max-width: 1200px) {
+      height: 320px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 336px;
+    }
+    .ant-spin {
+      top: 2.25rem;
+    }
+    .ant-spin-nested-loading {
+      background: $white;
+      height: calc(100vh - 302px);
+      overflow-x: $auto;
+      @media screen and (min-width: 1500px) {
+        height: calc(100vh - 322px);
+      }
+      @media screen and (max-width: 1200px) {
+        height: 320px;
+      }
+      @media screen and (max-width: 768px) {
+        height: 336px;
+      }
+      .ant-spin-container {
+        height: $hundred-p;
+        .ant-table-empty {
+          height: $hundred-p;
+          .ant-table-container {
+            height: $hundred-p;
+            .ant-table-content {
+              height: $hundred-p;
+              table {
+                height: $hundred-p;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ant-table-content {
+      position: $position-relative;
+      background: $white;
+      .ant-empty-normal {
+        position: $position-absolute;
+        top: $fifty-p;
+        left: $fifty-p;
+        transform: translate(-50%, -50%);
+        margin: $zero;
+        @media screen and (max-width: 768px) {
+          left: 28%;
+        }
+      }
+    }
+    table {
+      background: $white;
+      .ant-table-wrapper {
+        overflow-x: $auto;
+        overflow-y: $overflow-hidden;
+      }
+      colgroup {
+        col {
+          width: 16px !important;
+        }
+      }
+      .ant-table-thead {
+        tr {
+          th {
+            position: $position-sticky;
+            top: $zero;
+            z-index: $z-index-one;
+            height: 45px;
+          }
+          .ant-table-cell {
+            padding: $zero 0.563rem;
+            .ant-checkbox-wrapper {
+              .ant-checkbox {
+                .ant-checkbox-inner {
+                  border: 0.063rem $border-style-solid $blue-lotus;
+                }
+                .ant-checkbox-input {
+                  &:focus-visible {
+                    .ant-checkbox-inner {
+                      outline: $none;
+                    }
+                  }
+                }
+              }
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: $blue-lotus;
+                }
+              }
+            }
+          }
+          .ant-table-column-sort {
+            background: $bg-transparent;
+          }
+          .ant-table-cell:first-child {
+            text-align: $center;
+            padding-left: $zero;
+            border-start-start-radius: $zero;
+          }
+          .ant-table-cell:nth-child(5) {
+            max-width: 150px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:nth-child(7) {
+            max-width: 150px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:last-child {
+            border-start-end-radius: $zero;
+            min-width: 180px;
+            text-align: $center;
+            box-shadow: $table-box-shadow;
+            @media screen and (max-width: 768px) {
+              max-width: 120px;
+              min-width: 120px !important;
+              width: 120px;
+              overflow: $overflow-hidden;
+              text-overflow: $text-overflow-ellipsis;
+              white-space: $nowrap;
+            }
+          }
+          .ant-table-cell-fix-right {
+            position: $position-sticky !important;
+          }
+          .ant-table-column-has-sorters:hover {
+            background: $white;
+          }
+        }
+      }
+      .ant-table-tbody {
+        .ant-table-row {
+          .ant-table-cell {
+            padding: 0.563rem;
+            p {
+              margin: $zero;
+            }
+            .ant-checkbox-wrapper {
+              .ant-checkbox {
+                .ant-checkbox-inner {
+                  border: 0.063rem $border-style-solid $blue-lotus;
+                  .ant-checkbox-input {
+                    &:focus-visible {
+                      .ant-checkbox-inner {
+                        outline: $none;
+                      }
+                    }
+                  }
+                }
+              }
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: $blue-lotus;
+                }
+              }
+            }
+          }
+          .ant-table-column-sort {
+            background: $bg-transparent;
+          }
+          .ant-table-cell:nth-child(1) {
+            padding-left: $zero;
+          }
+          .ant-table-cell:nth-child(2) {
+            line-height: $zero;
+            .ant-image {
+              height: 40px;
+              width: 40px;
+              border-radius: 0.313rem;
+              overflow: $overflow-hidden;
+              box-shadow:
+                #1616160a 0px 20px 33px -5px,
+                #1616160a 0px 10px 10px -5px;
+              .ant-image-img {
+                height: $hundred-p;
+                width: $hundred-p;
+                object-fit: $cover !important;
+              }
+            }
+          }
+          .ant-table-cell:nth-child(4) {
+            cursor: $cursor-pointer;
+            p {
+              max-width: 128px;
+              overflow: $overflow-hidden;
+              text-overflow: $text-overflow-ellipsis;
+              white-space: $nowrap;
+            }
+          }
+          .ant-table-cell:nth-child(5) {
+            max-width: 150px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:nth-child(6) {
+            cursor: $cursor-pointer;
+          }
+          .ant-table-cell:nth-child(7) {
+            max-width: 150px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:nth-child(8) {
+            line-height: $zero;
+            .pkg-item-main {
+              display: $d-flex;
+              align-items: $center;
+              height: 28px;
+              .pkg-item {
+                max-width: 70px;
+                background-color: #f0f0f0;
+                border-radius: 0.313rem;
+                padding: 0.75rem 0.313rem;
+                margin-right: 0.625rem;
+                overflow: $overflow-hidden;
+                text-overflow: $text-overflow-ellipsis;
+                white-space: $nowrap;
+                text-transform: $text-transform-capitalize;
+              }
+            }
+          }
+          .ant-table-cell:last-child {
+            text-align: $center;
+            @media screen and (max-width: 768px) {
+              max-width: 120px;
+              min-width: 120px;
+              width: 120px;
+              overflow: $overflow-hidden;
+              text-overflow: $text-overflow-ellipsis;
+              white-space: $nowrap;
+            }
+            div {
+              display: $d-flex;
+              align-items: $center;
+              justify-content: $center;
+              a {
+                margin-left: 0.563rem;
+              }
+              span {
+                svg {
+                  height: 19px;
+                  width: $hundred-p;
+                  object-fit: $none;
+                  @media screen and (max-width: 768px) {
+                    height: 18px;
+                    width: 14px;
+                  }
+                }
+              }
+              a:nth-child(1) {
+                height: 19px;
+                width: 19px;
+                margin-left: $zero;
+                @media screen and (max-width: 768px) {
+                  width: 15px;
+                }
+                span {
+                  svg {
+                    fill: $green-blue;
+                    @media screen and (max-width: 768px) {
+                      height: 18px;
+                      width: 15px;
+                    }
+                  }
+                }
+              }
+              a:nth-child(2) {
+                height: 19px;
+                span {
+                  svg {
+                    fill: $blue-lotus;
+                  }
+                }
+              }
+              .ant-image:nth-child(4) {
+                cursor: $cursor-pointer;
+                margin-left: 0.563rem;
+                img {
+                  height: $hundred-p;
+                  width: 22px;
+                  @media screen and (max-width: 768px) {
+                    width: 19px;
+                  }
+                }
+              }
+              .ant-image {
+                cursor: $cursor-pointer;
+                margin-left: 0.563rem;
+
+                img {
+                  height: $hundred-p;
+                  width: 19px;
+                  @media screen and (max-width: 768px) {
+                    width: 15px;
+                  }
+                }
+              }
+            }
+          }
+          .ant-table-cell-fix-right {
+            position: $position-sticky !important;
+            z-index: $zero;
+          }
+        }
+      }
+    }
+  }
+  .table-wrap {
+    .table {
+      h1 {
+        margin: $zero;
+      }
+    }
+  }
+}

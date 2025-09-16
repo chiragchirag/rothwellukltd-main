@@ -1,0 +1,40 @@
+@import "../../styles/variable.scss";
+
+.success-modal-main {
+  width: 350px !important;
+  padding-bottom: $zero;
+  @media screen and (max-width: 768px) {
+    width: 260px !important;
+  }
+  .success-animation-image-main {
+    position: $position-relative;
+    margin-bottom: 1.25rem;
+    .success-image-main {
+      width: 120px;
+      margin: $zero $auto;
+      svg {
+        width: $hundred-p;
+      }
+    }
+    p {
+      margin: $zero;
+    }
+  }
+  .ant-modal-content {
+    .success-image-text {
+      position: $position-absolute;
+      top: 6.25rem;
+      left: 2.5rem;
+      font-size: 1.25rem;
+      font-weight: $font-weight-medium;
+      text-align: $center;
+      margin-top: $zero;
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+    }
+    .ant-modal-footer {
+      display: $none;
+    }
+  }
+}

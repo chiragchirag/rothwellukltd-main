@@ -1,0 +1,83 @@
+{
+  "purchaseReport": [],
+  "purchaseReportPage": 1,
+  "purchaseReportLimit": 10,
+  "purchaseReportTotal": 0,
+
+  "purchasePaymentReport": [],
+  "purchasePaymentReportPage": 1,
+  "purchasePaymentReportLimit": 10,
+  "purchasePaymentReportTotal": 0,
+
+  "purchaseReturnReport": [],
+  "purchaseReturnReportPage": 1,
+  "purchaseReturnReportLimit": 10,
+  "purchaseReturnReportTotal": 0,
+
+  "productReport": [],
+  "productReportPage": 1,
+  "productReportLimit": 10,
+  "productReportTotal": 0,
+
+  "stockReport": [],
+  "stockReportPage": 1,
+  "stockReportLimit": 10,
+  "stockReportTotal": 0,
+
+  "saleReportData": [],
+  "saleReportPage": 1,
+  "saleReportLimit": 10,
+  "saleReportTotal": 0,
+  "grandTotal": 0,
+  "totalCash": 0,
+  "totalBankTransfer": 0,
+
+  "salePaymentReportData": [],
+  "salePaymentReportPage": 1,
+  "salePaymentReportLimit": 10,
+  "salePaymentReportTotal": 0,
+
+  "saleReturnReportData": [],
+  "saleReturnReportPage": 1,
+  "saleReturnReportLimit": 10,
+  "saleReturnReportTotal": 0,
+
+  "userReportData": [],
+  "userReportPage": 1,
+  "userReportLimit": 10,
+  "userReportTotal": 0,
+
+  "supplierReportData": [],
+  "supplierReportPage": 1,
+  "supplierReportLimit": 10,
+  "supplierReportTotal": 0,
+
+  "customerReportData": [],
+  "customerReportPage": 1,
+  "customerReportLimit": 10,
+  "customerReportTotal": 0,
+
+  "topLeastProductData": [],
+  "topLeastProductPage": 1,
+  "topLeastProductLimit": 10,
+  "topLeastProductTotal": 0,
+
+  "topSellingProductData": [],
+  "topSellingProductPage": 1,
+  "topSellingProductLimit": 10,
+  "topSellingProductTotal": 0,
+
+  "zReportData": [],
+  "zReportPage": 1,
+  "zReportLimit": 10,
+  "zReportTotal": 0,
+  "sumGrandTotal": 0,
+
+  "stockEvaluationProductData": [],
+  "stockEvaluationVegFruitData": [],
+  "stockEvaluationGrandTotal": "0.00",
+  "stockEvaluationGrandRetailTotal": "0.00",
+
+  "expensesReportListData": [],
+  "expensesReportTotalAmount": 0
+}

@@ -1,0 +1,150 @@
+.create-discount-main {
+  padding: 0.875rem 1.25rem 1.25rem;
+}
+@media screen and (min-width: 1440px) {
+  .create-discount-main {
+    padding: 1rem 1.875rem 1.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .create-discount-main {
+    padding: 0.625rem;
+  }
+}
+.create-discount-main .search-input-main {
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 1.25rem 1.25rem 0.5rem;
+  margin-bottom: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  .create-discount-main .search-input-main {
+    padding: 1.25rem;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 576px) {
+  .create-discount-main .search-input-main {
+    padding: 0.625rem;
+  }
+}
+.create-discount-main .search-input-main .input-wrap .table-header-search-bar-main {
+  height: 75px;
+}
+.create-discount-main .search-input-main .input-wrap .table-header-search-bar-main .table-header-search-bar {
+  background: #f3f6f9;
+  text-transform: capitalize;
+  width: 100%;
+}
+.create-discount-main .discount-details-main {
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  .create-discount-main .discount-details-main {
+    padding: 1.25rem;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 576px) {
+  .create-discount-main .discount-details-main {
+    padding: 0.625rem;
+  }
+}
+.create-discount-main .discount-details-main .discount-details-title {
+  color: #1e293b;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 0.5rem;
+  margin: 0.75rem 0 0.438rem;
+}
+@media screen and (max-width: 576px) {
+  .create-discount-main .discount-details-main .discount-details-title {
+    font-size: 0.938rem;
+    margin: 0 0 0.75rem;
+    padding: 0 0 0.625rem;
+  }
+}
+.create-discount-main .discount-details-main .discount-details-title-first {
+  margin: 0;
+}
+.create-discount-main .discount-details-main .disc-Products-input-wrap .input-wrap .product-unit-input-main {
+  height: 70px;
+}
+.create-discount-main .discount-details-main .discount-input-main-wrap {
+  margin-bottom: 1.25rem;
+}
+.create-discount-main .discount-details-main .discount-input-main-wrap .input-wrap .input-area-main {
+  height: 60px;
+}
+.create-discount-main .discount-details-main .discount-input-main-wrap .input-wrap .input-area-main .dropdown_input {
+  background-color: #f3f6f9;
+}
+.create-discount-main .discount-details-main .discount-input-main-wrap:last-child {
+  margin-bottom: 0;
+}
+.create-discount-main .discount-details-main .discount-input-wrap .input-wrap .date-picker-input {
+  background: #f3f6f9;
+  margin-bottom: 1rem;
+}
+.create-discount-main .discount-details-main .discount-input-wrap .input-wrap .input-area-main .dropdown_input {
+  background: #f3f6f9;
+}
+.create-discount-main .discount-details-main .discount-input-wrap .input-wrap .input-area-main .common-input {
+  background: #f3f6f9;
+}
+.create-discount-main .discount-details-main .discount-input-wrap .input-wrap .input-area-main .table-header-search-bar-main {
+  height: 70px;
+}
+.create-discount-main .discount-details-main .discount-package {
+  text-decoration: underline;
+  margin: 0.563rem 0;
+}
+.create-discount-main .discount-details-main .save-btn-main {
+  display: flex;
+  align-items: end;
+}
+@media screen and (max-width: 767px) {
+  .create-discount-main .discount-details-main .save-btn-main .save-button {
+    margin-top: 1rem;
+  }
+}
+.create-discount-main .discount-details-main .save-button {
+  width: 90px;
+}
+.create-discount-main .discount-details-main .no-data-main .page-not-found-main {
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .create-discount-main .discount-details-main .no-data-main .page-not-found-main {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.create-discount-main .discount-details-main .no-data-main .page-not-found-main .page-not-found-icon {
+  height: 298px;
+}
+.create-discount-main .discount-details-main .no-data-main .page-not-found-main .not-found-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #ababab;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0;
+}
+.create-discount-main .discount-details-main .loader-animation-main .loader-animation {
+  height: 298px;
+}
+.create-discount-main .discount-details-main .disc-details-Products-input .discount-input-wrap .input-wrap .table-header-search-bar-main {
+  height: 75px;
+}/*# sourceMappingURL=createDiscounts.css.map */

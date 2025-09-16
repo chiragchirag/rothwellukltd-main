@@ -1,0 +1,664 @@
+.quotation-list-main {
+  background: #f3f6f9;
+  padding: 0.875rem 1.25rem;
+}
+@media screen and (min-width: 1440px) {
+  .quotation-list-main {
+    padding: 1rem 1.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .quotation-list-main {
+    padding: 0.625rem;
+  }
+}
+.quotation-list-main .table-wrap .table {
+  background: transparent;
+  padding: 0;
+}
+.quotation-list-main .quotation-list-table {
+  height: calc(100vh - 321px);
+  overflow-x: hidden;
+  background: #fff;
+  overflow-y: auto;
+}
+@media screen and (min-width: 1500px) {
+  .quotation-list-main .quotation-list-table {
+    height: calc(100vh - 339px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .quotation-list-main .quotation-list-table {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table {
+    height: 336px;
+  }
+}
+.quotation-list-main .quotation-list-table .ant-spin {
+  top: 2.25rem;
+}
+.quotation-list-main .quotation-list-table .ant-spin-nested-loading {
+  max-height: calc(100vh - 321px);
+  background: #fff;
+  overflow-x: auto;
+}
+@media screen and (min-width: 1500px) {
+  .quotation-list-main .quotation-list-table .ant-spin-nested-loading {
+    max-height: calc(100vh - 339px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .quotation-list-main .quotation-list-table .ant-spin-nested-loading {
+    max-height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table .ant-spin-nested-loading {
+    max-height: 336px;
+  }
+}
+.quotation-list-main .quotation-list-table table .ant-table-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.quotation-list-main .quotation-list-table table colgroup col {
+  width: 16px !important;
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 50px;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0 0.75rem;
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell .ant-table-column-sorters .ant-table-column-title {
+  white-space: nowrap;
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell:first-child {
+  text-align: center;
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell:last-child {
+  text-align: center;
+  border-start-end-radius: 0;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+}
+.quotation-list-main .quotation-list-table table .ant-table-thead tr .ant-table-cell-fix-right {
+  position: sticky !important;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.813rem;
+  }
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell p {
+  margin: 0;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-gold {
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-red {
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-green {
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+  color: #03b288;
+  background: rgba(3, 178, 136, 0.1215686275);
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell-fix-right {
+  position: sticky !important;
+  z-index: 0;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(3) {
+  cursor: pointer;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(3) p {
+  max-width: 245px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) {
+  cursor: pointer;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) p {
+  max-width: 181px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+    max-width: 90px;
+    min-width: 90px !important;
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+  height: 19px;
+  width: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+    height: 18px;
+    width: 14px;
+  }
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) svg {
+  fill: #14ba93;
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) svg {
+    height: 18px;
+    width: 15px;
+  }
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div a:nth-child(2) {
+  height: 19px;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div a:nth-child(2) span svg {
+  fill: #575fe9;
+}
+.quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .mail-icon svg {
+  fill: #e68e29;
+}
+@media screen and (max-width: 768px) {
+  .quotation-list-main .quotation-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .mail-icon svg {
+    height: 18px;
+    width: 15px;
+  }
+}
+
+.quotation-modal {
+  padding-bottom: 0;
+}
+.quotation-modal .ant-table {
+  border-radius: 0;
+}
+.quotation-modal .ant-table-container {
+  border-radius: 0;
+}
+.quotation-modal .ant-modal-content {
+  padding: 0 !important;
+}
+.quotation-modal .ant-modal-content .ant-modal-close {
+  top: 0.625rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.quotation-modal .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.quotation-modal .ant-modal-content .ant-modal-close:hover {
+  background: rgba(220, 53, 69, 0.2196078431);
+  border: 0.063rem solid #dc3545;
+}
+.quotation-modal .ant-modal-content .ant-modal-close:hover .ant-modal-close-x .ant-modal-close-icon svg {
+  fill: #dc3545;
+}
+.quotation-modal .ant-modal-content .ant-modal-header {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-size: 1.125rem;
+  padding: 0 0 0.313rem 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-body {
+  max-height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.438rem 1rem;
+}
+@media screen and (max-width: 767px) {
+  .quotation-modal .ant-modal-content .ant-modal-body {
+    height: 310px;
+  }
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content {
+  margin-bottom: 0.938rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body h6 {
+  color: #1e293b;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .bill_to {
+  text-align: end;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .bill_form {
+  text-align: start;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .quotation-info {
+  font-size: 0.875rem;
+  color: #1e293b;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .quotation-info .ant-tag-geekblue {
+  height: 27px;
+  color: #6366f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.063rem solid #6366f1;
+  margin-left: 0.25rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .quotation-info .ant-tag-green {
+  height: 27px;
+  color: #03b288;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.063rem solid #03b288;
+  margin-left: 0.25rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .quotation-info span {
+  font-weight: 400;
+  margin-left: 0;
+  font-size: 0.875rem;
+  color: #3c3c3c;
+  line-height: 22px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info {
+  color: #1e293b;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info span {
+  font-weight: 400;
+  margin-left: 0;
+  font-size: 0.875rem;
+  color: #3c3c3c;
+  line-height: 22px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info .customer_name_quotation {
+  text-transform: capitalize;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info .add-tooltip {
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info .add-tooltip div {
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info .add-tooltip .tooltip-text {
+  position: absolute;
+  bottom: 150%;
+  left: 19%;
+  z-index: 1;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.375rem;
+  padding: 0.313rem;
+  margin-left: -3.75rem;
+  visibility: hidden;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info .add-tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -0.313rem;
+  border-width: 0.313rem;
+  border-style: solid;
+  border-color: #000000 transparent transparent transparent;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .Customer-info .add-tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .company-info {
+  font-size: 0.875rem;
+  color: #1e293b;
+  font-weight: 600;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .quotation-modal-content .quotation-modal-body .company-info span {
+  color: #8d929a;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main {
+  width: 100%;
+  overflow: auto;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table {
+  padding: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first {
+  padding-left: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container {
+  border-inline-start: none;
+  border-top: 0.063rem solid transparent;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr {
+  display: flex;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th {
+  border-right: 0.063rem solid #deebff;
+  border-bottom: 0.063rem solid #deebff;
+  border-top: 0.063rem solid #deebff;
+  display: block;
+  padding: 0.75rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th:nth-child(1) {
+  max-width: 185px;
+  min-width: 185px;
+  width: 185px;
+  border-left: 0.063rem solid #deebff;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th:nth-child(2) {
+  width: 160px;
+  min-width: 160px;
+  max-width: 160px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th:nth-child(3) {
+  width: 110px;
+  min-width: 110px;
+  max-width: 110px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th:nth-child(4) {
+  width: 90px;
+  min-width: 90px;
+  max-width: 90px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th:nth-child(5) {
+  width: 130px;
+  min-width: 130px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th:last-child {
+  width: 122px;
+  min-width: 122px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-thead tr th {
+  background: #fafafa;
+  border-radius: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr {
+  display: flex;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td {
+  border-right: 0.063rem solid #deebff;
+  border-bottom: 0.063rem solid #deebff;
+  display: block;
+  padding: 0.75rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:nth-child(1) {
+  max-width: 185px;
+  min-width: 185px;
+  width: 185px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-left: 0.063rem solid #deebff;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:nth-child(2) {
+  width: 160px;
+  min-width: 160px;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:nth-child(3) {
+  width: 110px;
+  min-width: 110px;
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:nth-child(4) {
+  width: 90px;
+  min-width: 90px;
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:nth-child(5) {
+  width: 130px;
+  min-width: 130px;
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:last-child {
+  width: 122px;
+  min-width: 122px;
+  max-width: 122px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table .table-first .ant-table .ant-table-container .ant-table-content table .ant-table-tbody tr td:last-child p {
+  margin: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec {
+  display: flex;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div {
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-right: 0.063rem solid transparent;
+  border-bottom: 0.063rem solid transparent;
+  display: block;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div:nth-child(1) {
+  max-width: 185px;
+  min-width: 185px;
+  width: 185px;
+  border-left: 0.063rem solid transparent;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div:nth-child(2) {
+  max-width: 160px;
+  min-width: 160px;
+  width: 160px;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div:nth-child(3) {
+  width: 110px;
+  min-width: 110px;
+  max-width: 110px;
+  border-right: 0.063rem solid transparent;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div:nth-child(4) {
+  width: 90px;
+  min-width: 90px;
+  max-width: 90px;
+  padding-left: 1rem;
+  border-right: 0.063rem solid #deebff;
+  border-bottom: 0.063rem solid transparent;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div:nth-child(5) {
+  width: 130px;
+  min-width: 130px;
+  max-width: 130px;
+  padding-left: 1rem;
+  border-right: 0.063rem solid #deebff;
+  border-bottom: 0.063rem solid #deebff;
+  font-weight: 600;
+}
+.quotation-modal .ant-modal-content .ant-modal-body .modal-table-main .table-sec div:last-child {
+  width: 122px;
+  min-width: 122px;
+  max-width: 122px;
+  padding-left: 1rem;
+  border-right: 0.063rem solid #deebff;
+  border-bottom: 0.063rem solid #deebff;
+  font-weight: 600;
+}
+.quotation-modal .ant-modal-content .ant-modal-footer {
+  padding: 0.313rem 1rem 1rem;
+  margin: 0;
+}
+.quotation-modal .ant-modal-content .ant-modal-footer .view-modal-print-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 52px;
+  background: #03b288 !important;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.188rem;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+  padding: 0.844rem 0.938rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-footer .view-modal-print-btn .ant-image .ant-image-img {
+  margin-bottom: 0.313rem;
+}
+.quotation-modal .ant-modal-content .ant-modal-footer .view-modal-print-btn::after {
+  content: "";
+  background: #6366f1;
+}
+.quotation-modal .ant-modal-content .ant-modal-footer .view-modal-print-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}
+.quotation-modal .ant-modal-content .ant-modal-footer .view-modal-print-btn span {
+  margin-right: 0.313rem;
+}
+
+.email-modal-main .ant-modal-content {
+  padding: 0 0 1rem;
+}
+.email-modal-main .ant-modal-content .ant-modal-body {
+  position: relative;
+  height: 160px;
+}
+.email-modal-main .ant-modal-content .ant-modal-body .email-image {
+  text-align: center;
+}
+.email-modal-main .ant-modal-content .ant-modal-body .email-image svg {
+  height: 170px !important;
+}
+.email-modal-main .ant-modal-content .ant-modal-body .email-image p {
+  margin: 0;
+}
+.email-modal-main .ant-modal-content .ant-modal-body p {
+  margin: 0;
+}
+.email-modal-main .ant-modal-content .ant-modal-body .email-text {
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .email-modal-main .ant-modal-content .ant-modal-body .email-text {
+    font-size: 0.75rem;
+  }
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main .cancel-btn {
+  width: 165px;
+  background: transparent !important;
+  color: #dc3545 !important;
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  border: 0.063rem solid #dc3545;
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main .cancel-btn::after {
+  content: "";
+  background: #dc3545;
+  border: 0.063rem solid #dc3545;
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main .cancel-btn:hover {
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  border: 0.063rem solid #dc3545;
+  border-color: #dc3545 !important;
+  color: #fff !important;
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main .send-btn {
+  width: 165px;
+  color: #fff;
+  background: #03b288 !important;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+  padding: 0.844rem 0.938rem;
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main .send-btn::after {
+  content: "";
+  background: linear-gradient(132deg, #4f46e5 4.27%, #6366f1);
+}
+.email-modal-main .ant-modal-content .ant-modal-footer .btn-main .send-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}/*# sourceMappingURL=quotationlist.css.map */

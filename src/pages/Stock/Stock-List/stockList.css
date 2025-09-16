@@ -1,0 +1,291 @@
+.stock-list-main {
+  background: #f3f6f9;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 1440px) {
+  .stock-list-main {
+    padding: 1.875rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .stock-list-main {
+    padding: 0.625rem;
+  }
+}
+.stock-list-main .table-wrap .table {
+  background: transparent;
+  padding: 0;
+}
+.stock-list-main .table-wrap .table h1 {
+  margin: 0;
+}
+.stock-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button {
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button {
+    width: 130px;
+  }
+}
+.stock-list-main .stock-list-table {
+  height: calc(100vh - 312px);
+  overflow-x: hidden;
+  background: #fff;
+  overflow-y: auto;
+}
+@media screen and (min-width: 1500px) {
+  .stock-list-main .stock-list-table {
+    height: calc(100vh - 332px);
+  }
+}
+@media screen and (max-width: 1040px) {
+  .stock-list-main .stock-list-table {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table {
+    height: 336px;
+  }
+}
+.stock-list-main .stock-list-table .ant-spin {
+  top: 2.25rem;
+}
+.stock-list-main .stock-list-table .ant-spin-nested-loading {
+  background: #fff;
+  height: calc(100vh - 312px);
+  overflow-x: auto;
+}
+@media screen and (min-width: 1500px) {
+  .stock-list-main .stock-list-table .ant-spin-nested-loading {
+    max-height: calc(100vh - 332px);
+  }
+}
+@media screen and (max-width: 1040px) {
+  .stock-list-main .stock-list-table .ant-spin-nested-loading {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table .ant-spin-nested-loading {
+    height: 336px;
+  }
+}
+.stock-list-main .stock-list-table .ant-spin-nested-loading .ant-spin-container {
+  height: 100%;
+}
+.stock-list-main .stock-list-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty {
+  height: 100%;
+}
+.stock-list-main .stock-list-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty .ant-table-container {
+  height: 100%;
+}
+.stock-list-main .stock-list-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty .ant-table-container .ant-table-content {
+  height: 100%;
+}
+.stock-list-main .stock-list-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty .ant-table-container .ant-table-content table {
+  height: 100%;
+}
+.stock-list-main .stock-list-table .ant-table-content {
+  background: #fff;
+  position: relative;
+}
+.stock-list-main .stock-list-table .ant-table-content .ant-empty-normal {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+@media screen and (min-width: 1400px) {
+  .stock-list-main .stock-list-table .ant-table-content .ant-empty-normal {
+    left: 50%;
+    top: 50%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .stock-list-main .stock-list-table .ant-table-content .ant-empty-normal {
+    left: 37%;
+  }
+}
+.stock-list-main .stock-list-table table {
+  background: #fff;
+}
+.stock-list-main .stock-list-table table .ant-table-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.stock-list-main .stock-list-table table colgroup col {
+  width: 16px !important;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 55px;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0 0.75rem;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-input:focus-visible .ant-checkbox-inner {
+  outline: none;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell:first-child {
+  text-align: center;
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell:nth-child(4) {
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell:nth-child(6) {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stock-list-main .stock-list-table table .ant-table-thead tr .ant-table-cell:last-child {
+  position: sticky !important;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+  border-start-end-radius: 0;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 1rem 0.75rem;
+  font-size: 0.813rem;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell p {
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.75rem;
+  }
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner .ant-checkbox-input:focus-visible .ant-checkbox-inner {
+  outline: none;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(1) {
+  padding-left: 0;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(3) {
+  cursor: pointer;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(3) p {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) {
+  cursor: pointer;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) p {
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(5) {
+  cursor: pointer;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(5) p {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(6) {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  position: sticky;
+  background-color: #fff;
+  right: 0;
+  border-start-end-radius: 0;
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+    max-width: 90px;
+    min-width: 90px !important;
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span {
+  margin-left: 0.563rem;
+  cursor: pointer;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+  width: 19px;
+  height: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+    height: 18px;
+    width: 15px;
+  }
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) {
+  margin-left: 0;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) svg {
+  fill: #14ba93;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(2) {
+  margin-bottom: 0.188rem;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(2) svg {
+  fill: #575fe9;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image {
+  cursor: pointer;
+  margin-left: 0.563rem;
+}
+.stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image img {
+  height: 100%;
+  width: 19px;
+}
+@media screen and (max-width: 768px) {
+  .stock-list-main .stock-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image img {
+    width: 15px;
+  }
+}/*# sourceMappingURL=stockList.css.map */

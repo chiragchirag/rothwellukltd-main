@@ -1,0 +1,81 @@
+@import "../../styles/variable.scss";
+
+.upload-images-box-main {
+  background: $white;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  @media screen and (max-width: 425px) {
+    padding: 0.75rem;
+  }
+  .ant-upload-drag {
+    background: $bg-transparent;
+    padding: 2.5rem 0.625rem;
+    &:hover{
+      border: 0.063rem dashed $neon-blue !important;
+    }
+    .ant-upload-btn {
+      padding: $zero;
+    }
+  }
+  .ant-upload-hint {
+    color: $manatee !important;
+    font-weight: $font-weight-normal;
+    line-height: 1.281rem;
+    @media screen and (max-width: 768px) {
+      font-size: 0.75rem !important;
+    }
+    .select-text {
+      color: $medium-slate-blue;
+      font-size: 0.875rem;
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+    }
+  }
+  .checkbox-main {
+    span {
+      &:nth-child(2) {
+        color: $manatee;
+        font-size: 0.875rem;
+        font-weight: $font-weight-normal;
+        line-height: 1.281rem;
+      }
+    }
+    .ant-checkbox {
+      .ant-checkbox-inner {
+        width: 20px;
+        height: 20px;
+        background: $bg-transparent;
+        border: 0.125rem $border-style-solid $medium-slate-blue;
+        margin-right: 0.313rem;
+      }
+    }
+  }
+  .upload-image {
+    margin-bottom: 1rem;
+  }
+  .error-msg {
+    color: $jasper;
+    font-size: 0.75rem;
+    font-weight: $font-weight-normal;
+    margin: 0.313rem $zero $zero;
+  }
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper
+  .ant-upload-drag:not(.ant-upload-disabled):hover,
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper
+  .ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: $light-grey !important;
+}
+:where(.css-dev-only-do-not-override-qnu6hi).ant-upload-wrapper .ant-upload-drag:not(.ant-upload-disabled):hover{
+  border-color: $neon-blue !important;
+}
+.ant-upload-wrapper {
+  .ant-upload-drag {
+    .ant-upload-drag-icon {
+      .anticon {
+        color: $aluminium !important;
+      }
+    }
+  }
+}

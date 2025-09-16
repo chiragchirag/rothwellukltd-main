@@ -1,0 +1,148 @@
+.table-wrap .table {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+}
+@media screen and (max-width: 768px) {
+  .table-wrap .table {
+    padding: 1rem;
+  }
+}
+.table-wrap .table h1 {
+  color: #1e293b;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+}
+.table-wrap .table .table-main .ant-table-sticky-holder {
+  position: static !important;
+}
+
+.ant-table-wrapper .ant-table-thead tr th {
+  background: #fff;
+  font-weight: 500;
+}
+.ant-table-wrapper .ant-table-thead tr th::before {
+  width: 0 !important;
+}
+.ant-table-wrapper .ant-table-thead tr .ant-table-column-has-sorters:focus-visible {
+  color: #000000;
+}
+.ant-table-wrapper .ant-table-tbody .ant-table-row td {
+  color: #828c97;
+  font-size: 0.938rem !important;
+  font-weight: 400;
+}
+.ant-table-wrapper .ant-table-tbody .ant-table-row .ant-table-cell-row-hover {
+  background: #fff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+.pagination li {
+  margin-inline-end: 0.188rem;
+}
+.pagination .ant-pagination-prev .ant-pagination-item-link {
+  color: #575fe9;
+  background: transparent !important;
+}
+.pagination .ant-pagination-prev .ant-pagination-item-link .anticon-left svg {
+  filter: brightness(1) invert(1) !important;
+  fill: #575fe9;
+}
+.pagination .ant-pagination-prev:hover {
+  background: #fff !important;
+}
+.pagination .ant-pagination-item {
+  font-weight: 600;
+}
+.pagination .ant-pagination-item:hover {
+  background: #fff !important;
+}
+.pagination .ant-pagination-item:hover a {
+  color: #575fe9 !important;
+}
+.pagination .ant-pagination-next .ant-pagination-item-link {
+  color: #575fe9;
+  background: transparent !important;
+}
+.pagination .ant-pagination-next .ant-pagination-item-link .anticon-left svg {
+  filter: brightness(1) invert(1) !important;
+}
+.pagination .ant-pagination-next .ant-pagination-item-link:hover {
+  background: #fff !important;
+}
+.pagination .ant-pagination-disabled .ant-pagination-item-link {
+  color: #575fe9;
+}
+.pagination .ant-pagination-item-active {
+  font-weight: 600;
+  background: #575fe9;
+  border-color: transparent;
+}
+.pagination .ant-pagination-item-active a {
+  color: #fff !important;
+}
+.pagination .ant-pagination-item-active:hover {
+  border-color: transparent;
+}
+.pagination .ant-pagination-item:focus-visible {
+  outline: none !important;
+}
+.pagination .ant-pagination-options {
+  margin-inline-start: 0;
+  cursor: pointer;
+}
+.pagination .ant-pagination-options .ant-select {
+  cursor: pointer;
+}
+.pagination .ant-pagination-options .ant-select .ant-select-selector {
+  background: transparent;
+  border: 0.063rem solid transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+.pagination .ant-pagination-options .ant-select .ant-select-arrow {
+  cursor: pointer;
+}
+.pagination .ant-pagination-options .ant-select:hover .ant-select-selector {
+  border: 0.063rem solid transparent !important;
+  cursor: pointer;
+}
+.pagination .ant-pagination-options .ant-select:hover .ant-select-arrow:not(:last-child) {
+  opacity: 1;
+  cursor: pointer;
+}
+.pagination .ant-pagination-options .ant-select-open .ant-select-selector {
+  cursor: pointer;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+.pagination .ant-pagination-options .ant-select-open:focus-within {
+  outline: none;
+}
+@media screen and (max-width: 992px) {
+  .pagination {
+    margin-bottom: 0.625rem;
+  }
+}
+
+.my-expanded-row-class {
+  background: #ffe9eb;
+  color: #ea3548;
+}
+.my-expanded-row-class .ant-table-cell:last-child {
+  background-color: #ffe9eb;
+}
+.my-expanded-row-class .ant-table-cell:nth-child(8) .ant-tag-gold {
+  background: #ffe9eb;
+  color: #ea3548;
+  border-color: #ea3548;
+  padding: 0.25rem 0.5rem;
+}
+.my-expanded-row-class .ant-table-cell-row-hover {
+  background-color: #ffe9eb !important;
+}/*# sourceMappingURL=table.css.map */

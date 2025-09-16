@@ -1,0 +1,43 @@
+@import "../../styles/variable.scss";
+
+.price-input-padding-none {
+  padding-left: 1.25rem !important;
+}
+.price-input-padding {
+  padding-left: 2.875rem !important;
+}
+.price-input {
+  position: $position-relative;
+  width: $hundred-p;
+  height: 50px;
+  background: $white;
+  font-family: $font-family !important;
+  border: 0.063rem $border-style-solid $border-transparent;
+  border-radius: 0.25rem;
+  box-sizing: $box-sizing-border;
+  padding: 0.75rem 0.938rem 0.75rem 2.875rem;
+  font-size: 0.875rem;
+  @media screen and (max-width: 1250px) {
+    font-size: 0.813rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.75rem;
+  }
+  &:focus {
+    border-color: $medium-slate-blue;
+    box-shadow: $none;
+  }
+  &:focus-within {
+    box-shadow: $none;
+  }
+  &:focus-visible {
+    border-color: $medium-slate-blue;
+    outline: $none;
+    box-shadow: $none;
+  }
+  &::placeholder {
+    color: $tealish-gray;
+    font-weight: $font-weight-normal;
+    font-family: $font-family !important;
+  }
+}

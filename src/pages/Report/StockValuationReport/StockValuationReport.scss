@@ -1,0 +1,174 @@
+@import "../../../styles/variable.scss";
+
+.stock-valuation-main {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table-header-main {
+      display: $d-block;
+      margin-bottom: 1rem;
+      .filter-button-main{
+        width: $hundred-p;
+        display: $d-block;
+        margin-bottom: $zero;
+        margin-bottom: 0.75rem;
+        .ant-row{
+          .ant-col{
+            .input-wrap{
+              .input-area-main{
+                height: 50px;
+                width: $hundred-p;
+                border: 0.063rem $border-style-solid $border-transparent;
+                .ant-input{
+                  height: 50px;
+                }
+              }
+            }
+          }
+        }
+        .input-wrap{
+          width: $hundred-p;
+          .input-area-main{
+            height: 50px;
+            .ant-select{
+              width: $hundred-p;
+              height: 50px;
+              border: 0.063rem $border-style-solid $border-transparent;
+            }
+            .ant-input{
+              height: 60px;
+            }
+          }
+        }
+      }
+      .print-button-main {
+        justify-content: $end;
+        flex-wrap: $nowrap;
+        align-items: $end;
+        .common-button {
+          width: 100px;
+          @media screen and (max-width: 575px) {
+            width: 80px;
+          }
+        }
+        .common-button:nth-child(2) {
+          margin-left: 1rem;
+          background: $persian-green !important;
+          border: $none;
+          box-shadow:
+            #03b2885e 0px 6px 12px -2px,
+            #03b28845 0px 3px 7px -3px;
+          &::after {
+            content: "";
+            background: linear-gradient(
+              132deg,
+              $neon-blue 4.27%,
+              $medium-slate-blue
+            );
+          }
+          &:hover {
+            box-shadow:
+              #4c4de361 0px 6px 12px -2px,
+              #4c4de342 0px 3px 7px -3px;
+          }
+        }
+      }
+    }
+    .table {
+      background: $bg-transparent;
+      padding: $zero;
+    }
+  }
+  .stock-valuation-table {
+    height: calc(100vh - 336px);
+    background: $white;
+    overflow-x: $overflow-hidden;
+    overflow-y: $auto;
+    @media screen and (min-width: 1500px) {
+      height: calc(100vh - 360px);
+    }
+    @media screen and (max-width: 1200px) {
+      height: 280px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 336px;
+    }
+    .ant-spin {
+      top: 2.25rem;
+    }
+    .ant-spin-nested-loading {
+      height: calc(100vh - 336px);
+      background: $white;
+      overflow-x: $auto;
+      @media screen and (min-width: 1500px) {
+        height: calc(100vh - 360px);
+      }
+      @media screen and (max-width: 1200px) {
+        height: 280px;
+      }
+      @media screen and (max-width: 768px) {
+        height: 336px;
+      }
+    }
+    table {
+      .ant-table-thead {
+        tr {
+          .ant-table-cell {
+            position: $position-sticky;
+            top: $zero;
+            z-index: $z-index-one;
+            height: 45px;
+            background-color: $white;
+            padding: 0.563rem;
+          }
+          .ant-table-cell:first-child {
+            padding-left: $zero;
+            border-start-start-radius: $zero;
+          }
+          .ant-table-cell:last-child {
+            border-start-end-radius: $zero;
+            position: $position-sticky;
+            right: $zero;
+            box-shadow: $table-box-shadow;
+          }
+        }
+      }
+      .ant-table-tbody {
+        .ant-table-row {
+          .ant-table-cell {
+            padding: 0.563rem;
+          }
+          .ant-table-cell:first-child {
+            padding-left: $zero;
+            max-width: 120px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:nth-child(2) {
+            max-width: 150px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:last-child {
+            position: $position-sticky;
+            right: $zero;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+            background: $white;
+          }
+        }
+      }
+    }
+  }
+}

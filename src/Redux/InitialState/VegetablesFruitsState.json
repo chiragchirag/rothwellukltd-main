@@ -1,0 +1,23 @@
+{
+  "vegFruitBrandInfo": [],
+  "vegFruitTypeInfo": [],
+  "vegFruitCategoryInfo": [],
+  "vegFruitListInfo": [],
+  "vegFruitProductInfo": {},
+  "vegFruitPriceInfo": {},
+  "vegFruitDetailsInfo": {},
+  "vegFruitPackagePriceInfo": [],
+  "vegFruitProductErrors": {},
+  "vegFruitPriceErrors": {},
+  "vegFruitDetailsErrors": {},
+  "vegFruitPackagePriceErrors": [],
+  "vegFruitProductInitialSchema": {},
+  "vegFruitPriceInitialSchema": {},
+  "vegFruitDetailsInitialSchema": {},
+  "vegFruitPackagePriceInitialSchema": [],
+  "suggestionList": [],
+  "getByIdVegFruitData": {},
+  "currentPage": 1,
+  "limit": 100,
+  "total": 0
+}

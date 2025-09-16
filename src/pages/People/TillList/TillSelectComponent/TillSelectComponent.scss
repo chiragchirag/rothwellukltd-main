@@ -1,0 +1,144 @@
+@import "../../../../styles/variable.scss";
+
+.till-page-wrap {
+  max-width: 2000px;
+  margin: $zero $auto;
+  overflow-y: $auto;
+  overflow-x: $overflow-hidden;
+  .view-order-loader-animation {
+    height: 600px;
+  }
+  .till-main {
+    height: $vh-100;
+    @media screen and (min-width: 2000px) {
+      height: 70vh;
+    }
+    @media screen and (max-width: 992px) {
+      justify-content: $center;
+    }
+    .till-image {
+      width: $fifty-p;
+      background: linear-gradient(#75bee2, #4585da);
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      @media screen and (max-width: 992px) {
+        display: $none;
+      }
+    }
+    .till-content {
+      box-sizing: $box-sizing-border;
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      .till-content-wrap {
+        width: 80%;
+        border: 0.063rem $border-style-solid $alice-blue;
+        padding: 1.25rem;
+        box-sizing: $box-sizing-border;
+        .till-title {
+          display: $d-block;
+          text-align: $center;
+          border-bottom: 0.063rem $border-style-solid $water;
+          margin-bottom: 1.25rem;
+          margin: $zero;
+          padding-bottom: 1.563rem;
+          margin-bottom: 1.25rem;
+        }
+        .radio-wrap-admin {
+          width: $hundred-p;
+          display: $d-flex;
+          justify-content: $center;
+          margin-bottom: 1.875rem;
+          gap: 1.875rem;
+          flex-wrap: $flex-wrap;
+          .radio-admin {
+            width: 90px;
+            height: 35px;
+            margin-right: $zero;
+            border: 0.063rem $border-style-solid $neon-blue;
+            border-radius: 0.313rem;
+            justify-content: $center;
+            align-items: $center;
+            .ant-radio {
+              display: $none !important;
+            }
+            span {
+              font-size: 0.938rem;
+              font-weight: $font-weight-normal;
+              color: $neon-blue;
+            }
+          }
+          .ant-radio-wrapper-checked {
+            background-color: #4f46e533;
+          }
+        }
+        .radio-wrap {
+          max-height: 420px;
+          width: $hundred-p;
+          display: $d-flex;
+          justify-content: $center;
+          margin-bottom: 1.875rem;
+          gap: 1.875rem;
+          flex-wrap: $flex-wrap;
+          border-top: 0.063rem $border-style-solid $water;
+          padding-top: 1.875rem;
+          overflow: $auto;
+          .radio-main {
+            width: 90px;
+            height: 35px;
+            margin-right: $zero;
+            border: 0.063rem $border-style-solid $neon-blue;
+            border-radius: 0.313rem;
+            justify-content: $center;
+            align-items: $center;
+            span {
+              font-size: 0.938rem;
+              font-weight: $font-weight-normal;
+              color: $neon-blue;
+            }
+
+            .ant-radio-checked {
+              .ant-radio-inner {
+                background: $neon-blue;
+              }
+              &::after {
+                border: $none;
+              }
+            }
+            .ant-radio-wrapper {
+              display: $d-block;
+              margin-right: $zero;
+            }
+          }
+          .ant-radio-wrapper-disabled {
+            background: #0000000a;
+            border-radius: 0.188rem;
+            border-color: $light-grey;
+            span {
+              color: #787676;
+            }
+          }
+        }
+        .continue-btn {
+          width: $hundred-p;
+          background: $persian-green !important;
+          color: $white;
+          font-size: 1rem;
+          box-shadow:
+            #03b2887d 0px 6px 12px -2px,
+            #03b28859 0px 3px 7px -3px;
+          &::after {
+            content: "";
+            background: $medium-slate-blue;
+          }
+          &:hover {
+            box-shadow:
+              #4c4de361 0px 6px 12px -2px,
+              #4c4de342 0px 3px 7px -3px;
+          }
+        }
+      }
+    }
+  }
+}

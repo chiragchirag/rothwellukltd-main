@@ -1,0 +1,139 @@
+.stock-valuation-main {
+  background: #f3f6f9;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 1440px) {
+  .stock-valuation-main {
+    padding: 1.875rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .stock-valuation-main {
+    padding: 0.625rem;
+  }
+}
+.stock-valuation-main .table-wrap .table-header-main {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.stock-valuation-main .table-wrap .table-header-main .print-button-main {
+  justify-content: end;
+  flex-wrap: nowrap;
+  align-items: end;
+}
+.stock-valuation-main .table-wrap .table-header-main .print-button-main .common-button {
+  width: 100px;
+}
+@media screen and (max-width: 575px) {
+  .stock-valuation-main .table-wrap .table-header-main .print-button-main .common-button {
+    width: 80px;
+  }
+}
+.stock-valuation-main .table-wrap .table-header-main .print-button-main .common-button:nth-child(2) {
+  margin-left: 1rem;
+  background: #03b288 !important;
+  border: none;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+}
+.stock-valuation-main .table-wrap .table-header-main .print-button-main .common-button:nth-child(2)::after {
+  content: "";
+  background: linear-gradient(132deg, #4f46e5 4.27%, #6366f1);
+}
+.stock-valuation-main .table-wrap .table-header-main .print-button-main .common-button:nth-child(2):hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}
+.stock-valuation-main .table-wrap .table {
+  background: transparent;
+  padding: 0;
+}
+.stock-valuation-main .stock-valuation-table {
+  height: calc(100vh - 284px);
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+@media screen and (min-width: 1500px) {
+  .stock-valuation-main .stock-valuation-table {
+    height: calc(100vh - 297px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .stock-valuation-main .stock-valuation-table {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stock-valuation-main .stock-valuation-table {
+    height: 336px;
+  }
+}
+.stock-valuation-main .stock-valuation-table .ant-spin {
+  top: 2.25rem;
+}
+.stock-valuation-main .stock-valuation-table .ant-spin-nested-loading {
+  height: calc(100vh - 284px);
+  background: #fff;
+  overflow-x: auto;
+}
+@media screen and (min-width: 1500px) {
+  .stock-valuation-main .stock-valuation-table .ant-spin-nested-loading {
+    height: calc(100vh - 297px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .stock-valuation-main .stock-valuation-table .ant-spin-nested-loading {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stock-valuation-main .stock-valuation-table .ant-spin-nested-loading {
+    height: 336px;
+  }
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-thead tr .ant-table-cell:first-child {
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-thead tr .ant-table-cell:last-child {
+  border-start-end-radius: 0;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-tbody .ant-table-row .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #fff;
+  line-height: 0;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child .pkg-item-main {
+  display: flex;
+  align-items: center;
+  height: 28px;
+}
+.stock-valuation-main .stock-valuation-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child .pkg-item-main .pkg-item {
+  max-width: 70px;
+  background-color: #f0f0f0;
+  border-radius: 0.313rem;
+  padding: 0.75rem 0.313rem;
+  margin-right: 0.625rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: capitalize;
+}/*# sourceMappingURL=StockValuationReport.css.map */

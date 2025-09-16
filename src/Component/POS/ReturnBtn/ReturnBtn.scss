@@ -1,0 +1,126 @@
+@import "../../../styles/variable.scss";
+
+.sales-return-modal-main {
+  .ant-modal-content {
+    padding: $zero !important;
+    .ant-modal-close {
+      top: 0.625rem;
+      right: 1rem;
+      width: 20px;
+      height: 20px;
+      border-radius: $fifty-p;
+      border: 0.063rem $border-style-solid $jasper;
+      background: $jasper;
+      transition: all 0.3s $transition-ease-in-out;
+      box-shadow:
+        #dc3545 0px 3px 8px -2px,
+        #dc3545 0px 3px 7px -3px;
+      .ant-modal-close-x {
+        .ant-modal-close-icon {
+          svg {
+            width: $hundred-p;
+            height: 12px;
+            fill: $white;
+            transition: all 0.3s $transition-ease-in-out;
+          }
+        }
+      }
+      &:hover {
+        background: #dc354538;
+        border: 0.063rem $border-style-solid $jasper;
+        .ant-modal-close-x {
+          .ant-modal-close-icon {
+            svg {
+              fill: $jasper;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-header {
+      margin-bottom: $zero;
+      .ant-modal-title {
+        color: $midnight;
+        font-size: 1.125rem;
+        font-weight: $font-weight-bold;
+        line-height: 1.5;
+        border-bottom: 0.063rem $border-style-solid $lavender-mist;
+        margin: $zero 1rem;
+        padding: 0.375rem $zero;
+      }
+    }
+    .ant-modal-body {
+      max-height: 580px;
+      padding: 1rem;
+      overflow: $auto;
+      @media screen and (max-width: 767px) {
+        max-height: 410px;
+      }
+      .new-sales-return-wrap {
+        padding: $zero;
+        .sales-return-new-main {
+          margin-bottom: $zero;
+          .sales-details-main {
+            margin-bottom: 0.5rem;
+            @media screen and (max-width: 768px) {
+                row-gap: 1.25rem;
+              }
+            .input-wrap {
+              .input-area-main {
+                .ant-select {
+                  background: $alice-blue;
+                }
+                .ant-input-affix-wrapper {
+                  background: $alice-blue;
+                }
+              }
+            }
+            .other-details-main {
+              box-sizing: $box-sizing-border;
+              background: $alice-blue;
+             
+              .other-details {
+                .other-details-name:nth-child(2) {
+                  max-width: 120px;
+                  white-space: $nowrap;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                }
+              }
+            }
+          }
+        }
+        .new-sales-return-table-main {
+          .table-wrap {
+            .table {
+              h1 {
+                padding: $zero;
+              }
+              .sales-return-table {
+                padding: $zero;
+                .ant-spin-nested-loading {
+                  max-height: 250px;
+                  height: $auto;
+                }
+              }
+            }
+          }
+        }
+        .sales-order-main {
+          .sales-return-bill-wrap {
+            .sales-return-bill-main {
+              background: $alice-blue;
+              @media screen and (max-width: 575px) {
+                margin-bottom: 1.25rem;
+              }
+            }
+          }
+        }
+        .btn-fixed{
+          position: $position-static;
+          padding: $zero;
+        }
+      }
+    }
+  }
+}

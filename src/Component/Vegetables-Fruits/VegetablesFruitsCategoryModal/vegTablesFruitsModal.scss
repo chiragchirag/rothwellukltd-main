@@ -1,0 +1,72 @@
+@import "../../../styles/variable.scss";
+
+.veg-fruits-modal-main {
+  .veg-fruits-modal-input-main {
+    .veg-fruits-modal-dropdown-main {
+      .veg-fruits-modal-dropdown {
+        background: $alice-blue;
+      }
+      .error-msg {
+        margin-top: 0.125rem;
+      }
+      .veg-auto-complete-input {
+        background: $alice-blue;
+      }
+    }
+    .veg-fruits-create-button {
+      margin-top: 0.563rem;
+      .anticon {
+        svg {
+          fill: $white !important;
+        }
+      }
+    }
+  }
+  .ant-modal-content {
+    padding: $zero !important;
+    height: $hundred-p;
+    .ant-modal-body {
+      padding: 0.5rem 1rem;
+    }
+    .ant-modal-close {
+      top: 0.75rem;
+      right: 1rem;
+      width: 20px;
+      height: 20px;
+      border-radius: $fifty-p;
+      border: 0.063rem $border-style-solid $jasper;
+      background: $jasper;
+      transition: all 0.3s $transition-ease-in-out;
+      box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+      .ant-modal-close-x {
+        .ant-modal-close-icon {
+          svg {
+            width: $hundred-p;
+            height: 12px;
+            fill: $white;
+            transition: all 0.3s $transition-ease-in-out;
+          }
+        }
+      }
+      &:hover {
+        background: #dc354538;
+        border: 0.063rem $border-style-solid $jasper;
+        .ant-modal-close-x {
+          .ant-modal-close-icon {
+            svg {
+              fill: $jasper;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-header {
+      padding: 0.5rem 1rem $zero;
+      margin: $zero;
+      .ant-modal-title {
+        font-size: 1.125rem;
+        padding: $zero $zero 0.313rem $zero;
+      }
+    }
+  }
+}

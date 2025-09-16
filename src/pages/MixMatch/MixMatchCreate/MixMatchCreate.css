@@ -1,0 +1,111 @@
+.create-mix-match-main {
+  background: #f3f6f9;
+  padding: 0.875rem 1.25rem;
+}
+@media screen and (min-width: 1440px) {
+  .create-mix-match-main {
+    padding: 1rem 1.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .create-mix-match-main {
+    padding: 0.625rem;
+  }
+}
+.create-mix-match-main .create-mix-match-inputs .input-wrap .input-area-main {
+  height: 80px;
+}
+.create-mix-match-main .create-mix-match-inputs .input-wrap .ant-picker .ant-picker-input input::-moz-placeholder {
+  color: #5b6670;
+}
+.create-mix-match-main .create-mix-match-inputs .input-wrap .ant-picker .ant-picker-input input::placeholder {
+  color: #5b6670;
+}
+.create-mix-match-main .update-bill-main {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 1.25rem;
+}
+@media screen and (max-width: 1440px) {
+  .create-mix-match-main .update-bill-main {
+    gap: 0.938rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .create-mix-match-main .update-bill-main {
+    margin-bottom: 1.25rem;
+  }
+}
+.create-mix-match-main .update-bill-main .update-bill {
+  width: 30%;
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+.create-mix-match-main .update-bill-main .update-bill article {
+  color: #5b6670;
+  font-size: 0.938rem;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+  .create-mix-match-main .update-bill-main .update-bill article {
+    font-size: 0.813rem;
+  }
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table-header-main {
+  margin-bottom: 0;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table {
+  padding: 0;
+  background-color: transparent;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table {
+  background-color: #fff;
+  height: calc(100vh - 556px);
+}
+@media screen and (min-width: 1500px) {
+  .create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table {
+    height: calc(100vh - 573px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table {
+    height: 230px;
+  }
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+  border-start-start-radius: 0;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 3;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-thead tr .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-thead tr .ant-table-cell:last-child {
+  text-align: center;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-tbody .ant-table-row .ant-table-cell p {
+  margin: 0;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-tbody .ant-table-row .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .create-mix-match-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  text-align: center;
+}
+.create-mix-match-main .create-mix-match-wrap .table-wrap .table .pagination {
+  margin-bottom: 0.75rem;
+}
+.create-mix-match-main .save-btn {
+  width: 100px;
+}/*# sourceMappingURL=MixMatchCreate.css.map */

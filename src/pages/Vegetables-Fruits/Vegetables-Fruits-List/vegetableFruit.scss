@@ -1,0 +1,370 @@
+@import "../../../styles/variable.scss";
+
+.veg-and-fruits-wrap {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .loader-animation-main {
+    background: $white;
+    .hold-product-loader {
+      height: 380px;
+    }
+    p {
+      margin: $zero;
+    }
+  }
+  .multiple-image {
+    background: $white;
+    padding: 1.25rem;
+    border-radius: 0.25rem;
+    @media screen and (max-width: 575px) {
+      padding: 0.75rem;
+    }
+    .multiple-image-title {
+      color: $black;
+      display: $d-block;
+      font-size: 0.875rem;
+      font-weight: $font-weight-medium;
+      margin-bottom: 0.313rem;
+      margin-top: $zero;
+      line-height: 1.281rem;
+      @media screen and (min-width: 1640px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+    }
+    .multiple-images-main {
+      .uploaded-image-wrap {
+        position: $position-relative;
+        width: $fit-content;
+        margin: 1rem $auto $zero;
+        .close-button-main {
+          position: $position-absolute;
+          right: -0.375rem;
+          top: -0.375rem;
+          z-index: $z-index-one;
+          display: $d-flex;
+          justify-content: $flex-end;
+          .anticon-close {
+            width: 20px;
+            height: 20px;
+            background: $neon-blue;
+            border: 0.125rem $border-style-solid $white;
+            padding: 0.188rem;
+            border-radius: 3.125rem;
+            transition: 0.2s all $transition-ease-in-out;
+            svg {
+              width: $hundred-p;
+              height: 10px;
+              fill: $white;
+            }
+          }
+        }
+        .ant-image {
+          .upload-image {
+            max-width: 250px;
+            width: $hundred-p;
+            max-height: 250px;
+            height: $hundred-p;
+            object-fit: $object-fit-contain !important;
+            border-radius: 0.5rem;
+            margin-bottom: $zero;
+          }
+        }
+      }
+      .select-text {
+        color: $medium-slate-blue;
+        font-size: 0.875rem;
+        @media screen and (max-width: 768px) {
+          font-size: 0.75rem;
+        }
+      }
+      .upload-images-box-main {
+        padding: $zero;
+        .upload-image-main {
+          .uploaded-image-wrap {
+            margin-top: 1rem;
+          }
+        }
+        .ant-upload-drag {
+          background: $bg-transparent;
+          .ant-upload-btn {
+            padding: $zero;
+          }
+        }
+        .ant-upload-hint {
+          margin-bottom: $zero;
+        }
+        .upload-image-main {
+          display: $d-flex;
+          justify-content: $center;
+          align-items: $center;
+          .ant-image {
+            .upload-image {
+              max-width: 250px;
+              max-height: 250px;
+              width: $hundred-p;
+              height: $hundred-p;
+              object-fit: $object-fit-contain !important;
+              border-radius: 0.5rem;
+              margin-bottom: $zero;
+            }
+          }
+        }
+        .uploaded-image-wrap {
+          position: $position-relative;
+          .close-button-main {
+            position: $position-absolute;
+            right: -0.375rem;
+            top: -0.375rem;
+            z-index: $z-index-one;
+            display: $d-flex;
+            justify-content: $flex-end;
+            .anticon-close {
+              width: 20px;
+              height: 20px;
+              background: $neon-blue;
+              border: 0.125rem $border-style-solid $white;
+              padding: 0.188rem;
+              border-radius: 3.125rem;
+              transition: 0.2s all $transition-ease-in-out;
+              svg {
+                width: $hundred-p;
+                height: 10px;
+                fill: $white;
+              }
+            }
+          }
+        }
+        .error-msg {
+          margin-top: 0.125rem;
+        }
+      }
+    }
+  }
+  .veg-fruit-product-details-wrap {
+    background: $white;
+    border-radius: 0.25rem;
+  }
+  .veg-fruit-Package {
+    background: $white;
+    border-radius: 0.25rem;
+  }
+  .veg-fruit-notes-details-wrap {
+    background: $white;
+    border-radius: 0.25rem;
+    margin-bottom: 1.25rem;
+    @media screen and (max-width: 992px) {
+      margin: $zero;
+    }
+  }
+  .veg-fruit-title {
+    color: $midnight;
+    font-size: 1.125rem;
+    font-weight: $font-weight-semibold;
+    line-height: 1.2;
+    padding: 1.25rem 1.25rem 0.625rem;
+    margin: $zero;
+  }
+  .veg-fruit-package-main {
+    background-color: $white;
+  }
+  .veg-package-title {
+    background-color: $white;
+    color: $midnight;
+    font-size: 1.125rem;
+    font-weight: $font-weight-semibold;
+    line-height: 1.2;
+    padding: 0.313rem 1.25rem 0.625rem;
+    margin: $zero;
+    @media screen and (max-width: 992px) {
+      font-size: 1rem;
+    }
+    @media screen and (max-width: 575px) {
+      padding: $zero 0.625rem 0.313rem;
+    }
+  }
+  .veg-package-price-inputs-main {
+    padding: 0.625rem 1.25rem;
+    padding-bottom: $zero;
+    @media screen and (max-width: 576px) {
+      padding: 0.313rem 0.625rem $zero;
+    }
+    .input-wrap {
+      .multiple-input-main {
+        height: 87px;
+        @media screen and (max-width: 575px) {
+          height: 160px;
+        }
+      }
+    }
+  }
+  .veg-fruit-divider {
+    border: 0;
+    border-top: 0.063rem $border-style-solid $lavender-mist;
+    margin: $zero 1.25rem 0.375rem;
+    @media screen and (max-width: 576px) {
+      margin: $zero 0.625rem;
+    }
+  }
+  .veg-package-inputs-main {
+    padding: 0.625rem 1.25rem;
+    @media screen and (max-width: 576px) {
+      padding: $zero 0.625rem 0.625rem;
+    }
+  }
+  .veg-fruits-input-main {
+    height: 78px;
+    .error-msg {
+      margin-top: 0.125rem;
+    }
+  }
+  .veg-fruit-notes-details-main {
+    padding: 1.25rem;
+    padding-top: $zero;
+    @media screen and (max-width: 576px) {
+      padding: 0.625rem;
+      padding-top: $zero;
+    }
+    .product-input {
+      .input-wrap {
+        .veg-fruits-input-main {
+          .ant-select {
+            background: $alice-blue;
+            color: $dimgray;
+            &::placeholder {
+              color: $gray;
+              font-weight: $font-weight-medium;
+            }
+          }
+        }
+      }
+    }
+  }
+  .veg-product-inputs-main {
+    padding: 1.25rem;
+    padding-bottom: $zero;
+    @media screen and (max-width: 576px) {
+      padding: 0.625rem;
+      padding-bottom: $zero;
+    }
+    .input-wrap {
+      .veg-fruits-input-main {
+        .error-count-msg {
+          .error-msg {
+            margin-top: 0.125rem;
+          }
+        }
+        .error-msg {
+          margin-top: 0.125rem;
+        }
+      }
+    }
+  }
+  .plus-minus-icon-main {
+    display: $d-flex;
+    align-items: $center;
+    justify-content: $center;
+    .plus-icon-main {
+      margin-top: 0.875rem;
+      @media screen and (max-width: 575px) {
+        margin-top: $zero;
+      }
+      .ant-image {
+        width: 35px;
+        height: 35px;
+        display: $d-flex;
+        justify-content: $center;
+        align-items: $center;
+        background: $madison;
+        border-radius: $fifty-p;
+        cursor: $cursor-pointer;
+        @media screen and (max-width: 992px) {
+          position: $position-static;
+        }
+        .plus-icon {
+          width: 14px;
+          height: 14px;
+        }
+        .minus-icon {
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+    .plus-icon-main:nth-child(2) {
+      margin-left: 0.625rem;
+    }
+  }
+  .veg-fruits-product-price-input {
+    background: $alice-blue !important;
+  }
+  .label-none {
+    display: $none;
+  }
+  .barcode-edit-icon-main {
+    position: $position-absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+    z-index: $z-index-one;
+    width: 30px;
+    height: 30px;
+    background: $whisper;
+    display: $d-flex;
+    justify-content: $center;
+    align-items: $center;
+    border-radius: 0.25rem;
+    cursor: $cursor-pointer;
+    .ant-image {
+      margin-bottom: 0.125rem;
+      .barcode-edit-icon {
+        width: 14px;
+        height: $auto;
+        fill: $madison;
+      }
+    }
+  }
+  .veg-fruits-product-dropdown {
+    background: $alice-blue;
+    .ant-select-selector {
+      .ant-select-selection-search {
+        padding-left: 0.625rem;
+      }
+    }
+  }
+  .veg-fruit-notes-textarea {
+    height: 150px;
+    background: $alice-blue !important;
+    font-size: 0.75rem;
+    @media screen and (min-width: 769px) {
+      font-size: 0.875rem;
+    }
+  }
+  .veg-fruits-package-input-main {
+    height: 77px;
+  }
+}
+.submit-products-btn {
+  width: 84px;
+  margin-left: $zero;
+  @media screen and (max-width: 992px) {
+    margin-top: 0.75rem;
+  }
+  .anticon {
+    svg {
+      fill: $white !important;
+    }
+  }
+}
+.loader {
+  height: 500px;
+}

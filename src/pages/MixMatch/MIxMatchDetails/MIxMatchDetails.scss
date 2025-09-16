@@ -1,0 +1,140 @@
+@import "../../../styles/variable.scss";
+
+.mix-match-details {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  padding-bottom: $zero;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+    padding-bottom: $zero;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table-header-main {
+      margin: $zero;
+    }
+    .table {
+      padding: $zero;
+      background-color: $bg-transparent;
+      .mix-match-details-table {
+        height: calc(100vh - 217px);
+        background: $white;
+        overflow-x: $overflow-hidden;
+        overflow-y: $auto;
+        @media screen and (min-width: 1500px) {
+          height: calc(100vh - 272px);
+        }
+        @media screen and (max-width: 1200px) {
+          height: 345px;
+        }
+        @media screen and (max-width: 768px) {
+          height: 336px;
+        }
+        .ant-spin {
+          top: 2.25rem;
+        }
+        .ant-spin-nested-loading {
+          height: calc(100vh - 217px);
+          background: $white;
+          overflow-x: $auto;
+          @media screen and (min-width: 1500px) {
+            height: calc(100vh - 272px);
+          }
+          @media screen and (max-width: 1200px) {
+            height: 345px;
+          }
+          @media screen and (max-width: 768px) {
+            height: 336px;
+          }
+        }
+        table {
+          .ant-table-thead {
+            tr {
+              .ant-table-cell {
+                position: $position-sticky;
+                top: $zero;
+                z-index: 3;
+                background-color: $white;
+                padding: 0.75rem;
+                text-transform: $text-transform-uppercase;
+              }
+              .ant-table-cell:first-child {
+                padding-left: $zero;
+              }
+              .ant-table-cell:last-child {
+                border-start-end-radius: $zero;
+                min-width: 110px;
+                text-align: $center;
+                box-shadow: $table-box-shadow;
+              }
+            }
+          }
+          .ant-table-tbody {
+            .ant-table-row {
+              .ant-table-cell {
+                padding: 0.75rem;
+                p {
+                  margin: $zero;
+                }
+              }
+              .ant-table-cell:first-child {
+                padding-left: $zero;
+              }
+              .ant-table-cell:last-child {
+                text-align: $center;
+                div {
+                  display: $d-flex;
+                  align-items: $center;
+                  justify-content: $center;
+                  a {
+                    margin-left: 0.563rem;
+                  }
+                  span {
+                    svg {
+                      height: 19px;
+                      width: $hundred-p;
+                      object-fit: $none;
+                      @media screen and (max-width: 768px) {
+                        height: 18px;
+                        width: 14px;
+                      }
+                    }
+                  }
+                  a:nth-child(1) {
+                    height: 19px;
+                    width: 19px;
+                    margin-left: $zero;
+                    @media screen and (max-width: 768px) {
+                      width: 15px;
+                    }
+                    span {
+                      svg {
+                        fill: $green-blue;
+                        @media screen and (max-width: 768px) {
+                          height: 18px;
+                          width: 15px;
+                        }
+                      }
+                    }
+                  }
+                  a:nth-child(2) {
+                    height: 19px;
+                    span {
+                      svg {
+                        fill: $blue-lotus;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

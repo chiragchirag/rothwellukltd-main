@@ -1,0 +1,111 @@
+@import "../../../styles/variable.scss";
+
+.stock-type-list-main {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .stock-type-table-main {
+    background-color: $white;
+    padding: 1rem;
+    .stock-type-table-wrap {
+      border: 0.063rem $border-style-solid #ddebfe;
+      width: $hundred-p;
+      background-color: $white;
+      border-spacing: $zero;
+      .stock-types {
+        .type-list {
+          color: $midnight;
+          text-align: $start;
+          font-size: 0.875rem;
+          font-weight: $font-weight-medium;
+          text-transform: $text-transform-capitalize;
+          padding: 1.125rem 1.875rem;
+          line-height: 1;
+          border-right: 0.063rem $border-style-solid #ddebfe;
+          border-bottom: 0.063rem $border-style-solid #ddebfe;
+          @media screen and (max-width: 576px) {
+            padding: 0.938rem;
+            font-size: 0.688rem;
+          }
+          @media screen and (max-width: 375px) {
+            padding: 0.625rem;
+          }
+        }
+        .single-product {
+          color: $concord;
+          font-size: 0.813rem;
+          font-weight: $font-weight-normal;
+          text-overflow: $text-overflow-ellipsis;
+          white-space: $nowrap;
+          line-height: 1;
+          text-transform: $text-transform-capitalize;
+          border-bottom: 0.063rem $border-style-solid #ddebfe;
+          text-align: $start;
+          overflow: $overflow-hidden;
+          padding: 1.125rem 1.875rem;
+          @media screen and (max-width: 576px) {
+            max-width: 150px;
+            padding: 0.938rem;
+            font-size: 0.688rem;
+          }
+          @media screen and (max-width: 375px) {
+            max-width: 100px;
+            padding: 0.625rem;
+          }
+          .single-stock-green {
+            background: $clear-day;
+            color: $persian-green;
+            width: $fit-content;
+            padding: 0.313rem 0.438rem;
+            border-radius: 0.188rem;
+            font-size: 0.688rem;
+            margin: $zero;
+          }
+          .single-stock-red {
+            background: #ea354830;
+            color: $red;
+            width: $fit-content;
+            padding: 0.313rem 0.438rem;
+            border-radius: 0.188rem;
+            font-size: 0.688rem;
+            margin: $zero;
+          }
+        }
+      }
+    }
+  }
+  .loader-image {
+    width: 500px;
+    margin: $zero $auto;
+    height: $hundred-p;
+    @media screen and (max-width: 575px) {
+      width: $hundred-p;
+    }
+  }
+  .no-data-found {
+    position: $position-absolute;
+    top: $fifty-p;
+    left: $fifty-p;
+    transform: translate(-50%, -50%);
+    width: $hundred-p;
+    height: 340px;
+  }
+  .no-data-found-text {
+    position: $position-absolute;
+    top: 60%;
+    left: $fifty-p;
+    transform: translate(-50%, -50%);
+    height: $hundred-p;
+    font-size: 0.938rem;
+    color: #818181;
+    font-weight: $font-weight-medium;
+    height: $fit-content;
+    z-index: $z-index-one;
+  }
+}

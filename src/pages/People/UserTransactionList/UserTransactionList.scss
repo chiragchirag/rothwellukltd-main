@@ -1,0 +1,281 @@
+@import "../../../styles/variable.scss";
+
+.User-transaction-list {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table {
+      background: $bg-transparent;
+      padding: $zero;
+      .User-transaction-list-table {
+        background: $white;
+        height: calc(100vh - 232px);
+        background: $white;
+        overflow-x: $overflow-hidden;
+        overflow-y: $auto;
+        @media screen and (min-width: 1500px) {
+          height: calc(100vh - 257px);
+        }
+        @media screen and (max-width: 1200px) {
+          height: 320px;
+        }
+        @media screen and (max-width: 768px) {
+          height: 336px;
+        }
+        .ant-spin {
+          top: 2.25rem;
+        }
+        .ant-spin-nested-loading {
+          height: calc(100vh - 232px);
+          background: $white;
+          overflow-x: $auto;
+          @media screen and (min-width: 1500px) {
+            height: calc(100vh - 257px);
+          }
+          @media screen and (max-width: 1200px) {
+            height: 320px;
+          }
+          @media screen and (max-width: 768px) {
+            height: 336px;
+          }
+        }
+        table {
+          .ant-table-thead {
+            tr {
+              th {
+                position: $position-sticky;
+                top: $zero;
+                z-index: 2;
+                height: 45px;
+                padding: $zero 0.563rem;
+              }
+              .ant-table-cell:first-child {
+                padding-left: $zero;
+                border-start-start-radius: $zero;
+              }
+              .ant-table-cell:last-child {
+                right: $zero;
+                text-align: $center;
+                box-shadow: $table-box-shadow;
+                border-start-end-radius: $zero;
+              }
+            }
+          }
+          .ant-table-tbody {
+            .ant-table-row {
+              .ant-table-cell {
+                padding: 0.563rem;
+                .ant-tag-red {
+                  color: $red;
+                  border: 0.063rem $border-style-solid $red;
+                  padding: 0.125rem 0.5rem;
+                }
+                .ant-tag-success {
+                  background: $clear-day;
+                  color: $persian-green;
+                  border-color: $persian-green;
+                  padding: 0.125rem 0.5rem;
+                }
+              }
+              .ant-table-cell:nth-child(1) {
+                padding-left: $zero;
+                max-width: 150px;
+                overflow: $overflow-hidden;
+                text-overflow: $text-overflow-ellipsis;
+                white-space: $nowrap;
+              }
+              .ant-table-cell:nth-child(2) {
+                max-width: 150px;
+                overflow: $overflow-hidden;
+                text-overflow: $text-overflow-ellipsis;
+                white-space: $nowrap;
+              }
+              .ant-table-cell:nth-child(3) {
+                max-width: 180px;
+                overflow: $overflow-hidden;
+                text-overflow: $text-overflow-ellipsis;
+                white-space: $nowrap;
+              }
+              .ant-table-cell:nth-child(4) {
+                max-width: 180px;
+                overflow: $overflow-hidden;
+                text-overflow: $text-overflow-ellipsis;
+                white-space: $nowrap;
+              }
+              .ant-table-cell:last-child {
+                position: $position-sticky;
+                right: $zero;
+                background: $white;
+                div {
+                  display: $d-flex;
+                  align-items: $center;
+                  justify-content: $center;
+                  a {
+                    margin-left: 0.563rem;
+                  }
+                  span {
+                    svg {
+                      height: 19px;
+                      width: $hundred-p;
+                      object-fit: $none;
+                      fill: $green-blue;
+                      @media screen and (max-width: 768px) {
+                        height: 18px;
+                        width: 14px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.User-transaction-modal {
+  .ant-modal-content {
+    padding: $zero;
+    .ant-modal-close {
+      top: 0.625rem;
+      right: 1rem;
+      width: 20px;
+      height: 20px;
+      border-radius: $fifty-p;
+      border: 0.063rem $border-style-solid $jasper;
+      background: $jasper;
+      transition: all 0.3s $transition-ease-in-out;
+      box-shadow:
+        #dc3545 0px 3px 8px -2px,
+        #dc3545 0px 3px 7px -3px;
+      .ant-modal-close-x {
+        .ant-modal-close-icon {
+          svg {
+            width: $hundred-p;
+            height: 12px;
+            fill: $white;
+            transition: all 0.3s $transition-ease-in-out;
+          }
+        }
+      }
+      &:hover {
+        background: #dc354538;
+        border: 0.063rem $border-style-solid $jasper;
+        .ant-modal-close-x {
+          .ant-modal-close-icon {
+            svg {
+              fill: $jasper;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-header {
+      margin-bottom: $zero;
+      .ant-modal-title {
+        color: $midnight;
+        font-size: 1.125rem;
+        font-weight: $font-weight-bold;
+        line-height: 1.5;
+        border-bottom: 0.063rem $border-style-solid $lavender-mist;
+        margin: $zero 1rem;
+        padding: 0.375rem $zero;
+      }
+    }
+    .ant-modal-body {
+      max-height: 550px;
+      padding: 1rem;
+      padding-top: 0.5rem;
+      overflow: $auto;
+      .input-wrap {
+        .input-area-main {
+          height: 60px;
+          .ant-select {
+            background: $alice-blue;
+          }
+        }
+      }
+      .table-wrap {
+        .table-header-main {
+          margin: 1.25rem $zero;
+          display: $d-block;
+          .filter-button-main {
+            display: $d-block;
+            .input-wrap {
+              width: $hundred-p;
+              .ant-select {
+                width: $hundred-p;
+                height: 50px;
+              }
+              .ant-picker {
+                background: $alice-blue;
+                margin-bottom: $zero;
+              }
+            }
+          }
+        }
+        .table {
+          padding: $zero;
+          .User-transaction-modal-table {
+            padding: $zero;
+            .ant-table-content{
+                overflow: $auto;
+                max-height: 320px;
+            }
+            table {
+              border: 0.063rem $border-style-solid $lavender-mist;
+              border-collapse: collapse;
+              .ant-table-thead {
+                tr {
+                  .ant-table-cell {
+                    position: $position-sticky;
+                    top: -0.063rem;
+                    z-index: $z-index-one;
+                    border: 0.063rem $border-style-solid $lavender-mist;
+                    padding: 0.75rem;
+                    background: $alabaster;
+                  }
+                  .ant-table-cell:nth-child(1) {
+                    border-start-start-radius: $zero;
+                  }
+                  .ant-table-cell:last-child{
+                    border-start-end-radius: $zero;
+                  }
+                }
+              }
+              .ant-table-tbody {
+                .ant-table-row {
+                  .ant-table-cell {
+                    border: 0.063rem $border-style-solid $lavender-mist;
+                    padding: 0.75rem;
+                  }
+                
+                  .ant-table-cell:nth-child(2) {
+                    max-width: 150px;
+                    overflow: $overflow-hidden;
+                    text-overflow: $text-overflow-ellipsis;
+                    white-space: $nowrap;
+                  }
+                  .ant-table-cell:nth-child(3) {
+                    max-width: 150px;
+                    overflow: $overflow-hidden;
+                    text-overflow: $text-overflow-ellipsis;
+                    white-space: $nowrap;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

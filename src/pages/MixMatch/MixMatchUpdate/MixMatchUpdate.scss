@@ -1,0 +1,245 @@
+@import "../../../styles/variable.scss";
+
+.update-mix-match-main {
+  background: $alice-blue;
+  padding: 0.875rem 1.25rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1rem 1.875rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .update-mix-match-inputs {
+    .input-wrap {
+      .input-area-main {
+        height: 80px;
+      }
+    }
+  }
+  .update-mix-match-wrap {
+    .table-wrap {
+      .table-header-main {
+        margin-bottom: $zero;
+      }
+      .table {
+        padding: $zero;
+        background-color: $bg-transparent;
+        .update-mix-match-table {
+          background-color: $white;
+          height: calc(100vh - 540px);
+          @media screen and (min-width: 1500px) {
+            height: calc(100vh - 556px);
+          }
+          @media screen and (max-width: 1200px) {
+            height: 230px;
+          }
+          table {
+            .ant-table-thead {
+              tr {
+                .ant-table-cell {
+                  position: $position-sticky;
+                  top: $zero;
+                  z-index: 3;
+                  background-color: $white;
+                  padding: 0.75rem;
+                  border-start-start-radius: $zero;
+                }
+                .ant-table-cell:first-child {
+                  padding-left: $zero;
+                }
+              }
+            }
+            .ant-table-tbody {
+              .ant-table-row {
+                .ant-table-cell {
+                  padding: 0.75rem;
+                  p {
+                    margin: $zero;
+                  }
+                }
+                .ant-table-cell:first-child {
+                  padding-left: $zero;
+                }
+              }
+            }
+          }
+        }
+        .pagination {
+          margin-bottom: 0.75rem;
+        }
+      }
+    }
+  }
+  .update-bill-main {
+    width: $hundred-p;
+    display: $d-flex;
+    justify-content: start;
+    margin-top: 1.25rem;
+    @media screen and (max-width: 1440px) {
+      gap: 0.938rem;
+    }
+    @media screen and (max-width: 992px) {
+      margin-bottom: 1.25rem;
+    }
+    .update-bill {
+      width: 30%;
+      background: $white;
+      border-radius: 0.25rem;
+      padding: 1rem;
+      @media screen and (max-width:575px) {
+        width: $hundred-p;
+      }
+      article{
+        color: $shuttle-grey;
+        font-size: 0.938rem;
+        font-weight: $font-weight-medium;
+        margin: $zero;
+        display: $d-flex;
+        justify-content: $justify-content-between;
+        @media screen and (max-width: 1440px) {
+          font-size: 0.813rem;
+        }
+        span{
+
+        }
+      }
+    }
+  }
+  .create-mix-match-inputs{
+    .input-wrap{
+      .input-area-main{
+        height: 75px;
+      }
+    }
+  }
+  .create-mix-match-wrap {
+    max-height: 410px;
+    background: $alice-blue;
+    overflow-y: $auto;
+    margin-bottom: 1.25rem;
+    .table-wrap {
+      margin: $zero;
+      .table-header-main {
+        display: $none;
+      }
+      .table {
+        padding: $zero;
+        h1 {
+          position: $position-sticky;
+          top: $zero;
+          left: $zero;
+          z-index: $z-index-one;
+          width: $hundred-p;
+          height: 35px;
+          background: $white;
+          display: $d-flex;
+          align-items: $end;
+          padding: $zero 1.25rem;
+          @media screen and (max-width: 575px) {
+            height: 39px;
+            font-size: 0.875rem;
+            align-items: $center;
+          }
+        }
+      }
+    }
+    .create-mix-match-table{
+      margin: $zero 1.25rem;
+      padding: $zero;
+      .ant-spin-nested-loading {
+        max-height: 360px;
+        overflow: $auto;
+      }
+      table {
+        colgroup {
+          col {
+            width: 16px !important;
+          }
+        }
+        .ant-table-thead {
+          tr {
+            th {
+              position: $position-sticky;
+              top: -0.063rem;
+              z-index: 3;
+              padding: 0.75rem;
+              font-size: 0.875rem;
+              @media screen and (max-width: 768px) {
+                font-size: 0.813rem;
+              }
+            }
+            .ant-table-cell {
+              .ant-table-column-sorters {
+                .ant-table-column-title {
+                  white-space: $nowrap;
+                }
+              }
+            }
+            .ant-table-cell:nth-child(1) {
+              padding-left: $zero;
+            }
+            .ant-table-cell:last-child {
+              width: 87px;
+              box-shadow: $table-box-shadow;
+              text-align: $center;
+              border-start-end-radius: $zero;
+            }
+          }
+        }
+        .ant-table-tbody {
+          .ant-table-row {
+            .ant-table-cell {
+              padding: 0.75rem 0.813rem;
+              p{
+                margin: $zero;
+              }
+              .ant-checkbox-wrapper {
+                .ant-checkbox {
+                  .ant-checkbox-inner {
+                    border: 0.063rem $border-style-solid $blue-lotus;
+                  }
+                }
+              }
+            }
+            .ant-table-cell:last-child {
+              div {
+                display: $d-flex;
+                align-items: $center;
+                justify-content: $center;
+                gap: 0.563rem;
+                height: 30px;
+                margin: $zero $auto;
+                width: 30px;
+                @media screen and (min-width:1530px) {
+                  width: 22px;
+                }
+                .ant-image {
+                  border-radius: 0.5rem;
+                  cursor: $cursor-pointer;
+                  @media screen and (max-width: 1440px) {
+                    padding: 0.188rem 0.313rem;
+                  }
+                  .delete-icon {
+                    width: 22px;
+                    height: 20px;
+                    transition: all 0.4s $transition-ease-in-out;
+                    @media screen and (max-width: 1440px) {
+                      width: 20px;
+                      height: 17px;
+                    }
+                  }
+                }
+              }
+            }
+            .ant-table-cell:nth-child(1) {
+              padding-left: $zero;
+            }
+          }
+        }
+      }
+    }
+  }
+  .save-btn {
+    width: 100px;
+  }
+}

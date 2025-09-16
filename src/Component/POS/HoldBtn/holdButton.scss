@@ -1,0 +1,29 @@
+@import "../../../styles/variable.scss";
+
+.hold-order-btn-main {
+  width: $hundred-p;
+  margin-right: 0.625rem;
+  .hold-order-button {
+    width: $hundred-p;
+    height: 40px;
+    background: $jasper !important;
+    box-shadow:
+      #dc354575 0px 6px 12px -2px,
+      #dc35454f 0px 3px 7px -3px;
+    @media screen and (max-width: 1199px) {
+      height: 35px;
+    }
+    &::after {
+      content: "";
+      background: linear-gradient(132deg, $neon-blue 4.27%, $medium-slate-blue) !important;
+    }
+    &:hover {
+      box-shadow:
+        #4c4de361 0px 6px 12px -2px,
+        #4c4de342 0px 3px 7px -3px !important;
+    }
+    .ant-image {
+      display: $d-flex;
+    }
+  }
+}

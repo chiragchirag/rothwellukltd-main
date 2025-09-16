@@ -1,0 +1,1069 @@
+@import "../../styles/variable.scss";
+
+.dashboard-cards-wrap {
+  min-height: calc(100vh - 178px);
+  background: $alice-blue;
+  display: $d-flex;
+  flex-direction: $flex-column;
+  overflow-y: $auto;
+  overflow-x: $overflow-hidden;
+  padding: 1.25rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.875rem;
+  }
+  .product-total-main {
+    width: $hundred-p;
+    display: $d-flex;
+    justify-content: $justify-content-between;
+    .dropdown-title {
+      color: $baltic-sea;
+      font-size: 1.5rem;
+      font-weight: $font-weight-bold;
+      margin: $zero;
+      @media screen and (max-width: 768px) {
+        font-size: 1.25rem;
+      }
+    }
+    .input-wrap {
+      width: 150px;
+      .input-label {
+        margin: $zero;
+      }
+      .input-area-main {
+        height: 60px;
+        .dropdown_input {
+          height: 40px;
+          border: 0.063rem $border-style-solid $neon-blue;
+          background-color: $white;
+          .ant-select-selector {
+            .ant-select-selection-item {
+              color: $neon-blue;
+            }
+          }
+          .ant-select-arrow {
+            color: $neon-blue;
+          }
+        }
+        .ant-select-open {
+          .ant-select-selector {
+            .ant-select-selection-item {
+              color: $neon-blue !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .slide-main-three {
+    .slick-slider {
+      .slick-list {
+        margin: $zero !important;
+      }
+    }
+  }
+  .slide-main {
+    height: 120px;
+    background: $white;
+    margin-bottom: 1.25em;
+    padding: 1.25rem;
+    h1 {
+      margin-bottom: 0.625rem;
+    }
+    .slick-slider {
+      .slick-list {
+        margin: $zero 3.125rem;
+        @media screen and (max-width: 575px) {
+          margin: $zero 2.188rem;
+        }
+        .slick-track {
+          .slick-slide {
+            padding: $zero 0.625rem;
+            .slide-wrap {
+              .slide-content {
+                background-color: $alice-blue;
+                border-radius: 0.313rem;
+                padding: 1rem;
+                box-sizing: $box-sizing-border;
+                display: $d-flex;
+                justify-content: $justify-content-between;
+                align-items: $center;
+                gap: 0.625rem;
+                .user-name {
+                  @media screen and (max-width: 425px) {
+                    width: 90px;
+                    overflow: $overflow-hidden;
+                    text-overflow: $text-overflow-ellipsis;
+                    white-space: $nowrap;
+                  }
+                }
+                .total-reload {
+                  display: $d-flex;
+                  align-items: $center;
+                  gap: 0.625rem;
+                  .re-load {
+                    background: #e6e6e6;
+                    height: 22px;
+                    width: 22px;
+                    border-radius: 0.25rem;
+                    display: $d-flex;
+                    justify-content: $center;
+                    align-items: $center;
+                    font-size: 0.75rem;
+                  }
+                }
+                p {
+                  margin: $zero;
+                  color: $shuttle-grey;
+                  font-weight: $font-weight-medium;
+                }
+              }
+            }
+          }
+        }
+      }
+      .slick-prev {
+        top: 28px;
+        left: $zero;
+        width: 30px;
+        height: 53px;
+        border-top-right-radius: 0.313rem;
+        border-bottom-right-radius: 0.313rem;
+        background: $alice-blue;
+        &::before {
+          content: "<";
+          color: $shuttle-grey;
+          opacity: 1;
+          font-family: $font-family;
+        }
+      }
+      .slick-next {
+        top: 1.625rem;
+        right: $zero;
+        width: 30px;
+        height: 54px;
+        border-top-left-radius: 0.313rem;
+        border-bottom-left-radius: 0.313rem;
+        background: $alice-blue;
+        &::before {
+          content: ">";
+          color: $shuttle-grey;
+          opacity: 1;
+          font-family: $font-family;
+        }
+      }
+    }
+  }
+  .dashboard-cards {
+    margin-bottom: 1.25rem;
+    @media screen and (max-width: 576px) {
+      row-gap: 0.875rem !important;
+      margin-bottom: 0.875rem;
+    }
+    .dashboard-cards-main {
+      .card-component {
+        height: 130px;
+        background: $white;
+        display: $d-flex;
+        align-items: $center;
+        justify-content: $justify-content-between;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1.25rem;
+        @media screen and (max-width: 768px) {
+          height: 110px;
+        }
+        .card-details {
+          height: $hundred-p;
+          display: $d-flex;
+          width: $hundred-p;
+          flex-direction: $flex-column;
+          align-items: $flex-end;
+          justify-content: $justify-content-around;
+          .card-content {
+            .card-name {
+              color: #a8acb2;
+              font-size: 0.813rem;
+              text-align: $end;
+              letter-spacing: 0.044rem;
+              font-weight: $font-weight-medium;
+              margin-top: $zero;
+              margin-bottom: 0.063rem;
+              display: $d-block;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.125rem;
+              }
+              @media screen and (max-width: 768px) {
+                font-size: 0.688rem;
+              }
+            }
+            .card-income {
+              color: $ebony-clay;
+              font-size: 1.125rem;
+              font-weight: 800;
+              text-align: $end;
+              margin: $zero;
+              display: $d-block;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.375rem;
+              }
+              @media screen and (max-width: 768px) {
+                font-size: 0.938rem;
+              }
+            }
+          }
+          .divider {
+            width: $hundred-p;
+            height: 1.2px;
+            background: linear-gradient(90deg, $white 10%, #cdcfd1 90%);
+            border-block-start: $none;
+            margin: $zero;
+            @media screen and (min-width: 1640px) {
+              height: 1.5px;
+            }
+          }
+        }
+        .card-blur-images {
+          width: $hundred-p;
+          height: 90px;
+        }
+        @media screen and (max-width: 575px) {
+          padding: 0.5rem 0.625rem;
+        }
+        .card-images-main {
+          .ant-image {
+            position: $position-absolute;
+            top: 2.188rem;
+            left: 2.375rem;
+            @media screen and (max-width: 768px) {
+              top: 2.5rem;
+              left: 2.313rem;
+              width: 50px;
+              height: $hundred-p;
+            }
+            @media screen and (max-width: 575px) {
+              top: 2.5rem;
+              left: 1.75rem;
+              width: 50px;
+              height: $hundred-p;
+            }
+          }
+        }
+      }
+    }
+    .dashboard-cards-main:nth-child(3) {
+      .card-component {
+        .card-details {
+          height: $fit-content;
+          .card-content {
+            .card-name {
+              font-size: 1rem;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.25rem;
+              }
+              @media screen and (max-width: 768px) {
+                font-size: 0.688rem;
+              }
+            }
+            .card-income {
+              font-size: 1.375rem;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.438rem;
+              }
+              @media screen and (max-width: 768px) {
+                font-size: 0.938rem;
+              }
+            }
+          }
+          .divider {
+            display: $none;
+          }
+        }
+      }
+    }
+    .dashboard-cards-main:nth-child(4) {
+      .card-component {
+        .card-details {
+          height: $fit-content;
+          .card-content {
+            .card-name {
+              font-size: 1rem;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.25rem;
+              }
+              @media screen and (max-width: 768px) {
+                font-size: 0.688rem;
+              }
+            }
+            .card-income {
+              font-size: 1.375rem;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.438rem;
+              }
+              @media screen and (max-width: 768px) {
+                font-size: 0.938rem;
+              }
+            }
+          }
+          .divider {
+            display: $none;
+          }
+        }
+      }
+    }
+    .dashboard-cards-main:nth-child(5) {
+      .card-component {
+        .card-details {
+          width: 80%;
+          @media screen and (min-width: 1200px) {
+            width: 40%;
+          }
+          @media screen and (max-width: 992px) {
+            width: $fifty-p;
+          }
+          .card-content {
+            .card-name {
+              font-size: 0.688rem;
+              @media screen and (min-width: 1640px) {
+                font-size: 1rem;
+              }
+            }
+            .purchase-paid {
+              color: #03b288;
+            }
+            .card-income {
+              font-size: 0.875rem;
+              @media screen and (min-width: 1640px) {
+                font-size: 1.25rem;
+              }
+            }
+          }
+          .card-content:nth-child(3) {
+            .card-name {
+              color: #ff001b;
+            }
+            .card-income {
+              color: #ff001b;
+            }
+          }
+        }
+        .card-details:nth-child(3) {
+          @media screen and (min-width: 1200px) {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+  .sales-product-main {
+    overflow: $overflow-hidden;
+    margin-bottom: 1.25rem;
+    @media screen and (max-width: 1200px) {
+      .order-class:nth-child(1) {
+        order: 1;
+      }
+      .order-class:nth-child(2) {
+        order: 2;
+      }
+      .order-class:nth-child(3) {
+        order: 3;
+      }
+      .order-class:nth-child(4) {
+        order: 5;
+      }
+      .order-class:nth-child(5) {
+        order: 4;
+      }
+    }
+    @media screen and (max-width: 992px) {
+      height: $auto;
+    }
+    @media screen and (max-width: 575px) {
+      row-gap: 0.875rem !important;
+      margin-bottom: 0.875rem;
+    }
+    .pie-chart {
+      height: $hundred-p;
+      background: $white;
+      border-radius: 0.25rem;
+      padding: 1.25rem;
+      overflow: $overflow-hidden;
+      .pie-chart-title {
+        color: $midnight;
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+        margin: $zero;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+      .no-data-main {
+        width: $hundred-p;
+        .page-not-found-main {
+          position: $position-relative;
+          @media screen and (max-width: 1200px) {
+            height: 200px;
+            display: $d-flex;
+            flex-direction: $flex-column;
+            justify-content: $center;
+            align-items: $center;
+          }
+          .page-not-found-icon {
+            height: 300px;
+          }
+          .not-found-text {
+            position: $position-absolute;
+            top: 75%;
+            left: $fifty-p;
+            transform: translate(-50%, -50%);
+            width: $hundred-p;
+            color: $dark-gray;
+            text-align: $center;
+            font-size: 0.875rem;
+            font-weight: $font-weight-medium;
+            margin: $zero;
+          }
+        }
+      }
+      .loader {
+        height: 320px;
+      }
+      .chart-option {
+        .input-wrap {
+          .input-label {
+            margin-top: 0.625rem;
+            margin-bottom: 0.313rem;
+            color: $dim-gray;
+          }
+          .input-area-main {
+            height: 40px;
+            .dropdown_input {
+              height: 40px;
+              background: $alice-blue;
+              .ant-select-selector {
+                padding-left: 0.625rem !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .chart-main {
+      height: 450px;
+      background: $white;
+      justify-content: $center;
+      align-items: $center;
+      border-radius: 0.25rem;
+      padding: 1.25rem;
+      overflow: $overflow-hidden;
+      @media screen and (max-width: 768px) {
+        height: $auto;
+      }
+      .loader {
+        height: 300px;
+      }
+      .no-data-main {
+        width: $hundred-p;
+        .page-not-found-main {
+          position: $position-relative;
+          @media screen and (max-width: 1200px) {
+            height: 200px;
+            display: $d-flex;
+            flex-direction: $flex-column;
+            justify-content: $center;
+            align-items: $center;
+          }
+          .page-not-found-icon {
+            height: 300px;
+          }
+          .not-found-text {
+            position: $position-absolute;
+            top: 75%;
+            left: $fifty-p;
+            transform: translate(-50%, -50%);
+            width: $hundred-p;
+            color: $dark-gray;
+            text-align: $center;
+            font-size: 0.875rem;
+            font-weight: $font-weight-medium;
+            margin: $zero;
+          }
+        }
+      }
+      h1 {
+        color: $midnight;
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+        margin: $zero;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+      .chart-option {
+        margin-bottom: 1.25rem;
+        .input-wrap {
+          .input-label {
+            margin-top: 0.625rem;
+            margin-bottom: 0.313rem;
+            color: $dim-gray;
+          }
+          .input-area-main {
+            height: 40px;
+            .dropdown_input {
+              height: 40px;
+              background: $alice-blue;
+              .ant-select-selector {
+                padding-left: 0.625rem !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .sales-main {
+      height: $hundred-p;
+      background: $white;
+      padding: 1.25rem;
+      overflow: $overflow-hidden;
+      @media screen and (max-width: 1200px) {
+        display: $d-block;
+      }
+      .chart-option {
+        .input-wrap {
+          .input-label {
+            margin-top: 0.625rem;
+            margin-bottom: 0.313rem;
+            color: $dim-gray;
+          }
+          .input-area-main {
+            height: 40px;
+            .dropdown_input {
+              height: 40px;
+              background: $alice-blue;
+              .ant-select-selector {
+                padding-left: 0.625rem !important;
+              }
+            }
+          }
+        }
+      }
+      h1 {
+        color: $midnight;
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+        margin: $zero;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+    }
+    .stock-table-main {
+      .table-wrap {
+        height: $hundred-p;
+        background: $white;
+        .table {
+          h1 {
+            margin: $zero;
+            font-size: 1.25rem;
+            display: $d-inline-block;
+            @media screen and (max-width: 768px) {
+              font-size: 0.875rem;
+            }
+          }
+          .stock-table {
+            overflow-y: $auto;
+            padding: $zero;
+            max-height: 380px;
+            @media screen and (max-width: 1199px) {
+              max-height: 380px;
+            }
+            .ant-table-content {
+              .ant-table-thead {
+                tr {
+                  .ant-table-cell {
+                    position: $position-sticky;
+                    top: $zero;
+                    z-index: $z-index-one;
+                    background: $white;
+                    padding: 0.563rem;
+                  }
+                  .ant-table-cell:nth-child(1) {
+                    padding-left: $zero;
+                    border-start-start-radius: $zero;
+                  }
+                  .ant-table-cell:last-child {
+                    text-align: $center;
+                    right: $zero;
+                    box-shadow: $table-box-shadow;
+                    border-start-end-radius: $zero;
+                  }
+                }
+              }
+              .ant-table-tbody {
+                .ant-table-row {
+                  td:last-child {
+                    color: $jasper;
+                    font-weight: $font-weight-semibold;
+                    text-align: $center;
+                  }
+                  .ant-table-cell {
+                    padding: 0.563rem;
+                  }
+                  .ant-table-cell:nth-child(1) {
+                    padding-left: $zero;
+                  }
+                  .ant-table-cell:nth-child(2) {
+                    max-width: 150px;
+                    overflow: $overflow-hidden;
+                    text-overflow: $text-overflow-ellipsis;
+                    white-space: $nowrap;
+                  }
+                  .ant-table-cell:last-child {
+                    position: $position-sticky;
+                    right: $zero;
+                    background: $white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .wholesales-product {
+      height: $hundred-p;
+      background: $white;
+      border-radius: 0.25rem;
+      padding: 1.25rem;
+      .chart-option {
+        .input-wrap {
+          .input-label {
+            margin-top: 0.625rem;
+            margin-bottom: 0.313rem;
+            color: $dim-gray;
+          }
+          .input-area-main {
+            height: 40px;
+            .dropdown_input {
+              height: 40px;
+              background: $alice-blue;
+              .ant-select-selector {
+                padding-left: 0.625rem !important;
+              }
+            }
+          }
+        }
+      }
+      h1 {
+        color: $midnight;
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+        margin: $zero;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+      .table-wrap {
+        .table {
+          padding: $zero;
+          .wholesales-table {
+            padding: $zero;
+            overflow: $auto;
+            .ant-spin-nested-loading {
+              height: 320px;
+              overflow: $auto;
+            }
+            table {
+              .ant-table-thead {
+                tr {
+                  .ant-table-cell {
+                    position: $position-sticky;
+                    top: $zero;
+                    z-index: $z-index-one;
+                    background: $white;
+                    padding: 0.563rem;
+                    padding-top: $zero;
+                  }
+                  .ant-table-cell:first-child {
+                    padding-left: $zero;
+                    border-start-start-radius: $zero;
+                  }
+                }
+              }
+              .ant-table-tbody {
+                .ant-table-row {
+                  .ant-table-cell {
+                    padding: 0.563rem;
+                  }
+                  .ant-table-cell:first-child {
+                    padding-left: $zero;
+                  }
+                  .ant-table-cell:nth-child(2) {
+                    max-width: 150px;
+                    overflow: $overflow-hidden;
+                    text-overflow: $text-overflow-ellipsis;
+                    white-space: $nowrap;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .Payment-main {
+      height: $hundred-p;
+      background: $white;
+      padding: 1.25rem;
+      h1 {
+        color: $midnight;
+        font-weight: $font-weight-bold;
+        margin: $zero;
+        font-size: 1.125rem;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+      .Payment-chart {
+        min-height: $auto !important;
+        .apexcharts-canvas {
+          height: $hundred-p;
+          svg {
+            width: $hundred-p;
+            height: $hundred-p;
+          }
+          .apexcharts-toolbar {
+            display: $none;
+          }
+        }
+      }
+      .apexcharts-tooltip-series-group:nth-child(2) {
+        .apexcharts-tooltip-marker {
+          background: $blue-lotus !important;
+        }
+      }
+      .apexcharts-tooltip-series-group:nth-child(3) {
+        .apexcharts-tooltip-marker {
+          background: #c4cfd6 !important;
+        }
+      }
+    }
+  }
+  .table-chart-wrap {
+    margin-bottom: 1.25rem;
+    @media screen and (max-width: 575px) {
+      row-gap: 0.875rem !important;
+      margin-bottom: 0.875rem;
+    }
+    .Payment-main {
+      height: $hundred-p;
+      background: $white;
+      padding: 1.25rem;
+      h1 {
+        color: $midnight;
+        font-weight: $font-weight-bold;
+        margin: $zero;
+        font-size: 1.125rem;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+      .Payment-chart {
+        min-height: $auto !important;
+        .apexcharts-canvas {
+          height: $hundred-p;
+          svg {
+            width: $hundred-p;
+            height: $hundred-p;
+          }
+          .apexcharts-toolbar {
+            display: $none;
+          }
+        }
+      }
+      .apexcharts-tooltip-series-group:nth-child(2) {
+        .apexcharts-tooltip-marker {
+          background: $blue-lotus !important;
+        }
+      }
+      .apexcharts-tooltip-series-group:nth-child(3) {
+        .apexcharts-tooltip-marker {
+          background: #c4cfd6 !important;
+        }
+      }
+    }
+  }
+  .stock-sales-main {
+    display: $d-flex;
+    flex-direction: $flex-column;
+    .table-wrap {
+      .table {
+        padding-bottom: $zero;
+      }
+    }
+  }
+  .recent-sales {
+    .table-wrap {
+      height: $hundred-p;
+      background: $white;
+      .table {
+        h1 {
+          margin: $zero;
+          font-size: 1.25rem;
+          display: $d-inline-block;
+          @media screen and (max-width: 768px) {
+            font-size: 0.875rem;
+          }
+        }
+        .input-wrap {
+          display: $d-inline-block;
+          float: right;
+          .input-label {
+            margin-bottom: $zero;
+          }
+          .input-area-main {
+            height: 40px;
+            margin-bottom: $zero;
+            .dropdown_input {
+              height: 40px;
+              width: 150px;
+              background: $alice-blue;
+              .ant-select-selector {
+                padding-left: 0.625rem !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .table-wrap {
+    background: $white;
+    .table {
+      h1 {
+        margin: $zero;
+        font-size: 1.125rem;
+        display: $d-inline-block;
+        @media screen and (max-width: 768px) {
+          font-size: 0.875rem;
+        }
+      }
+      .input-wrap {
+        display: $d-inline-block;
+        float: right;
+        .input-label {
+          margin-top: $zero;
+        }
+        .input-area-main {
+          height: 40px;
+          margin-bottom: 0.75rem;
+          .dropdown_input {
+            height: 40px;
+            width: 150px;
+            background: $alice-blue;
+            .ant-select-selector {
+              padding-left: 0.625rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  h1 {
+    margin: $zero;
+    font-size: 1.125rem;
+    display: $d-inline-block;
+    @media screen and (max-width: 768px) {
+      font-size: 0.875rem;
+    }
+  }
+}
+.stocks-table {
+  overflow-y: $overflow-hidden;
+  overflow-x: $auto;
+  padding: $zero !important;
+  .ant-table-content {
+    table {
+      .ant-table-thead {
+        tr {
+          th {
+            font-size: 0.875rem;
+            @media screen and (max-width: 768px) {
+              font-size: 0.813rem;
+            }
+          }
+          .ant-table-cell {
+            padding: 0.75rem;
+          }
+          .ant-table-cell:nth-child(1) {
+            padding-left: $zero;
+          }
+          .ant-table-cell:last-child {
+            text-align: $center;
+            position: $position-sticky;
+            right: $zero;
+            border-start-end-radius: $zero;
+            @media screen and (max-width: 768px) {
+              box-shadow: $table-box-shadow;
+            }
+          }
+        }
+      }
+      .ant-table-tbody {
+        .ant-table-row {
+          td {
+            font-size: 0.813rem;
+            @media screen and (max-width: 768px) {
+              font-size: 0.75rem;
+            }
+          }
+          .ant-table-cell {
+            padding: 0.75rem;
+          }
+          .ant-table-cell:first-child {
+            font-weight: $font-weight-semibold;
+            a {
+              color: $neon-blue;
+              text-decoration: $text-decoration-underline;
+            }
+          }
+          .ant-table-cell:nth-child(1) {
+            padding-left: $zero;
+          }
+          .ant-table-cell:last-child {
+            position: $position-sticky;
+            right: $zero;
+            background: $white;
+            display: $d-flex;
+            justify-content: $center;
+            .ant-tag-error {
+              width: 52px;
+              height: 33px;
+              background: $white;
+              color: $red;
+              font-size: 0.875rem;
+              font-weight: $font-weight-semibold;
+              text-align: $center;
+              border: 0.125rem $border-style-solid $red;
+              padding: 0.313rem 0.594rem;
+            }
+            .ant-tag-success {
+              height: 33px;
+              width: 52px;
+              background: $white;
+              color: $persian-green;
+              text-align: $center;
+              font-weight: $font-weight-semibold;
+              font-size: 0.875rem;
+              border: 0.125rem $border-style-solid $persian-green;
+              padding: 0.313rem 0.594rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.recent-table {
+  overflow-y: $overflow-hidden;
+  overflow-x: $auto;
+  padding: $zero !important;
+  .ant-spin-nested-loading {
+    max-height: 220px;
+    overflow: $auto;
+    .ant-table-content {
+      table {
+        .ant-table-thead {
+          tr {
+            .ant-table-cell {
+              position: $position-sticky;
+              top: $zero;
+              z-index: $z-index-one;
+              padding: 0.75rem;
+            }
+            .ant-table-cell:nth-child(1) {
+              padding-left: $zero;
+              border-start-start-radius: $zero;
+            }
+            .ant-table-cell:last-child {
+              position: $position-sticky;
+              right: $zero;
+              text-align: $center;
+              border-start-end-radius: $zero;
+              box-shadow: $table-box-shadow;
+              @media screen and (max-width: 768px) {
+                box-shadow: $table-box-shadow;
+              }
+            }
+          }
+        }
+        .ant-table-tbody {
+          .ant-table-row {
+            .ant-table-cell {
+              padding: 0.75rem;
+            }
+            .ant-table-cell:first-child {
+              font-weight: $font-weight-semibold;
+              a {
+                color: $neon-blue;
+                text-decoration: $text-decoration-underline;
+              }
+            }
+            .ant-table-cell:nth-child(1) {
+              padding-left: $zero;
+            }
+            .ant-table-cell:nth-child(2) {
+              max-width: 150px;
+              overflow: $overflow-hidden;
+              text-overflow: $text-overflow-ellipsis;
+              white-space: $nowrap;
+            }
+            .ant-table-cell:nth-child(2) {
+              max-width: 200px;
+              overflow: $overflow-hidden;
+              text-overflow: $text-overflow-ellipsis;
+              white-space: $nowrap;
+            }
+            .ant-table-cell:last-child {
+              position: $position-sticky;
+              right: $zero;
+              text-align: $center;
+              background-color: $white;
+              .ant-tag-error {
+                width: 52px;
+                height: 33px;
+                background: $white;
+                color: $red;
+                text-align: $center;
+                font-size: 0.875rem;
+                font-weight: $font-weight-semibold;
+                border: $border-style-solid $red;
+                border-width: 0.125rem;
+                padding: 0.313rem 0.594rem;
+              }
+              .ant-tag-success {
+                width: 52px;
+                height: 33px;
+                background: $white;
+                color: $persian-green;
+                font-size: 0.875rem;
+                font-weight: $font-weight-semibold;
+                text-align: $center;
+                border: $border-style-solid $persian-green;
+                border-width: 0.125rem;
+                padding: 0.313rem 0.594rem;
+              }
+            }
+          }
+          .ant-table-row:last-child {
+            .ant-table-cell {
+              padding-bottom: $zero;
+              border-bottom: $none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

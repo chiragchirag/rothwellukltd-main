@@ -1,0 +1,194 @@
+.group-settings-main {
+  background: #f3f6f9;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+}
+@media screen and (min-width: 1440px) {
+  .group-settings-main {
+    padding: 1.875rem;
+    padding-top: 0.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .group-settings-main {
+    padding: 0.625rem;
+  }
+}
+.group-settings-main .table-wrap .table-header-main .print-button-main .new-button {
+  width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .group-settings-main .table-wrap .table-header-main .print-button-main .new-button {
+    width: 170px;
+  }
+}
+.group-settings-main .table-wrap .table {
+  background: transparent;
+  padding: 0;
+}
+.group-settings-main .group-settings-table {
+  height: calc(100vh - 282px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #fff;
+}
+@media screen and (min-width: 1500px) {
+  .group-settings-main .group-settings-table {
+    height: calc(100vh - 311px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .group-settings-main .group-settings-table {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .group-settings-main .group-settings-table {
+    height: 360px;
+  }
+}
+.group-settings-main .group-settings-table .ant-spin-nested-loading {
+  height: calc(100vh - 282px);
+  background: #fff;
+  overflow: auto;
+}
+@media screen and (min-width: 1500px) {
+  .group-settings-main .group-settings-table .ant-spin-nested-loading {
+    height: calc(100vh - 311px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .group-settings-main .group-settings-table .ant-spin-nested-loading {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .group-settings-main .group-settings-table .ant-spin-nested-loading {
+    height: 360px;
+  }
+}
+.group-settings-main .group-settings-table .ant-spin-nested-loading .ant-spin-container {
+  height: 100%;
+}
+.group-settings-main .group-settings-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty {
+  height: 100%;
+}
+.group-settings-main .group-settings-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty .ant-table-container {
+  height: 100%;
+}
+.group-settings-main .group-settings-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty .ant-table-container .ant-table-content {
+  height: 100%;
+}
+.group-settings-main .group-settings-table .ant-spin-nested-loading .ant-spin-container .ant-table-empty .ant-table-container .ant-table-content table {
+  height: 100%;
+}
+.group-settings-main .group-settings-table .ant-table-content {
+  background: #fff;
+}
+.group-settings-main .group-settings-table table .ant-table-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.group-settings-main .group-settings-table table colgroup col {
+  width: 16px !important;
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr th {
+  position: sticky !important;
+  top: 0;
+  z-index: 3;
+  font-size: 0.938rem;
+}
+@media screen and (max-width: 768px) {
+  .group-settings-main .group-settings-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr .ant-table-column-sort {
+  background: #fff;
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr .ant-table-cell:first-child {
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.group-settings-main .group-settings-table table .ant-table-thead tr .ant-table-cell:last-child {
+  width: 130px;
+  text-align: center;
+  border-start-end-radius: 0;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.75rem;
+  }
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-column-sort {
+  background: #fff;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  position: sticky !important;
+  z-index: 1;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child .system-action-icon-none span {
+  cursor: not-allowed !important;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child .system-action-icon-none span svg {
+  fill: #8c8c8c !important;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child .system-action-icon-none svg:last-child {
+  cursor: not-allowed;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child .system-action-icon-none svg:last-child path {
+  stroke: #8c8c8c;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+  height: 19px;
+  width: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+@media screen and (max-width: 768px) {
+  .group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+    height: 18px;
+    width: 15px;
+  }
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) {
+  cursor: pointer;
+  margin-left: 0;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) svg {
+  fill: #575fe9;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div svg:last-child {
+  margin-left: 0.563rem;
+}
+.group-settings-main .group-settings-table table .ant-table-tbody .ant-table-row .ant-table-cell-fix-right {
+  position: static !important;
+}/*# sourceMappingURL=groupsetting.css.map */

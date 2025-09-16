@@ -1,0 +1,54 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.063rem solid #deebff;
+  margin: 1.25rem 1.25rem 0 1.25rem;
+  padding-bottom: 0.563rem;
+}
+@media screen and (min-width: 1440px) {
+  .header-main {
+    margin: 1.875rem 1.875rem 0 1.875rem;
+    padding-bottom: 0.625rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-main {
+    margin: 1.25rem 1.25rem 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header-main {
+    margin: 0.875rem 0.625rem 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-main .dashboard-bread-crumb-main {
+    display: none;
+  }
+}
+.header-main .dashboard-bread-crumb-main .ant-breadcrumb {
+  cursor: pointer;
+}
+.header-main .dashboard-bread-crumb-main .ant-breadcrumb .ant-breadcrumb-link {
+  color: #6366f1;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.header-main .dashboard-bread-crumb-main .ant-breadcrumb .ant-breadcrumb-link a {
+  color: #838a95;
+}
+.header-main .dashboard-bread-crumb-main .ant-breadcrumb .ant-breadcrumb-link a:hover {
+  background: transparent;
+}
+.header-main .header-title {
+  color: #212326;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .header-main .header-title {
+    font-size: 1.25rem;
+  }
+}/*# sourceMappingURL=header.css.map */

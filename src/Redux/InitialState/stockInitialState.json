@@ -1,0 +1,18 @@
+{
+  "newStockInfo": {},
+  "stockHistory": [],
+  "stockHistoryLimit": 100,
+  "stockHistoryPage": 1,
+  "isNextStockHistory": false,
+  "stockHistoryTotalItems": 1,
+  "stockInfo": {},
+  "supplierDetails": "",
+  "supplierProductList": [],
+  "total": 0,
+  "currentPage": 1,
+  "limit": 100,
+  "viewSupplierProductList": [],
+  "supplierProductSearchData": [],
+  "supplierRecord": "",
+  "suggestionList": []
+}

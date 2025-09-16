@@ -1,0 +1,670 @@
+.new-sales-wrap {
+  padding: 0.688rem 1.25rem 1.25rem;
+}
+@media screen and (min-width: 1440px) {
+  .new-sales-wrap {
+    padding: 1rem 1.875rem 1.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .new-sales-wrap {
+    padding: 0.625rem;
+  }
+}
+.new-sales-wrap .wholesale-input-main .input-area-main {
+  height: 80px;
+}
+.new-sales-wrap .wholesale-input-main .input-area-main .wholesale-search-input {
+  padding-left: 2.563rem;
+  position: relative;
+  align-items: center;
+}
+.new-sales-wrap .wholesale-input-main .input-area-main .wholesale-search-input .ant-input-prefix {
+  position: absolute;
+  left: 1.25rem;
+  top: 1.031rem;
+}
+.new-sales-wrap .wholesale-input-main .input-area-main .wholesale-search-input .ant-input {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.new-sales-wrap .sales-new-main .wholesale-input-main .input-area-main {
+  height: 75px;
+}
+.new-sales-wrap .sales-new-main .wholesale-input-main .input-area-main .wholesale-search-input {
+  padding-left: 2.563rem;
+  position: relative;
+  align-items: center;
+}
+.new-sales-wrap .sales-new-main .wholesale-input-main .input-area-main .wholesale-search-input .ant-input-prefix {
+  position: absolute;
+  left: 1.25rem;
+  top: 1rem;
+}
+.new-sales-wrap .sales-new-main .wholesale-input-main .input-area-main .wholesale-search-input .ant-input {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.new-sales-wrap .sales-new-main .sales-search-product {
+  position: relative;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list {
+  position: absolute;
+  top: 5rem;
+  z-index: 4;
+  width: 100%;
+  max-height: 206px;
+  background-color: #fff;
+  padding: 0.313rem;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.0784313725), 0 3px 6px -4px rgba(0, 0, 0, 0.1215686275), 0 9px 28px 8px rgba(0, 0, 0, 0.0509803922);
+  overflow: auto;
+  border-radius: 0.375rem;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list .page-not-found-main {
+  position: relative;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list .page-not-found-main .page-not-found-icon {
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list .page-not-found-main .not-found-text {
+  position: absolute;
+  top: 5.625rem;
+  width: 100%;
+  text-align: center;
+  color: #a3a3a3;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list .loader-icon {
+  height: 160px;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list ul {
+  padding: 0;
+  margin: 0;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list ul .suggestion-list-main {
+  list-style-type: none;
+  padding: 1rem 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+.new-sales-wrap .sales-new-main .sales-search-product .suggestion-list ul .suggestion-list-main:hover {
+  background-color: #6366f1;
+  color: #fff;
+}
+.new-sales-wrap .new-sales-btn-main {
+  display: flex;
+}
+.new-sales-wrap .new-sales-btn-main .save-btn {
+  width: 100px;
+  color: #fff;
+  margin-right: 1.25rem;
+}
+.new-sales-wrap .new-sales-btn-main .save-payment-btn {
+  width: 100px;
+  background: #03b288 !important;
+  border: none;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+}
+.new-sales-wrap .new-sales-btn-main .save-payment-btn::after {
+  content: "";
+  background: linear-gradient(132deg, #4f46e5 4.27%, #6366f1);
+}
+.new-sales-wrap .new-sales-btn-main .save-payment-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}
+@media screen and (max-width: 768px) {
+  .new-sales-wrap .new-sales-btn-main button {
+    height: 44px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .new-sales-wrap .new-sales-btn-main {
+    flex-wrap: wrap;
+    row-gap: 1.25rem;
+  }
+}
+.new-sales-wrap .new-sales-form .term-number-input-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.188rem;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  font-size: 0.875rem;
+  border: 0.063rem solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.75rem 0.938rem 0.75rem 1.25rem;
+  margin-left: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .new-sales-wrap .new-sales-form .term-number-input-main .term-number-input {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .new-sales-wrap .new-sales-form .term-number-input-main .term-number-input {
+    margin-bottom: 1.563rem;
+    margin-left: 0;
+  }
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input:focus {
+  box-shadow: none;
+  border-color: #6366f1;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input:focus-within {
+  box-shadow: none;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input:focus-visible {
+  box-shadow: none;
+  border-color: #6366f1;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input::-moz-placeholder {
+  color: #838a95;
+  font-family: "Inter", sans-serif !important;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input::placeholder {
+  color: #838a95;
+  font-family: "Inter", sans-serif !important;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input .ant-input-number-handler-wrap {
+  right: 0.25rem;
+  top: 0.188rem;
+  width: 22px;
+  height: auto;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input .ant-input-number-handler-wrap .ant-input-number-handler-up {
+  height: 23px;
+  background: #ececec;
+  border-radius: 0.25rem;
+  margin-bottom: 0.438rem;
+  border-inline-start: 0;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input .ant-input-number-handler-wrap .ant-input-number-handler-up .anticon svg {
+  fill: #000000;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input .ant-input-number-handler-wrap .ant-input-number-handler-down {
+  height: 23px;
+  background: #ececec;
+  border-radius: 0.25rem;
+  border-block-start: 0;
+  border-inline-start: 0;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input .ant-input-number-handler-wrap .ant-input-number-handler-down .anticon svg {
+  fill: #000000;
+}
+.new-sales-wrap .new-sales-form .term-number-input-main .term-number-input .ant-input-number-input-wrap .ant-input-number-input {
+  padding: 0;
+}
+.new-sales-wrap .new-sales-form .customer-textarea {
+  height: 60px;
+}
+@media screen and (max-width: 992px) {
+  .new-sales-wrap .new-sales-form .customer-textarea {
+    margin-bottom: 1.25rem;
+  }
+}
+.new-sales-wrap .new-sales-form .input-wrap .input-area-main .ant-select-disabled {
+  background-color: #ececec;
+  color: #717171;
+}
+.new-sales-wrap .new-sales-form .input-wrap .input-area-main .ant-select-disabled .ant-select-selector .ant-select-selection-item {
+  color: #717171;
+}
+.new-sales-wrap .sales-order-table-main {
+  justify-content: end;
+}
+.new-sales-wrap .sales-order-table-main .sales-bill-wrap {
+  display: flex;
+  align-items: center;
+}
+.new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main {
+  width: 100%;
+  background: #fff;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 1440px) {
+  .new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main {
+    gap: 0.938rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main {
+    margin-bottom: 1.25rem;
+  }
+}
+.new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main .order-tax-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main .order-tax-title {
+  color: #5b6670;
+  font-size: 0.938rem;
+  font-weight: 500;
+  margin: 0;
+}
+@media screen and (max-width: 1440px) {
+  .new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main .order-tax-title {
+    font-size: 0.813rem;
+  }
+}
+.new-sales-wrap .sales-order-table-main .sales-bill-wrap .sales-bill-main .grand-total-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-sales-wrap .sales-notes-textarea {
+  height: 150px !important;
+}
+.new-sales-wrap .ant-input-suffix .ant-image {
+  position: absolute;
+  right: 0.438rem;
+  top: 0.438rem;
+  width: 46px;
+  height: 46px;
+  background: #ececec;
+  color: #838a95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 0.25rem;
+}
+.new-sales-wrap .ant-input-suffix .ant-image .dollar-icon {
+  height: 14px;
+  width: 18px;
+}
+
+.sales-table-main {
+  max-height: 410px;
+  background: #f3f6f9;
+  overflow-y: auto;
+  margin-bottom: 1.25rem;
+}
+.sales-table-main .table-wrap .table {
+  padding: 0;
+}
+.sales-table-main .table-wrap .table h1 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 35px;
+  background: #fff;
+  display: flex;
+  align-items: end;
+  padding: 0 1.25rem;
+}
+@media screen and (max-width: 575px) {
+  .sales-table-main .table-wrap .table h1 {
+    height: 39px;
+    font-size: 0.875rem;
+    align-items: center;
+  }
+}
+.sales-table-main .sales-table {
+  margin: 0 1.25rem;
+  padding: 0;
+}
+.sales-table-main .sales-table .ant-spin-nested-loading {
+  max-height: 360px;
+  overflow: auto;
+}
+.sales-table-main .sales-table table colgroup col {
+  width: 16px !important;
+}
+.sales-table-main .sales-table table .ant-table-thead tr th {
+  position: sticky;
+  top: -0.063rem;
+  z-index: 3;
+  padding: 1rem 0.75rem;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .sales-table-main .sales-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.sales-table-main .sales-table table .ant-table-thead tr .ant-table-cell .ant-table-column-sorters .ant-table-column-title {
+  white-space: nowrap;
+}
+.sales-table-main .sales-table table .ant-table-thead tr .ant-table-cell:nth-child(1) {
+  padding-left: 0;
+}
+.sales-table-main .sales-table table .ant-table-thead tr .ant-table-cell:last-child {
+  width: 87px;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+  text-align: center;
+  border-start-end-radius: 0;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem 0.813rem;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.813rem;
+  }
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-success {
+  background: #edfffb;
+  color: #03b288;
+  font-weight: 600;
+  border: none;
+  padding: 0.406rem 0.625rem;
+  margin-right: 0;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell .input-wrap .input-label {
+  margin: 0;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell .input-wrap .input-area-main {
+  height: 33px;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell .input-wrap .input-area-main .ant-input {
+  height: 33px;
+  background: #f3f6f9;
+  width: 128px;
+  padding: 0.375rem;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(4) {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(7) {
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(7) .wrap {
+  width: 115px;
+  height: 33px;
+  background: #ececec;
+  border-radius: 0.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 0.25rem;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(7) .wrap .ant-image {
+  height: 24px;
+  width: 25px;
+  background: linear-gradient(132deg, #4f46e5 4.27%, #6366f1 100%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(7) .wrap .ant-image img {
+  fill: #fff;
+  height: 10px;
+  width: 10px;
+  font-weight: 600;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(7) .wrap span:nth-child(2) {
+  font-weight: 500;
+  color: #000000;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(9) {
+  width: 120px;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.563rem;
+  height: 30px;
+  margin: 0 auto;
+  width: 30px;
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image {
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+  .sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image {
+    padding: 0.188rem 0.313rem;
+  }
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image .delete-icon {
+  width: 22px;
+  height: 20px;
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width: 1440px) {
+  .sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image .delete-icon {
+    width: 20px;
+    height: 17px;
+  }
+}
+.sales-table-main .sales-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(1) {
+  padding-left: 0;
+}
+
+.advance-amount-modal .ant-modal-content {
+  padding: 0 !important;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-close {
+  top: 0.625rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-close:hover {
+  background: rgba(220, 53, 69, 0.2196078431);
+  border: 0.063rem solid #dc3545;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-close:hover .ant-modal-close-x .ant-modal-close-icon svg {
+  fill: #dc3545;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-header {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-size: 1.125rem;
+  padding: 0 0 0.313rem 0;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body {
+  padding: 0.5rem 1rem;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .input-wrap {
+  margin-bottom: 1.25rem;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .input-wrap .input-area-main {
+  height: 58px;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .input-wrap .input-area-main .price-input-padding-none,
+.advance-amount-modal .ant-modal-content .ant-modal-body .input-wrap .input-area-main .dropdown_input {
+  background: #f3f6f9;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .total-amount {
+  font-weight: 500;
+  background-color: rgba(236, 236, 236, 0.7607843137);
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 1rem;
+  color: #5b6670;
+  font-size: 0.938rem;
+  font-weight: 500;
+  margin: 0 0 1rem auto;
+}
+@media screen and (max-width: 1440px) {
+  .advance-amount-modal .ant-modal-content .ant-modal-body .total-amount {
+    font-size: 0.813rem;
+  }
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .cancel-btn {
+  width: 48%;
+  background: #dc3545 !important;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  padding: 0.844rem 0.938rem;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .cancel-btn .ant-image {
+  display: flex;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .cancel-btn::after {
+  content: "";
+  background: linear-gradient(132deg, #4f46e5 4.27%, #6366f1);
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .cancel-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px !important;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .complete-btn {
+  width: 48%;
+  height: 44px;
+  background: #03b288 !important;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+  padding: 0 1.25rem;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .complete-btn::after {
+  content: "";
+  background: #6366f1;
+}
+.advance-amount-modal .ant-modal-content .ant-modal-body .amount-button-main .complete-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}
+
+.sales-payment-modal .ant-modal-content {
+  padding: 0 !important;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-header {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-size: 1.125rem;
+  padding: 0 0 0.375rem 0;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-close {
+  top: 0.625rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-close:hover {
+  background: rgba(220, 53, 69, 0.2196078431);
+  border: 0.063rem solid #dc3545;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-close:hover .ant-modal-close-x .ant-modal-close-icon svg {
+  fill: #dc3545;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body {
+  max-height: 520px;
+  overflow-x: hidden;
+  padding: 0.563rem 0.938rem;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .table .ant-table-wrapper {
+  padding: 0;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .input-area-main .ant-select-disabled {
+  background-color: #ececec !important;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .input-area-main .dropdown_input {
+  background: #f3f6f9;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .payment-input-main .input-wrap .input-area-main .dropdown_input .ant-select-selector .ant-select-selection-item {
+  color: #717171;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table {
+  padding: 0;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table {
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table .ant-table-content {
+  overflow: auto;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table .ant-table-content table {
+  border: 0.063rem solid #deebff;
+  border-collapse: collapse;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table .ant-table-content table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+  border: 0.063rem solid #deebff;
+  background-color: #fafafa;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table .ant-table-content table .ant-table-tbody tr .ant-table-cell {
+  padding: 0.75rem;
+  border: 0.063rem solid #deebff;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .sales-table .ant-table-content table .ant-table-tbody .ant-table-row:last-child .ant-table-cell {
+  border-bottom: none;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .back-transfer-table {
+  margin: 1rem 0;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .back-transfer-table table {
+  border: 0.063rem solid #deebff;
+  border-collapse: collapse;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .back-transfer-table table .ant-table-thead tr .ant-table-cell {
+  border: 0.063rem solid #deebff;
+  background-color: #fafafa;
+  padding: 0.75rem;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .back-transfer-table table .ant-table-tbody tr .ant-table-cell {
+  padding: 0.75rem;
+  border: 0.063rem solid #deebff;
+}
+.sales-payment-modal .ant-modal-content .ant-modal-body .table-wrap .table .back-transfer-table table .ant-table-tbody tr .ant-table-cell:first-child {
+  padding-left: 0.75rem;
+}/*# sourceMappingURL=NewSales.css.map */

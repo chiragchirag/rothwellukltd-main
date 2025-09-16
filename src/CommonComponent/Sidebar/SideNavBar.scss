@@ -1,0 +1,318 @@
+@import "../../styles/variable.scss";
+
+.sidebar-menu-main {
+  position: $position-relative;
+  max-width: 2000px;
+  .ant-layout-sider {
+    width: $auto !important;
+    min-width: $auto !important;
+    margin-top: 3.75rem;
+    @media screen and (max-width: 576px) {
+      margin-top: 7.563rem;
+    }
+    .ant-layout-sider-children {
+      height: calc(100vh - 60px);
+      .ant-menu {
+        height: $hundred-p;
+        background: $ebony-clay;
+        overflow-y: $auto;
+        overflow-x: $overflow-hidden;
+        padding: 1.875rem;
+        @media screen and (max-width: 1440px) {
+          padding: 1.25rem;
+        }
+        @media screen and (max-width: 576px) {
+          height: calc(100vh - 122px);
+          padding: 1rem;
+        }
+        .ant-menu-item:nth-child(3) {
+          .sidebar-link {
+            .ant-image {
+              img {
+                height: 30px !important;
+                width: 30px !important;
+                @media screen and (max-width: 768px) {
+                  width: 25px !important;
+                  height: 25px !important;
+                }
+              }
+            }
+          }
+        }
+        &::-webkit-scrollbar {
+          height: 7px;
+          width: 7px;
+          background: $bg-transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: #ffffff80;
+          border-radius: 1rem;
+          box-shadow: 0 0.063rem 2px #000000bf;
+        }
+        &::-webkit-scrollbar-corner {
+          background: $black;
+        }
+        .ant-menu-item {
+          width: 128px;
+          height: 100px;
+          background: $japanese-indigo;
+          color: $white;
+          text-align: $center;
+          font-size: 2em;
+          display: $d-flex;
+          justify-content: $center;
+          align-items: $center;
+          border-radius: 0.25rem;
+          padding: $zero !important;
+          margin: $zero $zero 1.563rem $zero;
+          &:focus-visible {
+            outline: $none;
+          }
+          @media screen and (max-width: 1440px) {
+            width: 120px;
+          }
+          @media screen and (max-width: 576px) {
+            width: 55px;
+            height: 55px;
+          }
+          .ant-menu-title-content {
+            height: $hundred-p;
+            width: $hundred-p;
+            .sidebar-link {
+              position: $position-relative;
+              z-index: $z-index-one;
+              height: $hundred-p;
+              display: $d-flex;
+              flex-direction: $flex-column;
+              justify-content: $center;
+              align-items: $center;
+              gap: 0.313rem;
+              overflow: $overflow-hidden;
+              @media screen and (max-width: 576px) {
+                gap: $zero;
+              }
+              &::after {
+                content: "";
+                position: $position-absolute;
+                left: $zero;
+                right: $zero;
+                top: $hundred-p;
+                bottom: -100%;
+                z-index: -1;
+                background: $neon-blue;
+                display: $d-block;
+                transition: all 0.35s $transition-ease-in-out;
+                padding: 0.85em 0.75em;
+              }
+              .ant-image {
+                margin-bottom: 0.313rem;
+                @media screen and (max-width: 576px) {
+                  margin: $zero;
+                }
+                .sidebar-image {
+                  width: 34px;
+                  height: 40px;
+                  @media screen and (max-width: 768px) {
+                    width: 28px;
+                    height: 34px;
+                  }
+                }
+              }
+              .sidebar-title {
+                width: 110px;
+                color: $white;
+                font-size: 0.875rem;
+                font-weight: $font-weight-normal;
+                display: $d-flex;
+                flex-wrap: $flex-wrap;
+                justify-content: $center;
+                line-height: 1.5;
+                white-space: normal;
+                margin: $zero;
+                @media screen and (max-width: 1440px) {
+                  font-size: 0.813rem;
+                }
+                @media screen and (max-width: 768px) {
+                  font-size: 0.75rem;
+                }
+                @media screen and (max-width: 576px) {
+                  display: $none;
+                }
+              }
+            }
+          }
+          &:hover {
+            .ant-menu-title-content {
+              .sidebar-link {
+                &::after {
+                  left: $zero;
+                  right: $zero;
+                  top: $zero;
+                  bottom: $zero;
+                  transition: all 0.35s;
+                }
+              }
+            }
+          }
+        }
+        .ant-menu-item-selected {
+          background: $neon-blue;
+        }
+        .sidebar-active-menu {
+          position: $position-static !important;
+          background: $neon-blue;
+        }
+        .sidebar-inactive {
+          background: $japanese-indigo;
+        }
+        .ant-menu-item:nth-child(7) {
+          .sidebar-link {
+            .ant-image {
+              .sidebar-image {
+                height: 34px;
+                @media screen and (max-width: 768px) {
+                  width: 28px;
+                  height: 28px;
+                }
+              }
+            }
+          }
+        }
+        .ant-menu-item:nth-child(8) {
+          .sidebar-link {
+            .ant-image {
+              .sidebar-image {
+                @media screen and (max-width: 768px) {
+                  width: 28px;
+                  height: 26px;
+                }
+              }
+            }
+          }
+        }
+        .ant-menu-item:nth-child(10) {
+          .sidebar-link {
+            .ant-image {
+              .sidebar-image {
+                height: 30px;
+                width: 32px;
+                @media screen and (max-width: 768px) {
+                  width: 26px;
+                  height: 26px;
+                }
+              }
+            }
+          }
+        }
+        .ant-menu-item:nth-child(11) {
+          .sidebar-link {
+            .ant-image {
+              .sidebar-image {
+                height: 30px;
+                width: 32px;
+                @media screen and (max-width: 768px) {
+                  width: 28px;
+                  height: 28px;
+                }
+              }
+            }
+          }
+        }
+        .ant-menu-item:nth-child(13) {
+          .sidebar-link {
+            .ant-image {
+              .sidebar-image {
+                height: 30px;
+                width: 32px;
+                @media screen and (max-width: 768px) {
+                  width: 28px;
+                  height: 28px;
+                }
+              }
+            }
+          }
+        }
+        .ant-menu-item:last-child {
+          margin: $zero;
+        }
+      }
+      @media screen and (max-width: 576px) {
+        height: calc(100vh - 121px);
+      }
+    }
+  }
+  .sidebar-menu-hover {
+    position: $position-fixed;
+    top: 3.75rem;
+    left: 11.75rem;
+    z-index: 2;
+    width: 250px; 
+    height: calc(100vh - 60px);
+    background: $white;
+    overflow-y: $auto;
+    box-shadow: 0 4px 20px 0 #0000000f;
+    @media screen and (min-width: 2000px) {
+      position: $position-absolute;
+      left: 11.75rem;
+    }
+    @media screen and (max-width: 1440px) {
+      left: 10rem;
+      width: 200px;
+    }
+    @media screen and (max-width: 576px) {
+      left: 5.5rem;
+      top: 7.563rem;
+      width: 170px;
+      height: calc(100vh - 121px);
+    }
+    .sidebar-menu-hover-main {
+      height: 56px;
+      font-size: 0.875rem;
+      display: $d-flex;
+      align-items: $center;
+      white-space: $nowrap;
+      text-overflow: $text-overflow-ellipsis;
+      transition: all 0.3s $transition-ease-in-out;
+      overflow: $overflow-hidden;
+      cursor: $cursor-pointer;
+      @media screen and (max-width: 576px) {
+        padding: $zero;
+      }
+      .pages-links {
+        width: $hundred-p;
+        height: 56px;
+        color: $midnight;
+        display: $d-flex;
+        align-items: $center;
+        gap: 0.5rem;
+        padding: $zero 1.875rem;
+        @media screen and (max-width: 1440px) {
+          padding: $zero 1.25rem;
+        }
+        @media screen and (max-width: 576px) {
+          padding: $zero 1rem;
+        }
+        .ant-image {
+          width: 21px;
+        }
+        .menu-item {
+          width: 160px;
+          font-size: 0.875rem;
+          overflow: $overflow-hidden;
+          text-overflow: $text-overflow-ellipsis;
+          white-space: $nowrap;
+          @media screen and (max-width: 992px) {
+            width: 130px;
+            font-size: 0.75rem;
+          }
+          @media screen and (max-width: 576px) {
+            width: 90px;
+          }
+        }
+      }
+      &:hover {
+        background: $Ghost-white;
+      }
+    }
+  }
+}

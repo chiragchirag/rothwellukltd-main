@@ -1,0 +1,308 @@
+.ant-layout-content {
+  position: relative;
+  z-index: 1;
+  top: 60px;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  background-color: #f1f5f9;
+  overflow: auto;
+}
+.ant-layout {
+  background-color: #f1f5f9;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.btn-fixed{
+  position: fixed;
+  bottom: 40px;
+  right: 7px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: end;
+  z-index: 3;
+}
+.customer-main .ant-layout-content{
+   height: 100vh;
+   top: 0;
+}
+.customer-main .ant-layout-content .header-body-main{
+  height: calc(100vh - 34.48px);
+}
+*:disabled {
+  width: 100%;
+  /* height: 45px; */
+  background-color: #ececec !important;
+  color: #717171;
+  padding: 0.75rem 0.938rem 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: not-allowed;
+}
+.ant-input-outlined[disabled] {
+  color: #717171;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0.625rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #92929280;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+span,
+div,
+td,
+th,
+tr,
+label,
+p {
+  font-family: "Inter", sans-serif;
+  /* text-transform: capitalize; */
+}
+::-webkit-input-placeholder {
+  font-family: "Inter", sans-serif;
+}
+.ant-input {
+  font-family: "Inter", sans-serif;
+}
+input {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+td {
+  white-space: nowrap;
+}
+.ant-tag {
+  font-size: 0.938rem !important;
+}
+.ant-table::-webkit-scrollbar {
+  margin-top: 0.625rem;
+  width: 7px;
+  height: 5px;
+}
+.ant-select-selection-item,.ant-select-item-option-content {
+  text-transform: lowercase; /* Converts text to lowercase */
+}
+.ant-select-selection-item::first-letter,.ant-select-item-option-content::first-letter{
+  text-transform: uppercase !important; /* Capitalizes the first letter */
+}
+.suggestion-list-main{
+  text-transform: lowercase; 
+}
+.suggestion-list-main::first-letter{
+  text-transform: uppercase !important; /* Capitalizes the first letter */
+}
+.anticon-search {
+  cursor: pointer;
+}
+/* Track */
+.ant-table::-webkit-scrollbar-track {
+  border-radius: 0.625rem;
+}
+
+/* Handle */
+.ant-table::-webkit-scrollbar-thumb {
+  background: #92929280;
+  border-radius: 0.625rem;
+}
+
+/* responsive height */
+.header-body-main {
+  overflow-x: hidden;
+  min-height: calc(100vh - 94.49px);
+}
+.ant-layout .ant-layout .ant-layout-content {
+  height: 0;
+}
+:where(.css-1xg9z9n).ant-upload-wrapper
+  .ant-upload-drag:not(.ant-upload-disabled):hover,
+:where(.css-1xg9z9n).ant-upload-wrapper
+  .ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: #d9d9d9 !important;
+}
+
+/* table no data */
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-empty-normal {
+  margin-block: 1.375rem !important;
+}
+
+/* check box border */
+.ant-checkbox-inner {
+  border-width: 0.125rem !important;
+}
+.ant-checkbox-inner:focus-within {
+  border-color: #575fe9 !important;
+}
+.ant-table-column-title {
+  white-space: nowrap;
+}
+.ant-table-cell {
+  white-space: nowrap;
+}
+.input-label {
+  text-transform: capitalize;
+}
+.apexcharts-text {
+  font-family: "Inter", sans-serif !important;
+}
+.input-label {
+  text-transform: capitalize;
+}
+.ant-table-column-title {
+  max-width: fit-content !important;
+}
+.ant-table-column-sorters {
+  justify-content: start !important;
+  gap: 0.5rem;
+}
+.ant-picker-dropdown {
+  z-index: 9999;
+}
+
+/* upload image */
+.ant-upload {
+  outline: none !important;
+}
+.ant-picker-dropdown .ant-picker-cell-disabled::before {
+  background: transparent;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+/* remove border botton in table */
+.ant-table-placeholder .ant-table-cell {
+  max-height: calc(100vh - 372px);
+  border-bottom: none !important;
+}
+
+/* ant table hover */
+.ant-table-column-has-sorters:hover {
+  background: #fff !important;
+}
+.ant-table-cell-row-hover {
+  background-color: #fff !important;
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-checkbox
+  .ant-checkbox-input:focus-visible
+  + .ant-checkbox-inner {
+  outline: none !important;
+}
+.error-msg {
+  line-height: 1;
+}
+
+/* modal background blur */
+.ant-modal-wrap {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
+  background: #00000091;
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > td:not(:last-child):not(.ant-table-selection-column):not(
+    .ant-table-row-expand-icon-cell
+  ):not([colspan])::before {
+  background-color: transparent;
+}
+
+/* drop down background color */
+:where(.css-1xg9z9n).ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: transparent;
+}
+
+/* disable drop down */
+.ant-picker-disabled {
+  background-color: #ececec !important;
+  border-color: transparent !important;
+}
+.ant-picker-disabled .ant-picker-input input {
+  color: #717171 !important;
+}
+.ant-picker-disabled .ant-picker-input input::placeholder {
+  color: #717171 !important;
+}
+.ant-picker-disabled .ant-picker-input .ant-picker-suffix .anticon svg {
+  fill: #717171 !important;
+}
+.ant-table-wrapper {
+  padding: 0 1rem;
+}
+/* close icon */
+.ant-modal-close:focus-visible {
+  outline: none !important;
+}
+
+/* keyboard */
+.react-draggable {
+  width: 570px;
+}
+.react-draggable .react-simple-keyboard{
+  padding: 0.625rem;
+}
+ .ant-collapse-content-box{
+  padding: 1rem 0 0 0 !important;
+ }
+
+ /* scroll none */
+ .scroll-none::-webkit-scrollbar {
+  width: 0;
+  height: 7px;
+  cursor: pointer;
+}
+/* media */
+@media only screen and (max-width: 576px) {
+  .ant-layout-content {
+    height: calc(100vh - 122px);
+    top: 7.625rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ant-select-selection-item {
+    font-size: 0.75rem;
+  }
+  .ant-input {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .ant-table-placeholder .ant-table-cell {
+    max-height: 260px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .ant-table-placeholder .ant-table-cell {
+    max-height: calc(100vh - 387px);
+  }
+}
+@media screen and (min-width: 1640px) {
+  .ant-select-selection-item {
+    font-size: 1rem;
+  }
+  .ant-input {
+    font-size: 1rem;
+  }
+}

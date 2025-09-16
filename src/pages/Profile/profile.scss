@@ -1,0 +1,148 @@
+@import "../../styles/variable.scss";
+
+.profile-details {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .multiple-images-main {
+    .multiple-image-title {
+      color: $ebony-clay;
+      font-size: 0.875rem;
+      font-weight: $font-weight-normal;
+      line-height: 1.281rem;
+      opacity: 1;
+      margin-top: $zero;
+      @media screen and (min-width:1640px) {
+        font-size: 1rem;
+      }
+    }
+    .upload-images-box-main {
+      padding: 1.25rem;
+      @media screen and (max-width: 425px) {
+        padding: 0.75rem;
+      }
+      .upload-image-main {
+        .uploaded-image-wrap {
+          margin-top: 1rem;
+        }
+      }
+      .ant-upload-drag {
+        background: $bg-transparent;
+        .ant-upload-btn {
+          padding: $zero;
+        }
+      }
+      .ant-upload-hint {
+        margin-bottom: $zero;
+      }
+      .upload-image-main {
+        display: $d-flex;
+        justify-content: $center;
+        align-items: $center;
+        .ant-image {
+          .upload-image {
+            max-width: 250px;
+            max-height: 250px;
+            width: $hundred-p;
+            height: $hundred-p;
+            object-fit: $object-fit-contain !important;
+            border-radius: 0.5rem;
+            margin-bottom: $zero;
+          }
+        }
+      }
+      .uploaded-image-wrap {
+        position: $position-relative;
+        .close-button-main {
+          position: $position-absolute;
+          right: -0.375rem;
+          top: -0.375rem;
+          z-index: $z-index-one;
+          display: $d-flex;
+          justify-content: $flex-end;
+          .anticon-close {
+            width: 20px;
+            height: 20px;
+            background: $neon-blue;
+            border: 0.125rem $border-style-solid $white;
+            border-radius: 3.125rem;
+            transition: 0.2s all $transition-ease-in-out;
+            padding: 0.188rem;
+            svg {
+              width: $hundred-p;
+              height: 10px;
+              fill: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+  .create-product-input-main {
+    .product-input {
+      .input-wrap {
+        .create-input-main {
+          .input-area-main {
+            .create-input {
+              text-transform: $text-transform-capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+  .submit-products-btn {
+    width: 100px;
+    height: 44px;
+    margin-left: $zero;
+    .anticon {
+      svg {
+        fill: $white !important;
+      }
+    }
+  }
+  .profile-input-main {
+    position: $position-relative;
+    .profile-input {
+      text-transform: $text-transform-capitalize;
+      input {
+        margin-right: 1.25rem;
+        &::placeholder {
+          color: $tealish-gray;
+        }
+      }
+      &::placeholder {
+        color: $tealish-gray;
+      }
+    }
+    .error-count-msg {
+      .error-msg {
+        margin-top: 0.125rem;
+      }
+    }
+    .user-name-main {
+      text-transform: lowercase;
+    }
+  }
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper
+  .ant-upload-drag:not(.ant-upload-disabled):hover,
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper
+  .ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: $light-grey !important;
+}
+.ant-upload-wrapper {
+  .ant-upload-drag {
+    .ant-upload-drag-icon {
+      .anticon {
+        color: $aluminium !important;
+      }
+    }
+  }
+}

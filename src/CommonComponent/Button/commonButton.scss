@@ -1,0 +1,75 @@
+@import "../../styles/variable.scss";
+
+.common-button {
+  position: $position-relative;
+  z-index: $z-index-one;
+  width: $hundred-p;
+  height: 40px !important;
+  background: linear-gradient(
+    132deg,
+    $neon-blue 4.27%,
+    $medium-slate-blue
+  ) !important;
+  color: $white !important;
+  font-weight: $font-weight-medium;
+  border: $none;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  overflow: $overflow-hidden;
+  cursor: $cursor-pointer;
+  box-shadow:
+  #4c4de361 0px 6px 12px -2px,
+  #4c4de342 0px 3px 7px -3px;
+  padding: $zero;
+  @media screen and (max-width: 1250px) {
+    font-size: 0.813rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.75rem;
+  }
+  &:disabled {
+    padding: $zero;
+    @media screen and (max-width:768px) {
+      font-size: 0.875rem;
+    }
+  }
+  @media screen and (min-width:1640px) {
+    font-size: 0.938rem;
+  }
+  &:focus-visible {
+    outline: $none !important;
+  }
+  &::after {
+    content: "";
+    position: $position-absolute;
+    left: $zero;
+    right: $zero;
+    top: -100%;
+    bottom: $hundred-p;
+    z-index: -1;
+    background: $jasper;
+    display: $d-block;
+    transition: all 0.35s;
+    padding: $zero;
+  }
+  &:hover {
+    color: $white !important;
+    box-shadow:
+      #dc354575 0px 6px 12px -2px,
+      #dc35454f 0px 3px 7px -3px;
+    &::after {
+      left: $zero;
+      right: $zero;
+      top: $zero;
+      bottom: $zero;
+      transition: all 0.35s;
+    }
+  }
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-btn-default:not(
+    :disabled
+  ):not(.ant-btn-disabled):hover {
+  color: $white !important;
+  border-color: $border-transparent !important;
+}

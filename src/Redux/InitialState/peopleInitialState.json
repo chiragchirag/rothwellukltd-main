@@ -1,0 +1,22 @@
+{
+  "customerData": [],
+  "userDetail": [],
+  "defaultUser": "",
+  "currentPage": 1,
+  "limit": 100,
+  "total": 0,
+  "editUserDetails": {},
+  "supplierData": [],
+  "suggestionListForCustomer": [],
+  "suggestionListForUser": [],
+  "suggestionListForSupplier": [],
+  "defaultRoleId": "",
+  "allUserRoleList": [],
+  "viewUserPermissionList": [],
+  "userRecord": {},
+  "saleTransactionData": [],
+  "saleReturnTransactionData": [],
+  "purchaseTransactionData": [],
+  "purchaseReturnTransactionData": [],
+  "tillListData": []
+}

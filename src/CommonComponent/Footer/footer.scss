@@ -1,0 +1,39 @@
+@import "../../styles/variable.scss";
+
+.footer-main {
+  background: $dark-jungle-green;
+  display: $d-flex;
+  justify-content: $justify-content-between;
+  padding: 0.438rem 1.25rem;
+  height: 34.48px;
+  @media screen and (min-width: 1440px) {
+    padding: 0.438rem 1.875rem;
+  }
+  @media screen and (max-width: 768px) {
+    height: $auto;
+  }
+  @media screen and (max-width: 575px) {
+    flex-wrap: $flex-wrap;
+  }
+  .copy-right-details {
+    color: $pastel-grey;
+    font-size: 0.875rem;
+    font-weight: $font-weight-normal;
+    line-height: 1.281rem;
+    margin: $zero;
+    @media screen and (max-width:1440px) {
+      font-size: 0.75rem;
+    }
+    .copy-right-logo {
+      color: $white;
+    }
+    .hi-bootstrap-text {
+      color: $white;
+      cursor: $cursor-pointer;
+      transition: all 0.3s $transition-ease-in-out;
+      &:hover {
+        color: $medium-slate-blue;
+      }
+    }
+  }
+}

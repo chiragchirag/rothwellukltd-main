@@ -1,0 +1,364 @@
+.system-setting-main {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+}
+@media screen and (min-width: 1440px) {
+  .system-setting-main {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .system-setting-main {
+    padding: 0.625rem;
+  }
+}
+.system-setting-main .system-setting-wrap {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+@media screen and (max-width: 576px) {
+  .system-setting-main .system-setting-wrap {
+    padding: 0.75rem;
+  }
+}
+.system-setting-main .system-setting-wrap .system-setting-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 0.625rem;
+  margin-bottom: 0.625rem;
+}
+@media screen and (max-width: 768px) {
+  .system-setting-main .system-setting-wrap .system-setting-title {
+    font-size: 1rem;
+    padding: 0 0 0.313rem;
+    margin-bottom: 0.313rem;
+  }
+}
+.system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .multiple-image-title {
+  font-size: 0.875rem;
+  color: #1d293a;
+  opacity: 1;
+  font-weight: 400;
+  line-height: 1.281rem;
+  margin-top: 0;
+}
+.system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .upload-images-box-main {
+  background: #f3f6f9;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+}
+@media screen and (max-width: 425px) {
+  .system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .upload-images-box-main {
+    padding: 0.75rem;
+  }
+}
+.system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .upload-images-box-main .ant-upload-drag {
+  padding: 2.5rem 0.625rem;
+  background: #fff;
+}
+.system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .upload-images-box-main .ant-upload-drag .ant-upload-btn {
+  padding: 0;
+}
+.system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .upload-images-box-main .ant-upload-hint {
+  margin-bottom: 0;
+}
+.system-setting-main .system-setting-wrap .company-logo-main .multiple-images-main .upload-images-box-main .upload-image {
+  margin-bottom: 1rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-address-textarea {
+  background: #f3f6f9;
+  height: 150px;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main {
+  margin-bottom: 1.25rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .system-setting-input {
+  background: #f3f6f9;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .upload-images-box-main {
+  background: #f3f6f9 !important;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .system-setting-dropdown {
+  background: #f3f6f9;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .system-setting-textarea {
+  height: 234px;
+  background: #f3f6f9;
+  margin-bottom: 0.625rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .upload-image-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .upload-image-main .ant-image .upload-image {
+  max-width: 290px;
+  height: 100%;
+  max-height: 290px;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .uploaded-image-wrap {
+  position: relative;
+  margin-top: 1rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .uploaded-image-wrap .close-button-main {
+  position: absolute;
+  right: -0.375rem;
+  top: -0.375rem;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .uploaded-image-wrap .close-button-main .anticon-close {
+  width: 20px;
+  height: 20px;
+  background: #4f46e5;
+  border: 0.125rem solid #fff;
+  padding: 0.188rem;
+  border-radius: 3.125rem;
+  transition: 0.2s all ease-in-out;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .uploaded-image-wrap .close-button-main .anticon-close svg {
+  width: 100%;
+  height: 10px;
+  fill: #fff;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input {
+  background: #f3f6f9;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector .ant-select-selection-item {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-inline-end: 0.75rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-wrapper .ant-input {
+  background-color: transparent;
+  border: none;
+  margin-top: 0.188rem;
+  padding-left: 0;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-wrapper .ant-input:focus {
+  box-shadow: none;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-group .ant-input-group-addon {
+  border: none;
+  background-color: transparent;
+  padding-left: 0;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-group .ant-input-group-addon .ant-select {
+  margin-top: -0.125rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-group .ant-input-group-addon .ant-select .ant-select-selector {
+  padding-left: 0 !important;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .system-setting-input .ant-input-group .ant-input-group-addon .ant-select-open {
+  border: none;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .error-count-msg .error-msg {
+  margin-top: 0.125rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .input-area-main .error-msg {
+  margin-top: 0.125rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .text-input-area-main .system-setting-textarea {
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .text-input-area-main .system-setting-textarea {
+    font-size: 0.75rem;
+  }
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .text-input-area-main .error-msg {
+  margin-top: 0.125rem;
+}
+.system-setting-main .system-setting-wrap .system-setting-form-main .input-wrap .upload-images-box-main .error-msg {
+  margin-top: 0.125rem;
+}
+.system-setting-main .system-setting-btn {
+  width: 180px;
+  background: #03b288 !important;
+  border: none;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .system-setting-main .system-setting-btn {
+    width: 120px;
+  }
+}
+.system-setting-main .system-setting-btn::after {
+  content: "";
+  background: #6366f1;
+}
+.system-setting-main .system-setting-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}
+.system-setting-main .system-setting-btn .anticon svg {
+  fill: #fff !important;
+}
+.system-setting-main .pos-receipt-system {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+}
+@media screen and (max-width: 576px) {
+  .system-setting-main .pos-receipt-system {
+    padding: 0.75rem;
+  }
+}
+.system-setting-main .pos-receipt-system .pos-receipt-setting-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 0.625rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .system-setting-main .pos-receipt-system .pos-receipt-setting-title {
+    font-size: 1rem;
+    padding: 0 0 0.313rem;
+    margin-bottom: 0.313rem;
+  }
+}
+.system-setting-main .pos-receipt-system .pos-setting-option-main {
+  margin-bottom: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  .system-setting-main .pos-receipt-system .pos-setting-option-main {
+    row-gap: 1rem !important;
+  }
+}
+.system-setting-main .pos-receipt-system .pos-setting-option-main .pos-setting-checkbox span:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.281rem;
+  color: #1e293b;
+}
+@media screen and (max-width: 768px) {
+  .system-setting-main .pos-receipt-system .pos-setting-option-main .pos-setting-checkbox span:nth-child(2) {
+    font-size: 0.813rem;
+  }
+}
+.system-setting-main .pos-receipt-system .pos-setting-form .pos-setting-note-input-main .error-count-msg .error-msg {
+  margin-top: 0.125rem;
+}
+.system-setting-main .pos-receipt-system .pos-setting-form .pos-setting-note-input {
+  background: #f3f6f9;
+}
+.system-setting-main .payment-gateway-main {
+  background: #fff;
+  padding: 1.563rem 1.25rem 1.875rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .payment-gateway-main .payment-gateway-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 1.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .payment-gateway-main .payment-details-main .payment-gateway-input {
+  background: #f3f6f9;
+}
+.system-setting-main .payment-gateway-main .payment-gateway-setting-checkbox {
+  margin-bottom: 1.875rem;
+}
+.system-setting-main .payment-gateway-main .payment-gateway-setting-checkbox .ant-checkbox {
+  height: 24px;
+}
+.system-setting-main .payment-gateway-main .payment-gateway-setting-checkbox span:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.281rem;
+  color: #1e293b;
+}
+.system-setting-main .sms-configuration-main {
+  background: #fff;
+  padding: 1.563rem 1.25rem 1.875rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .sms-configuration-main .sms-configuration-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 1.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .sms-configuration-main .sms-configuration-form .sms-configuration-input {
+  background: #f3f6f9;
+}
+.system-setting-main .sms-configuration-main .sms-configuration-form .sms-configuration-form-main {
+  margin-bottom: 0.5rem;
+}
+.system-setting-main .smtp-configuration-main {
+  background: #fff;
+  padding: 1.563rem 1.25rem 1.875rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .smtp-configuration-main .smtp-configuration-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 1.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .smtp-configuration-main .smtp-configuration-form .smtp-configuration-input {
+  background: #f3f6f9;
+}
+.system-setting-main .smtp-configuration-main .smtp-configuration-form .smtp-configuration-form-main {
+  margin-bottom: 0.5rem;
+}
+.system-setting-main .clear-cache-main {
+  background: #fff;
+  padding: 1.563rem 1.25rem 1.875rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.188rem;
+}
+.system-setting-main .clear-cache-main .clear-cache-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.2;
+  border-bottom: 0.063rem solid #deebff;
+  padding: 0 0 1.25rem;
+  margin-bottom: 2.188rem;
+}
+
+:where(.css-1xg9z9n).ant-upload-wrapper .ant-upload-drag:not(.ant-upload-disabled):hover,
+:where(.css-1xg9z9n).ant-upload-wrapper .ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: #d9d9d9 !important;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper .ant-upload-drag:not(.ant-upload-disabled):hover,
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-upload-wrapper .ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: #d9d9d9 !important;
+}
+
+.ant-upload-wrapper .ant-upload-drag .ant-upload-drag-icon .anticon {
+  color: #acacac !important;
+}/*# sourceMappingURL=systemSetting.css.map */

@@ -1,0 +1,202 @@
+@import "../../styles/variable.scss";
+
+.table-wrap {
+  .table {
+    background: $white;
+    padding: 1.25rem;
+    border-radius: 0.25rem;
+    @media screen and (max-width: 768px) {
+      padding: 1rem;
+    }
+    h1 {
+      color: $midnight;
+      font-size: 1.125rem;
+      font-weight: $font-weight-bold;
+      margin: $zero;
+      @media screen and (min-width: 1640px) {
+        font-size: 1.313rem;
+      }
+    }
+    .table-main {
+      .ant-table-sticky-holder {
+        position: $position-static !important;
+      }
+    }
+  }
+}
+.ant-table-wrapper {
+  .ant-table-thead {
+    tr {
+      th {
+        background: $white;
+        font-weight: $font-weight-medium;
+        font-size: 0.813rem;
+        @media screen and (min-width: 1640px) {
+          font-size: 1rem;
+        }
+        @media screen and (max-width: 1040px) {
+          font-size: 0.75rem;
+        }
+        &::before {
+          width: $zero !important;
+        }
+      }
+      .ant-table-column-has-sorters:focus-visible {
+        color: $black;
+      }
+    }
+  }
+  .ant-table-tbody {
+    .ant-table-row {
+      td {
+        color: $venus;
+        font-weight: $font-weight-normal;
+      }
+      .ant-table-cell {
+        font-size: 0.875rem;
+        @media screen and (min-width: 1640px) {
+          font-size: 0.938rem;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 0.75rem;
+        }
+      }
+      .ant-table-cell-row-hover {
+        background: $white;
+      }
+    }
+    .partially-paid-row-class {
+      background-color: #fffbe6;
+      .ant-table-cell:last-child {
+        background-color: #fffbe6;
+      }
+      .ant-table-cell-row-hover {
+        background-color: #fffbe6 !important;
+      }
+    }
+  }
+}
+.pagination {
+  display: $d-flex;
+  justify-content: $flex-end;
+  margin-top: 0.75rem;
+  li {
+    margin-inline-end: 0.188rem;
+  }
+  .ant-pagination-prev {
+    .ant-pagination-item-link {
+      color: $blue-lotus;
+      background: $bg-transparent !important;
+      .anticon-left {
+        svg {
+          filter: brightness(1) invert(1) !important;
+          fill: $blue-lotus;
+        }
+      }
+    }
+    &:hover {
+      background: $white !important;
+    }
+  }
+  .ant-pagination-item {
+    font-weight: $font-weight-semibold;
+    &:hover {
+      background: $white !important;
+      a {
+        color: $blue-lotus !important;
+      }
+    }
+  }
+  .ant-pagination-next {
+    .ant-pagination-item-link {
+      color: $blue-lotus;
+      background: $bg-transparent !important;
+      .anticon-left {
+        svg {
+          filter: brightness(1) invert(1) !important;
+        }
+      }
+      &:hover {
+        background: $white !important;
+      }
+    }
+  }
+  .ant-pagination-disabled {
+    .ant-pagination-item-link {
+      color: $blue-lotus;
+    }
+  }
+  .ant-pagination-item-active {
+    font-weight: $font-weight-semibold;
+    background: $blue-lotus;
+    border-color: $border-transparent;
+    a {
+      color: $white !important;
+    }
+    &:hover {
+      border-color: $border-transparent;
+    }
+  }
+  .ant-pagination-item {
+    &:focus-visible {
+      outline: $none !important;
+    }
+  }
+  .ant-pagination-options {
+    margin-inline-start: $zero;
+    cursor: $cursor-pointer;
+    .ant-select {
+      cursor: $cursor-pointer;
+      .ant-select-selector {
+        background: $bg-transparent;
+        border: 0.063rem $border-style-solid $border-transparent;
+        box-shadow: $none;
+        cursor: $cursor-pointer;
+      }
+      .ant-select-arrow {
+        cursor: $cursor-pointer;
+      }
+      &:hover {
+        .ant-select-selector {
+          border: 0.063rem $border-style-solid $border-transparent !important;
+          cursor: $cursor-pointer;
+        }
+        .ant-select-arrow:not(:last-child) {
+          opacity: 1;
+          cursor: $cursor-pointer;
+        }
+      }
+    }
+    .ant-select-open {
+      .ant-select-selector {
+        cursor: $cursor-pointer;
+        box-shadow: $none !important;
+        border-color: $border-transparent !important;
+      }
+      &:focus-within {
+        outline: $none;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    margin-bottom: 0.625rem;
+  }
+}
+.my-expanded-row-class {
+  background: $amour;
+  color: $red;
+  .ant-table-cell:last-child {
+    background-color: $amour;
+  }
+  .ant-table-cell:nth-child(8) {
+    .ant-tag-gold {
+      background: $amour;
+      color: $red;
+      border-color: $red;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+  .ant-table-cell-row-hover {
+    background-color: $amour !important;
+  }
+}

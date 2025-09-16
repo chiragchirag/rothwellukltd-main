@@ -1,0 +1,129 @@
+@import "../../../styles/variable.scss";
+
+.create-disc-product-main {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .discount-search-input-main{
+    position: $position-relative;
+    .suggestion-list{
+      top: 5rem;
+    }
+  }
+  .discount-product-list-main {
+    margin-bottom: 1.25rem;
+    .ant-spin-nested-loading {
+      overflow: $auto;
+      height: 312px;
+      @media screen and (min-width: 1440px) {
+        height: calc(100vh - 453px);
+      }
+    }
+    .table-wrap {
+      .table {
+        padding-top: $zero;
+        .discount-product-list {
+          padding: $zero;
+          table {
+            .ant-table-thead {
+              tr {
+                .ant-table-cell {
+                  position: $position-sticky;
+                  top: $zero;
+                  z-index: $z-index-one;
+                  padding: 0.563rem;
+                }
+                .ant-table-cell:first-child {
+                  padding-left: $zero;
+                  width: 170px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                  border-start-start-radius: $zero;
+                }
+                .ant-table-cell:nth-child(2) {
+                  width: 170px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                }
+                .ant-table-cell:last-child{
+                  text-align: $center;
+                  width: 150px;
+                  right: $zero;
+                  box-shadow: $table-box-shadow;
+                  border-start-end-radius: $zero;
+                }
+              }
+            }
+            .ant-table-tbody {
+              .ant-table-row {
+                .ant-table-cell {
+                  padding: 0.563rem;
+                }
+                .ant-table-cell:first-child {
+                  padding-left: $zero;
+                  max-width: 170px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                }
+                .ant-table-cell:nth-child(2) {
+                  max-width: 230px;
+                  overflow: $overflow-hidden;
+                  text-overflow: $text-overflow-ellipsis;
+                  white-space: $nowrap;
+                }
+                .ant-table-cell:nth-child(4) {
+                  display: $d-flex;
+                  gap: 1.25rem;
+                  .input-wrap {
+                    .input-area-main {
+                      height: 38px;
+                      .common-input {
+                        width: 200px;
+                        height: 38px;
+                        background: $alice-blue;
+                      }
+                      .ant-select {
+                        width: 200px;
+                        height: 38px;
+                        background: $alice-blue;
+                        padding: 0.563rem 0;
+                        .search-input{
+                          padding-left: 0.625rem;
+                          padding-top: 0.313rem;
+                        }
+                      }
+                    }
+                  }
+                }
+                .ant-table-cell:last-child{
+                  position: $position-sticky;
+                  right: $zero;
+                  background: $white;
+                  text-align: $center;
+                  width: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .loader-animation-main {
+    .loader-animation {
+      height: 298px;
+    }
+  }
+  .save-btn {
+    width: 100px;
+  }
+}

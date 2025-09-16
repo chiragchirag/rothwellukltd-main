@@ -1,0 +1,48 @@
+@import "../../styles/variable.scss";
+
+.header-main {
+  display: $d-flex;
+  justify-content: $justify-content-between;
+  align-items: $center;
+  border-bottom: 0.063rem $border-style-solid $lavender-mist;
+  margin: 1.25rem 1.25rem $zero 1.25rem;
+  padding-bottom: 0.563rem;
+  @media screen and (min-width: 1440px) {
+    margin: 1.875rem 1.875rem $zero 1.875rem;
+    padding-bottom: 0.625rem;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 1.25rem 1.25rem $zero;
+  }
+  @media screen and (max-width: 576px) {
+    margin: 0.875rem 0.625rem $zero;
+  }
+  .dashboard-bread-crumb-main {
+    @media screen and (max-width: 768px) {
+      display: $none;
+    }
+    .ant-breadcrumb {
+      cursor: $cursor-pointer;
+      .ant-breadcrumb-link {
+        color: $medium-slate-blue;
+        font-size: 0.875rem;
+        font-weight: $font-weight-medium;
+        a {
+          color: $tealish-gray;
+          &:hover {
+            background: $bg-transparent;
+          }
+        }
+      }
+    }
+  }
+  .header-title {
+    color: $baltic-sea;
+    font-size: 1.5rem;
+    font-weight: $font-weight-bold;
+    margin: $zero;
+    @media screen and (max-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+}

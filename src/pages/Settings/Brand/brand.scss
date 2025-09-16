@@ -1,0 +1,316 @@
+@import "../../../styles/variable.scss";
+
+.brand-main {
+  background: $alice-blue;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .table-wrap {
+    .table-header-main {
+      .print-button-main {
+        .generate-backup-button {
+          width: 130px;
+          height: 50px;
+          @media screen and (max-width: 768px) {
+            width: 110px;
+            height: 40px;
+          }
+        }
+      }
+    }
+    .table {
+      background: $bg-transparent;
+      padding: $zero;
+    }
+  }
+  .brand-table {
+    height: calc(100vh - 294px);
+    background: $white;
+    overflow-x: $auto;
+    @media screen and (min-width: 1500px) {
+      height: calc(100vh - 322px);
+    }
+    @media screen and (max-width: 1200px) {
+      height: 320px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 344px;
+    }
+    .ant-spin-nested-loading {
+      height: calc(100vh - 294px);
+      background: $white;
+      overflow: $auto;
+      @media screen and (min-width: 1500px) {
+        height: calc(100vh - 322px);
+      }
+      @media screen and (max-width: 1200px) {
+        height: 320px;
+      }
+      @media screen and (max-width: 768px) {
+        height: 344px;
+      }
+      .ant-spin-container {
+        height: $hundred-p;
+        .ant-table-empty {
+          height: $hundred-p;
+          .ant-table-container {
+            height: $hundred-p;
+            .ant-table-content {
+              height: $hundred-p;
+              table {
+                height: $hundred-p;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ant-table-content {
+      background: $white;
+    }
+    table {
+      .ant-table-wrapper {
+        overflow-x: $auto;
+        overflow-y: $overflow-hidden;
+      }
+      colgroup {
+        col {
+          width: 16px !important;
+        }
+      }
+      .ant-table-thead {
+        tr {
+          th {
+            position: $position-sticky !important;
+            top: $zero;
+            height: 45px;
+            z-index: $z-index-one;
+          }
+          .ant-table-cell {
+            padding: 0.563rem;
+            .ant-checkbox-wrapper {
+              .ant-checkbox {
+                .ant-checkbox-inner {
+                  border: 0.063rem $border-style-solid $blue-lotus;
+                }
+              }
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: $blue-lotus;
+                }
+              }
+            }
+          }
+          .ant-table-column-sort{
+            background: $white;
+          }
+          .ant-table-cell:first-child {
+            padding-left: $zero;
+            border-start-start-radius: $zero;
+          }
+          .ant-table-cell:nth-child(3) {
+            max-width: 400px;
+            width: 400px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:last-child {
+            position: $position-sticky !important;
+            right: -0.063rem !important;
+            z-index: 3;
+            width: 130px;
+            text-align: $center;
+            border-start-end-radius: $zero;
+            box-shadow: $table-box-shadow;
+          }
+        }
+      }
+      .ant-table-tbody {
+        .ant-table-row {
+          .ant-table-cell {
+            padding: 0.563rem;
+            p {
+              margin: $zero;
+            }
+            .ant-checkbox-wrapper {
+              .ant-checkbox {
+                .ant-checkbox-inner {
+                  border: 0.063rem $border-style-solid $blue-lotus;
+                }
+              }
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: $blue-lotus;
+                }
+              }
+            }
+          }
+          .ant-table-column-sort{
+            background: $white;
+          }
+          .ant-table-cell:first-child {
+            padding-left: $zero;
+          }
+          .ant-table-cell:nth-child(3) {
+            max-width: 400px;
+            width: 400px;
+            overflow: $overflow-hidden;
+            text-overflow: $text-overflow-ellipsis;
+            white-space: $nowrap;
+          }
+          .ant-table-cell:last-child {
+            position: $position-sticky !important;
+            z-index: $z-index-one;
+            right: -0.063rem !important;
+            .system-action-icon-none {
+              span {
+                cursor: $cursor-not-allowed ;
+                svg {
+                  fill: $oslo-grey !important;
+                }
+              }
+              svg:last-child {
+                cursor: $cursor-not-allowed ;
+                path {
+                  stroke: $oslo-grey;
+                }
+              }
+            }
+            div {
+              display: $d-flex;
+              justify-content: $center;
+              align-items: $center;
+              span {
+                svg {
+                  height: 19px;
+                  width: $hundred-p;
+                  object-fit: $none;
+                  @media screen and (max-width: 768px) {
+                    height: 18px;
+                    width: 15px;
+                  }
+                }
+              }
+              span:nth-child(1) {
+                cursor: $cursor-pointer;
+                svg {
+                  fill: $blue-lotus;
+                }
+              }
+              svg:last-child {
+                margin-left: 0.563rem;
+                @media screen and (max-width: 768px) {
+                  height: 18px;
+                  width: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.brand-modal-main {
+  padding-bottom: $zero;
+  .ant-modal-content {
+    padding: $zero !important;
+    .ant-modal-close {
+      top: 0.625rem;
+      right: 1rem;
+      width: 20px;
+      height: 20px;
+      border-radius: $fifty-p;
+      border: 0.063rem $border-style-solid $jasper;
+      background: $jasper;
+      transition: all 0.3s $transition-ease-in-out;
+      box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+      .ant-modal-close-x {
+        .ant-modal-close-icon {
+          svg {
+            width: $hundred-p;
+            height: 12px;
+            fill: $white;
+            transition: all 0.3s $transition-ease-in-out;
+          }
+        }
+      }
+      &:hover {
+        background: #dc354538;
+        border: 0.063rem $border-style-solid $jasper;
+        .ant-modal-close-x {
+          .ant-modal-close-icon {
+            svg {
+              fill: $jasper;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-header {
+      padding: 0.5rem 1rem $zero;
+      margin: $zero;
+      .ant-modal-title {
+        font-size: 1.125rem;
+        padding: $zero $zero 0.313rem $zero;
+      }
+    }
+    .ant-modal-body {
+      padding: 0.438rem 1rem $zero;
+    }
+    .ant-modal-footer {
+      padding: $zero 1rem 0.625rem;
+      .save-button {
+        width: $hundred-p;
+        background: $persian-green !important;
+        padding: $zero 1.25rem;
+        box-shadow:
+          #03b2885e 0px 6px 12px -2px,
+          #03b28845 0px 3px 7px -3px;
+        &::after {
+          content: "";
+          background: $medium-slate-blue;
+        }
+        &:hover {
+          box-shadow:
+            #4c4de361 0px 6px 12px -2px,
+            #4c4de342 0px 3px 7px -3px;
+        }
+        .anticon{
+          svg{
+            fill: $white !important;
+          }
+        }
+      }
+    }
+  }
+  .brand-modal-input-main {
+    .brand-input-wrap {
+      height: 70px;
+      .brand-input {
+        height: 50px;
+        background: $alice-blue;
+      }
+      .error-count-msg{
+        .error-msg{
+          margin-top: 0.125rem;
+        }
+      }
+      .error-msg{
+        margin-top: 0.125rem;
+      }
+      .upload-images-box-main {
+        margin-bottom: 1.875rem;
+      }
+    }
+
+  
+  }
+}

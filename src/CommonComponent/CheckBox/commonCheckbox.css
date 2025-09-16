@@ -1,0 +1,19 @@
+.checkbox-main .input-checkbox .ant-checkbox .ant-checkbox-inner {
+  width: 24px;
+  height: 24px;
+  background: transparent !important;
+  border: 0.125rem solid #6366f1;
+  border-radius: 0.188rem;
+}
+@media screen and (max-width: 768px) {
+  .checkbox-main .input-checkbox .ant-checkbox .ant-checkbox-inner {
+    width: 20px;
+    height: 20px;
+  }
+}
+.checkbox-main .ant-checkbox-wrapper .ant-checkbox-checked {
+  background: #6366f1;
+}
+.checkbox-main .ant-checkbox-wrapper:hover .ant-checkbox .ant-checkbox-inner {
+  background: transparent;
+}/*# sourceMappingURL=commonCheckbox.css.map */

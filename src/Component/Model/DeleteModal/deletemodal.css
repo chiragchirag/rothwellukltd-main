@@ -1,0 +1,109 @@
+.delete-modal {
+  padding-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .delete-modal {
+    width: 300px !important;
+  }
+}
+.delete-modal .ant-modal-content {
+  padding: 1.25rem 1.5rem !important;
+}
+.delete-modal .ant-modal-content .ant-modal-close {
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.delete-modal .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.delete-modal .ant-modal-content .ant-modal-close:hover {
+  background: rgba(220, 53, 69, 0.2196078431);
+  border: 0.063rem solid #dc3545;
+}
+.delete-modal .ant-modal-content .ant-modal-close:hover .ant-modal-close-x .ant-modal-close-icon svg {
+  fill: #dc3545;
+}
+.delete-modal .ant-modal-content .ant-modal-header {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+}
+.delete-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-size: 1.125rem;
+  padding: 0 0 0.313rem 0;
+}
+.delete-modal .ant-modal-content .ant-modal-body .delete-details {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .delete-modal .ant-modal-content .ant-modal-body .delete-details {
+    font-size: 0.75rem;
+  }
+}
+.delete-modal .ant-modal-content .ant-modal-body .delete-animation-image-main {
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+.delete-modal .ant-modal-content .ant-modal-body .delete-animation-image-main svg {
+  height: 70px !important;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+@media screen and (max-width: 768px) {
+  .delete-modal .ant-modal-content .ant-modal-body .delete-animation-image-main svg {
+    height: 50px;
+  }
+}
+.delete-modal .ant-modal-content .ant-modal-body .delete-animation-image-main p {
+  margin: 0;
+}
+.delete-modal .delete-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.delete-modal .delete-main .cancel-btn {
+  width: 165px;
+  background: transparent !important;
+  color: #dc3545 !important;
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  border: 0.063rem solid #dc3545;
+}
+.delete-modal .delete-main .cancel-btn::after {
+  content: "";
+  background: #dc3545;
+  border: 0.063rem solid #dc3545;
+}
+.delete-modal .delete-main .cancel-btn:hover {
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+  border: 0.063rem solid #dc3545;
+  border-color: #dc3545 !important;
+  color: #fff !important;
+}
+.delete-modal .delete-main .confirm-btn {
+  width: 165px;
+  color: #fff;
+}
+.delete-modal .delete-main .confirm-btn::after {
+  content: "";
+  background: #03b288;
+}
+.delete-modal .delete-main .confirm-btn:hover {
+  box-shadow: rgba(3, 178, 136, 0.4901960784) 0px 6px 12px -2px, rgba(3, 178, 136, 0.3490196078) 0px 3px 7px -3px;
+}
+.delete-modal .delete-main .confirm-btn .anticon svg {
+  fill: #fff !important;
+}/*# sourceMappingURL=deletemodal.css.map */

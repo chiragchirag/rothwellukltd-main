@@ -1,0 +1,28 @@
+.navbar-profile-main .user-profile-images .ant-image {
+  width: 40px;
+  height: 40px;
+}
+.navbar-profile-main .user-profile-images .ant-image .dashboard-screenshot-image {
+  width: 40px;
+  height: 100%;
+  border-radius: 0.313rem;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+.navbar-profile-main .dashboard-screenshot-image {
+  width: 40px;
+  height: 100%;
+  border-radius: 0.313rem;
+}
+.navbar-profile-main .profile-name-character {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1d293a;
+  border-radius: 0.313rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}/*# sourceMappingURL=userprofileimage.css.map */

@@ -1,0 +1,106 @@
+@import "../../../../styles/variable.scss";
+
+.new-group-permission-input-main {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  @media screen and (min-width: 1440px) {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0.625rem;
+  }
+  .group-loader{
+    height: 500px;
+  }
+  .new-group-permission-main {
+    background: $white;
+    padding: 1.25rem;
+    @media screen and (max-width: 576px) {
+      padding: 0.625rem;
+    }
+    .new-group-input-main {
+      .new-group-input {
+        background: $alice-blue;
+      }
+      .input-wrap {
+        .input-area-main {
+          .error-count-msg {
+            .error-msg {
+              margin-top: 0.125rem;
+            }
+          }
+        }
+      }
+    }
+    .new-group-dropdown-main {
+      margin-bottom: 1rem;
+      .new-group-dropdown {
+        .ant-checkbox {
+          align-self: self-start;
+        }
+        span {
+          &:nth-child(2) {
+            font-size: 0.813rem;
+            font-weight: $font-weight-normal;
+            line-height: 1.281rem;
+            color: $midnight;
+          }
+        }
+      }
+      .dropdown-title {
+        background: $japanese-indigo;
+        padding: 1rem;
+        font-size: 0.875rem;
+        font-weight: $font-weight-medium;
+        color: $white;
+        line-height: 1;
+        margin-top: $zero;
+        @media screen and (max-width:768px) {
+          padding: 0.75rem 1rem;
+          font-size: 0.75rem;
+        }
+      }
+      .new-group-check-box{
+        @media screen and (max-width:768px) {
+          row-gap: 1rem !important;
+        }
+      }
+    }
+    .group-permission-btn {
+      width: 220px;
+      background: $persian-green !important;
+      box-shadow:
+        0 6px 12px -2px #03b2885e,
+        0 3px 7px -3px #03b28845;
+      @media screen and (max-width: 768px) {
+        width: 180px;
+        font-size: 0.813rem;
+      }
+      &::after {
+        content: "";
+        left: $zero;
+        right: $zero;
+        top: -100%;
+        bottom: $hundred-p;
+        z-index: -1;
+        background: $medium-slate-blue;
+        padding: 0.85em 0.75em;
+        display: $d-block;
+        transition: all 0.35s;
+      }
+      &:hover {
+        box-shadow:
+          0 6px 12px -2px #4c4de361,
+          0 3px 7px -3px #4c4de342;
+        &::after {
+          left: $zero;
+          right: $zero;
+          top: $zero;
+          bottom: $zero;
+          transition: all 0.35s;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,271 @@
+.backup-list-main {
+  background: #f3f6f9;
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 1440px) {
+  .backup-list-main {
+    padding: 1.875rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .backup-list-main {
+    padding: 0.625rem;
+    padding-bottom: 0;
+  }
+}
+.backup-list-main .table-wrap .table-header-main .print-button-main .new-button {
+  width: 199px;
+}
+.backup-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button {
+  width: 190px;
+}
+.backup-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button::after {
+  content: "";
+  background: #dc3545;
+}
+.backup-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button:hover {
+  box-shadow: rgba(220, 53, 69, 0.4588235294) 0px 6px 12px -2px, rgba(220, 53, 69, 0.3098039216) 0px 3px 7px -3px;
+}
+@media screen and (max-width: 768px) {
+  .backup-list-main .table-wrap .table-header-main .print-button-main .generate-backup-button {
+    width: 150px;
+    font-size: 0.813rem;
+  }
+}
+.backup-list-main .table-wrap .table-header-main .filter-button-main {
+  background: #fff;
+  padding: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .backup-list-main .table-wrap .table-header-main .filter-button-main {
+    padding: 0.25rem;
+  }
+}
+.backup-list-main .table-wrap .table-header-main .filter-button-main .backup-file-main {
+  background: transparent;
+  padding: 0;
+  align-items: center;
+}
+.backup-list-main .table-wrap .table {
+  background: transparent;
+  padding: 0;
+}
+.backup-list-main .backup-list-table {
+  background: #fff;
+  overflow-x: auto;
+  height: calc(100vh - 328px);
+}
+@media screen and (min-width: 1500px) {
+  .backup-list-main .backup-list-table {
+    height: calc(100vh - 348px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .backup-list-main .backup-list-table {
+    height: 320px;
+  }
+}
+.backup-list-main .backup-list-table .ant-spin-nested-loading {
+  background: #fff;
+  height: calc(100vh - 328px);
+  overflow: auto;
+}
+@media screen and (min-width: 1500px) {
+  .backup-list-main .backup-list-table .ant-spin-nested-loading {
+    height: calc(100vh - 348px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .backup-list-main .backup-list-table .ant-spin-nested-loading {
+    height: 320px;
+  }
+}
+.backup-list-main .backup-list-table .ant-table-content {
+  background: #fff;
+}
+.backup-list-main .backup-list-table table .ant-table-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.backup-list-main .backup-list-table table colgroup col {
+  width: 16px !important;
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-size: 0.938rem;
+}
+@media screen and (max-width: 768px) {
+  .backup-list-main .backup-list-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr .ant-table-column-sort {
+  background: #fff;
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr .ant-table-cell:first-child {
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.backup-list-main .backup-list-table table .ant-table-thead tr .ant-table-cell:last-child {
+  width: 130px;
+  text-align: center;
+  position: sticky !important;
+  z-index: 3;
+  border-start-end-radius: 0;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.75rem;
+  }
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell p {
+  margin: 0;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-column-sort {
+  background: #fff;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:first-child {
+  padding-left: 0;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  position: sticky !important;
+  z-index: 1;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+  height: 19px;
+  width: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+@media screen and (max-width: 768px) {
+  .backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span svg {
+    height: 18px;
+    width: 15px;
+  }
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) {
+  cursor: pointer;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div span:nth-child(1) svg {
+  fill: #575fe9;
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image {
+  cursor: pointer;
+  margin-left: 0.563rem;
+}
+@media screen and (max-width: 768px) {
+  .backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child div .ant-image {
+    width: 16px;
+  }
+}
+.backup-list-main .backup-list-table table .ant-table-tbody .ant-table-row .ant-table-cell-fix-right {
+  position: static !important;
+}
+
+.backup-modal-main {
+  padding-bottom: 0;
+}
+.backup-modal-main .ant-modal-content {
+  padding: 0 !important;
+}
+.backup-modal-main .ant-modal-content .ant-modal-close {
+  top: 0.625rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.backup-modal-main .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.backup-modal-main .ant-modal-content .ant-modal-close:hover {
+  background: rgba(220, 53, 69, 0.2196078431);
+  border: 0.063rem solid #dc3545;
+}
+.backup-modal-main .ant-modal-content .ant-modal-close:hover .ant-modal-close-x .ant-modal-close-icon svg {
+  fill: #dc3545;
+}
+.backup-modal-main .ant-modal-content .ant-modal-header {
+  padding: 0.5rem 1rem 0;
+  margin: 0;
+}
+.backup-modal-main .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-size: 1.125rem;
+  padding: 0 0 0.313rem 0;
+}
+.backup-modal-main .ant-modal-content .ant-modal-body {
+  padding: 0.625rem 1rem;
+}
+.backup-modal-main .ant-modal-content .ant-modal-footer {
+  display: none;
+}
+.backup-modal-main .backup-modal-details {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #8d929a;
+  font-weight: 400;
+  line-height: 1.281rem;
+}
+.backup-modal-main .backup-modal-details .back-up-text {
+  color: #3bbe86;
+}
+.backup-modal-main .backup-modal-details .back-up-link {
+  color: #1e293b;
+  font-weight: 600;
+}
+.backup-modal-main .backup-submit-btn {
+  width: 100%;
+  color: #fff;
+  height: 44px;
+  background: #03b288 !important;
+  padding: 0 1.25rem;
+  margin-top: 1.5rem;
+  box-shadow: rgba(3, 178, 136, 0.368627451) 0px 6px 12px -2px, rgba(3, 178, 136, 0.2705882353) 0px 3px 7px -3px;
+}
+.backup-modal-main .backup-submit-btn::after {
+  content: "";
+  background: #6366f1;
+}
+.backup-modal-main .backup-submit-btn:hover {
+  box-shadow: rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px, rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+}/*# sourceMappingURL=backuplist.css.map */

@@ -1,0 +1,98 @@
+.new-group-permission-input-main {
+  padding: 1.25rem;
+  padding-top: 0.875rem;
+}
+@media screen and (min-width: 1440px) {
+  .new-group-permission-input-main {
+    padding: 1.875rem;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .new-group-permission-input-main {
+    padding: 0.625rem;
+  }
+}
+.new-group-permission-input-main .group-loader {
+  height: 500px;
+}
+.new-group-permission-input-main .new-group-permission-main {
+  background: #fff;
+  padding: 1.25rem;
+}
+@media screen and (max-width: 576px) {
+  .new-group-permission-input-main .new-group-permission-main {
+    padding: 0.625rem;
+  }
+}
+.new-group-permission-input-main .new-group-permission-main .new-group-input-main .new-group-input {
+  background: #f3f6f9;
+}
+.new-group-permission-input-main .new-group-permission-main .new-group-input-main .input-wrap .input-area-main .error-count-msg .error-msg {
+  margin-top: 0.125rem;
+}
+.new-group-permission-input-main .new-group-permission-main .new-group-dropdown-main {
+  margin-bottom: 1rem;
+}
+.new-group-permission-input-main .new-group-permission-main .new-group-dropdown-main .new-group-dropdown .ant-checkbox {
+  align-self: self-start;
+}
+.new-group-permission-input-main .new-group-permission-main .new-group-dropdown-main .new-group-dropdown span:nth-child(2) {
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 1.281rem;
+  color: #1e293b;
+}
+.new-group-permission-input-main .new-group-permission-main .new-group-dropdown-main .dropdown-title {
+  background: #2c3a52;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .new-group-permission-input-main .new-group-permission-main .new-group-dropdown-main .dropdown-title {
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .new-group-permission-input-main .new-group-permission-main .new-group-dropdown-main .new-group-check-box {
+    row-gap: 1rem !important;
+  }
+}
+.new-group-permission-input-main .new-group-permission-main .group-permission-btn {
+  width: 220px;
+  background: #03b288 !important;
+  box-shadow: 0 6px 12px -2px rgba(3, 178, 136, 0.368627451), 0 3px 7px -3px rgba(3, 178, 136, 0.2705882353);
+}
+@media screen and (max-width: 768px) {
+  .new-group-permission-input-main .new-group-permission-main .group-permission-btn {
+    width: 180px;
+    font-size: 0.813rem;
+  }
+}
+.new-group-permission-input-main .new-group-permission-main .group-permission-btn::after {
+  content: "";
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  z-index: -1;
+  background: #6366f1;
+  padding: 0.85em 0.75em;
+  display: block;
+  transition: all 0.35s;
+}
+.new-group-permission-input-main .new-group-permission-main .group-permission-btn:hover {
+  box-shadow: 0 6px 12px -2px rgba(76, 77, 227, 0.3803921569), 0 3px 7px -3px rgba(76, 77, 227, 0.2588235294);
+}
+.new-group-permission-input-main .new-group-permission-main .group-permission-btn:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}/*# sourceMappingURL=newGroupPermission.css.map */

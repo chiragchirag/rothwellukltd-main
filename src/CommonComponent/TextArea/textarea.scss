@@ -1,0 +1,30 @@
+@import "../../styles/variable.scss";
+
+.text-input-area-main {
+  height: $hundred-p;
+  .textarea-common-input {
+    width: $hundred-p;
+    background: $white;
+    border: 0.063rem $border-style-solid $border-transparent;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.938rem 0.75rem 1.25rem;
+    font-size: 0.875rem;
+    @media screen and (max-width: 1250px) {
+      font-size: 0.813rem;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 0.75rem;
+    }
+    &:focus {
+      border-color: $medium-slate-blue;
+      box-shadow: $none;
+    }
+    &:focus-within {
+      box-shadow: $none;
+    }
+    &::placeholder {
+      color: $boulder;
+      font-family: $font-family !important;
+    }
+  }
+}

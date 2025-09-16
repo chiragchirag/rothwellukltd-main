@@ -1,0 +1,19 @@
+{
+  "totalRetailSale": 0,
+  "totalWholeSale": 0,
+  "totalRetailSaleReturn": 0,
+  "totalWholeSaleReturn": 0,
+  "totalPurchaseReturn": 0,
+  "topFiveCustomer": [],
+  "totalPurchase": 0,
+  "topFiveRetailProducts": [],
+  "topFiveWholeSaleProducts": [],
+  "recentRetailSale": [],
+  "recentWholesale": [],
+  "totalSale": [],
+  "totalStockAlert": [],
+  "topLeastSellingWholeSaleProduct": [],
+  "topLeastSellingRetailProduct": [],
+  "totalExpenses": 0,
+  "userPosTotal": []
+}

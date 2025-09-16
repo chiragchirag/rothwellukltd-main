@@ -1,0 +1,161 @@
+@import "./../../styles/variable.scss";
+
+.log-in-page-wrap {
+  max-width: 2000px;
+  margin: $zero $auto;
+  overflow-y: $auto;
+  overflow-x: $overflow-hidden;
+  .login-main {
+    height: $vh-100;
+    @media screen and (min-width: 2000px) {
+      height: 80vh;
+    }
+    @media screen and (max-width: 992px) {
+      justify-content: $center;
+    }
+    .login-image {
+      width: $fifty-p;
+      background-image: url(../../assest/images/login.webp);
+      background-repeat: no-repeat;
+      background-size: $cover;
+      background-position: bottom;
+      @media screen and (max-width: 992px) {
+        display: $none;
+      }
+    }
+    .login-content {
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      .log-in-box {
+        width: 80%;
+        border: 0.063rem $border-style-solid $alice-blue;
+        padding: 1.563rem;
+        .Password-input-main {
+          position: $position-relative;
+          .eye-icons {
+            position: $position-absolute;
+            top: 3.188rem;
+            right: 1.25rem;
+            width: 36px;
+            height: 20px;
+            display: $d-flex;
+            justify-content: $center;
+            align-items: $center;
+            cursor: $cursor-pointer;
+          }
+        }
+        form {
+          position: $position-relative;
+        }
+        .invalid-mail-error {
+          position: $position-absolute;
+          bottom: 3.688rem;
+          color: $jasper;
+          font-size: 0.875rem;
+          font-weight: $font-weight-normal;
+          margin: $zero;
+          margin-bottom: 0.313rem;
+        }
+        .invalid-error {
+          bottom: 2.813rem;
+        }
+        .login-title {
+          display: $d-block;
+          text-align: $center;
+          border-bottom: 0.063rem $border-style-solid $water;
+          margin-bottom: 1.25rem;
+          margin: $zero;
+          padding-bottom: 1.563rem;
+        }
+        .till-title {
+          display: $d-block;
+          text-align: $center;
+          border-bottom: 0.063rem $border-style-solid $water;
+          margin: $zero;
+          margin-bottom: 1.25rem;
+          padding-bottom: 1rem;
+        }
+        .log-in-information {
+          font-size: 1rem;
+          color: $tealish-gray;
+          @media screen and (max-width: 768px) {
+            font-size: 0.875rem;
+          }
+        }
+        .log-in-form-input {
+          background-color: $alice-blue !important;
+          padding: 0.75rem;
+        }
+        .password-input {
+          padding: 0.75rem 2rem 0.75rem 0.813rem;
+          input {
+            &::placeholder {
+              color: $tealish-gray;
+            }
+          }
+        }
+        .error-count-msg {
+          .error-msg {
+            margin-top: 0.125rem;
+          }
+        }
+        .forgot-password-main {
+          text-align: $end;
+          .forgot-password-link {
+            color: $ebony-clay;
+            font-size: 0.875rem;
+          }
+        }
+        .log-in-btn-main {
+          width: $hundred-p;
+          margin: 0.625rem $zero;
+          .log-in-btn {
+            width: $hundred-p;
+            height: 45px !important;
+            .anticon {
+              svg {
+                fill: $white !important;
+              }
+            }
+          }
+        }
+        .forgot-pass-main {
+          display: $d-flex;
+          flex-direction: $flex-column;
+        }
+        .log-in-details-main {
+          display: $d-flex;
+          flex-direction: $flex-column;
+        }
+      }
+      .copy-right-text {
+        color: $tealish-gray;
+        font-weight: $font-weight-light;
+        text-align: $center;
+      }
+    }
+  }
+  .keyboard-icon-main {
+    position: $position-fixed;
+    top: 20%;
+    right: 2%;
+    background: $neon-blue;
+    padding: 0.563rem;
+    border-top-left-radius: 3.125rem;
+    border-top-right-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
+    border-bottom-right-radius: 0.625rem;
+    box-shadow:
+      rgba(76, 77, 227, 0.3803921569) 0px 6px 12px -2px,
+      rgba(76, 77, 227, 0.2588235294) 0px 3px 7px -3px;
+  }
+  .react-draggable {
+    bottom: $zero;
+    left: $zero;
+    width: 570px;
+    @media screen and (max-width: 575px) {
+      width: 320px;
+    }
+  }
+}

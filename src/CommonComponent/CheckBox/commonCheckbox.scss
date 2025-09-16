@@ -1,0 +1,31 @@
+@import "../../styles/variable.scss";
+
+.checkbox-main {
+  .input-checkbox {
+    .ant-checkbox {
+      .ant-checkbox-inner {
+        width: 20px;
+        height: 20px;
+        background: $bg-transparent !important;
+        border: 0.125rem $border-style-solid $medium-slate-blue;
+        border-radius: 0.188rem;
+        @media screen and (min-width:1640px) {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  .ant-checkbox-wrapper {
+    .ant-checkbox-checked {
+      background: $medium-slate-blue;
+    }
+    &:hover {
+      .ant-checkbox {
+        .ant-checkbox-inner {
+          background: $bg-transparent;
+        }
+      }
+    }
+  }
+}

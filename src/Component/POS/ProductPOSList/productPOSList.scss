@@ -1,0 +1,207 @@
+@import "../../../styles/variable.scss";
+
+.pos-list {
+  height: 70px;
+  background: $white;
+  display: $d-flex;
+  justify-content: $justify-content-between;
+  align-items: $center;
+  flex-wrap: $nowrap;
+  padding: 0.625rem;
+  box-shadow: 0 4px 60px 0 #e7e7e778;
+  @media screen and (max-width: 375px) {
+    padding: 0.25rem;
+  }
+  .pos-details-main {
+    width: $auto;
+    max-width: 60%;
+    height: $fit-content;
+    display: $d-flex;
+    align-items: $center;
+    gap: 0.938rem;
+    @media screen and (max-width: 992px) {
+      width: $fifty-p;
+      gap: 1.125rem;
+    }
+    @media screen and (max-width: 425px) {
+      width: 60%;
+      gap: 0.438rem;
+    }
+    .pos-product-image-bg {
+      height: 70px;
+      width: 70px;
+      background: $alice-blue;
+      border-radius: 0.5rem;
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      padding: 0.313rem;
+      .ant-image-img {
+        width: $hundred-p;
+        height: 60px;
+        border-radius: 0.25rem;
+        @media screen and (max-width: 1500px) {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+    .pos-content {
+      display: $d-flex;
+      flex-direction: $flex-column;
+      row-gap: 0.25rem;
+      align-items: $align-items-baseline;
+      .pos-code-main {
+        background: $neon-blue;
+        color: $white;
+        font-size: 0.75rem;
+        font-weight: $font-weight-normal;
+        display: $d-flex;
+        justify-content: $center;
+        align-items: $center;
+        border-radius: 0.188rem;
+        margin: $zero;
+        padding: 0.313rem 0.625rem;
+        @media screen and (max-width: 1440px) {
+          padding: 0.313rem 0.375rem;
+        }
+        .pos-code {
+          max-width: 115px;
+          color: $white;
+          font-size: 0.75rem;
+          font-weight: $font-weight-normal;
+          white-space: $nowrap;
+          overflow: $overflow-hidden;
+          text-overflow: $text-overflow-ellipsis;
+          margin: $zero;
+          @media screen and (max-width: 1440px) {
+            font-size: 0.688rem;
+          }
+          @media screen and (max-width: 375px) {
+            font-size: 0.625rem;
+          }
+        }
+      }
+      .product-name {
+        height: 19px;
+        width: 140px;
+        font-size: 0.875rem;
+        font-weight: $font-weight-semibold;
+        overflow: $overflow-hidden;
+        text-overflow: $text-overflow-ellipsis;
+        white-space: $nowrap;
+        margin: $zero;
+        @media screen and (max-width: 1600px) {
+          width: 100px;
+        }
+        @media screen and (max-width: 1440px) {
+          font-size: 0.813rem;
+        }
+        @media screen and (max-width: 375px) {
+          font-size: 0.688rem;
+        }
+      }
+    }
+  }
+  .product-price {
+    color: $shuttle-grey;
+    font-size: 0.875rem;
+    font-weight: $font-weight-normal;
+    margin: $zero;
+    @media screen and (max-width: 1440px) {
+      font-size: 0.813rem;
+    }
+    @media screen and (max-width: 375px) {
+      font-size: 0.688rem;
+    }
+  }
+  .product-total {
+    font-size: 0.813rem;
+    color: $shuttle-grey;
+  }
+  .pos-image {
+    width: 40%;
+    display: $d-flex;
+    justify-content: $flex-end;
+    align-items: $center;
+    gap: 2.5rem;
+    @media screen and (max-width: 1440px) {
+      gap: 1.25rem;
+    }
+    @media screen and (max-width: 992px) {
+      width: $fifty-p;
+      gap: 2.5rem;
+    }
+    @media screen and (max-width: 425px) {
+      width: 40%;
+      gap: 0.5rem;
+    }
+    .ant-image {
+      width: $fit-content;
+    }
+    .delete-icon-main {
+      .ant-image {
+        border: 0.063rem $border-style-solid $alice-blue;
+        border-radius: 0.5rem;
+        cursor: $cursor-pointer;
+        transition: all 0.4s $transition-ease-in-out;
+        box-shadow:
+        #e6e6e68f 0px 6px 12px -2px,
+        #e6e6e65e 0px 3px 7px -3px;
+        padding: 0.188rem 0.125rem;
+        &:hover {
+          background: $jasper;
+          border-color: $jasper;
+          box-shadow:
+            #dc354575 0px 6px 12px -2px,
+            #dc35454f 0px 3px 7px -3px;
+          .delete-icon {
+            filter: brightness(0) invert(1);
+          }
+        }
+        .delete-icon {
+          width: 22px;
+          height: 20px;
+          transition: all 0.4s $transition-ease-in-out;
+          @media screen and (max-width: 1440px) {
+            width: 22px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+  .product-item-add {
+    width: $hundred-p;
+    height: $fit-content;
+    background: #fafbfe;
+    display: $d-flex;
+    justify-content: $justify-content-between;
+    align-items: $center;
+    border-radius: 0.5rem;
+    border: 0.063rem $border-style-solid #e9edf6;
+    margin: $zero 1.875rem;
+    padding: 0.5rem 0.625rem;
+    @media screen and (max-width: 375px) {
+      padding: 0.375rem;
+    }
+    .plus-icon {
+      cursor: $cursor-pointer;
+      @media screen and (max-width: 1600px) {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    .minus-icon {
+      cursor: $cursor-pointer;
+      @media screen and (max-width: 1600px) {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    span {
+      color: $shuttle-grey;
+      font-size: 0.75rem;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.pos-list-details-main .reference-number-input {
+  height: 45px !important;
+  background: #ececec;
+  color: #717171;
+}
+@media screen and (max-width: 1550px) {
+  .pos-list-details-main .reference-number-input {
+    height: 45px !important;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pos-list-details-main .reference-number-input {
+    height: 32px !important;
+    font-size: 0.625rem;
+  }
+}
+.pos-list-details-main .reference-number-dropdown {
+  height: 45px !important;
+}
+@media screen and (max-width: 1440px) {
+  .pos-list-details-main .reference-number-dropdown {
+    height: 45px !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pos-list-details-main .reference-number-dropdown {
+    height: 32px !important;
+  }
+}
+.pos-list-details-main .reference-number-dropdown .ant-select-selector .ant-select-selection-search {
+  padding-left: 0.625rem;
+}
+@media screen and (max-width: 1440px) {
+  .pos-list-details-main .reference-number-dropdown .ant-select-selection-item {
+    font-size: 0.75rem !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pos-list-details-main .reference-number-dropdown .ant-select-selection-item {
+    font-size: 0.625rem !important;
+  }
+}
+.pos-list-details-main .reference-number-input-main {
+  height: 65px !important;
+}
+@media screen and (max-width: 1250px) {
+  .pos-list-details-main .reference-number-input-main {
+    font-size: 0.625rem;
+    height: 47px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .pos-list-details-main .reference-number-input-main {
+    margin: 0.625rem 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pos-list-details-main .reference-number-input-main input {
+    font-size: 0.625rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pos-list-details-main .reference-number-input-main .error-count-msg .error-msg {
+    font-size: 0.625rem;
+  }
+}
+.pos-list-details-main .reference-number-labels {
+  line-height: normal !important;
+  margin-bottom: 0.313rem;
+}
+@media screen and (max-width: 1440px) {
+  .pos-list-details-main .reference-number-labels {
+    font-size: 0.75rem !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pos-list-details-main .reference-number-labels {
+    font-size: 0.625rem !important;
+  }
+}
+.pos-list-details-main .redeem-btn {
+  margin-bottom: 0.75rem;
+}
+.pos-list-details-main .redeem-btn .filter-button {
+  width: 130px;
+  height: 44px !important;
+  float: right;
+}
+@media screen and (max-width: 1200px) {
+  .pos-list-details-main .redeem-btn .filter-button {
+    height: 34px !important;
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=referenceForm.css.map */

@@ -1,0 +1,125 @@
+@import "../../styles/variable.scss";
+
+.date-picker-input {
+  width: $hundred-p;
+  height: 50px;
+  background: $white;
+  border: 0.063rem $border-style-solid $border-transparent;
+  border-radius: 0.25rem;
+  padding: 0.75em 0.938rem 0.75rem 1.25rem;
+  @media screen and (max-width: 992px) {
+    margin-bottom: 1.25rem;
+  }
+  &:hover {
+    border-color: $medium-slate-blue;
+  }
+  &:focus {
+    border-color: $medium-slate-blue;
+    box-shadow: $none;
+  }
+  &:focus-within {
+    box-shadow: $none;
+    border-color: $medium-slate-blue;
+  }
+  &:focus-within {
+    outline: $none;
+  }
+  &::placeholder {
+    color: $black;
+  }
+  .ant-picker-input {
+    input {
+      font-size: 0.875rem;
+      @media screen and (max-width: 1250px) {
+        font-size: 0.813rem;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
+      &::placeholder {
+        color: $tealish-gray;
+        font-weight: $font-weight-normal;
+        font-family: $font-family !important;
+      }
+    }
+  }
+  .ant-picker-suffix {
+    cursor: $cursor-pointer;
+    .anticon-calendar {
+      svg {
+        color: $black;
+      }
+    }
+  }
+  .ant-picker-input {
+    input {
+      &::placeholder {
+        color: $black;
+        font-weight: $font-weight-light;
+        opacity: 1;
+      }
+    }
+  }
+}
+.ant-picker-focused {
+  border: 0.063rem $border-style-solid $medium-slate-blue;
+  outline: $none;
+  box-shadow: $none;
+}
+.ant-picker-dropdown {
+  .ant-picker-panel-container {
+    .ant-picker-panel-layout {
+      .ant-picker-panel {
+        .ant-picker-date-panel {
+          .ant-picker-header {
+            .ant-picker-header-view {
+              button {
+                color: $medium-slate-blue;
+                font-weight: $font-weight-semibold;
+              }
+            }
+          }
+          .ant-picker-body {
+            .ant-picker-content {
+              thead {
+                tr {
+                  th {
+                    color: $medium-slate-blue;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .ant-picker-footer {
+        .ant-picker-now {
+          .ant-picker-now-btn {
+            color: $medium-slate-blue;
+            font-weight: $font-weight-medium;
+          }
+        }
+      }
+    }
+  }
+}
+.ant-picker-cell-today {
+  .ant-picker-cell-inner {
+    background: $medium-slate-blue !important;
+    color: $white;
+    &::before {
+      content: "";
+      border: $none !important;
+    }
+  }
+  &:hover {
+    .ant-picker-cell-inner {
+      color: $black;
+    }
+  }
+}
+.ant-picker-cell-selected {
+  .ant-picker-cell-inner {
+    background: $medium-slate-blue !important;
+  }
+}

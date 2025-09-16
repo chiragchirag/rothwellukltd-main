@@ -1,0 +1,108 @@
+@import "../../styles/variable.scss";
+
+.multiple-input-main {
+  .edit-numeric-input {
+    width: $hundred-p;
+    background: $white;
+    color: $black;
+    border: 0.063rem $border-style-solid $border-transparent;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.938rem 0.75rem 3rem;
+    &:focus-within {
+      outline: $none;
+    }
+  }
+  .multiple-input-wrap {
+    position: $position-relative;
+  }
+  .currency-icon {
+    position: $position-absolute;
+    top: 0.625rem;
+    left: 1.063rem;
+    z-index: $z-index-one;
+    width: 30px;
+    height: 30px;
+    background: $light-grey-tints;
+    color: $dim-gray;
+    display: $d-flex;
+    justify-content: $center;
+    align-items: $center;
+    border-radius: 0.25rem;
+  }
+  .create-input-main {
+    position: $position-relative;
+    .percentage {
+      position: $position-absolute;
+      top: 0.625rem;
+      right: 0.75rem;
+      z-index: $z-index-one;
+      width: 30px;
+      height: 30px;
+      background: $light-grey-tints;
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      border-radius: 0.25rem;
+      svg {
+        fill: $dim-gray;
+      }
+    }
+    .percentage-background {
+      background: $light-grey-tints;
+    }
+  }
+  .create-input {
+    width: $hundred-p;
+    height: 50px;
+    background-color: $alice-blue;
+    border: 0.063rem $border-style-solid $border-transparent;
+    border-radius: 0.25rem;
+    outline: $none;
+    padding: 0.75rem 0.938rem 0.75rem 1.25rem;
+    box-sizing: $box-sizing-border;
+    &:focus {
+      box-shadow: $none;
+      border-color: $medium-slate-blue;
+    }
+    &:focus-visible {
+      box-shadow: $none;
+      border-color: $medium-slate-blue;
+    }
+    &::placeholder {
+      color: $boulder;
+    }
+  }
+  .edit-percentage-icon-main {
+    .edit-discount {
+      background: $whisper !important;
+      span {
+        svg {
+          fill: $dim-gray !important;
+        }
+      }
+    }
+    .edit-icon {
+      position: $position-absolute;
+      top: 0.625rem;
+      right: 1.063rem;
+      width: 30px;
+      height: 30px;
+      background: $light-grey-tints;
+      display: $d-flex;
+      justify-content: $center;
+      align-items: $center;
+      border-radius: 0.25rem;
+      cursor: $cursor-pointer;
+      span {
+        svg {
+          width: 15px;
+          height: 15px;
+          fill: $dim-gray;
+        }
+      }
+      @media screen and (max-width: 575px) {
+        bottom: $zero;
+      }
+    }
+  }
+}

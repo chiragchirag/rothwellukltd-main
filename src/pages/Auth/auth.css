@@ -1,0 +1,133 @@
+.log-in-page-wrap {
+  max-width: 2000px;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.log-in-page-wrap .login-main {
+  height: 100vh;
+}
+@media screen and (min-width: 2000px) {
+  .log-in-page-wrap .login-main {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .log-in-page-wrap .login-main {
+    justify-content: center;
+  }
+}
+.log-in-page-wrap .login-main .login-image {
+  width: 50%;
+  background-image: url(../../assest/images/login.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+@media screen and (max-width: 992px) {
+  .log-in-page-wrap .login-main .login-image {
+    display: none;
+  }
+}
+.log-in-page-wrap .login-main .login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box {
+  width: 80%;
+  border: 0.063rem solid #f3f6f9;
+  padding: 1.563rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .Password-input-main {
+  position: relative;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .Password-input-main .eye-icons {
+  position: absolute;
+  top: 3.188rem;
+  right: 1.25rem;
+  width: 36px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box form {
+  position: relative;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .invalid-mail-error {
+  position: absolute;
+  bottom: 3.688rem;
+  color: #dc3545;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.313rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .invalid-error {
+  bottom: 2.813rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .login-title {
+  display: block;
+  text-align: center;
+  border-bottom: 0.063rem solid #eef3fa;
+  margin-bottom: 1.25rem;
+  margin: 0;
+  padding-bottom: 1.563rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .log-in-information {
+  font-size: 1rem;
+  color: #838a95;
+}
+@media screen and (max-width: 768px) {
+  .log-in-page-wrap .login-main .login-content .log-in-box .log-in-information {
+    font-size: 0.875rem;
+  }
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .log-in-form-input {
+  background-color: #f3f6f9 !important;
+  padding: 0.75rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .password-input {
+  padding: 0.75rem 2rem 0.75rem 0.813rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .password-input input::-moz-placeholder {
+  color: #838a95;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .password-input input::placeholder {
+  color: #838a95;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .error-count-msg .error-msg {
+  margin-top: 0.125rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .forgot-password-main {
+  text-align: end;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .forgot-password-main .forgot-password-link {
+  color: #1d293a;
+  font-size: 0.875rem;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .log-in-btn-main {
+  width: 100%;
+  margin: 0.625rem 0;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .log-in-btn-main .log-in-btn {
+  width: 100%;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .log-in-btn-main .log-in-btn .anticon svg {
+  fill: #fff !important;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .forgot-pass-main {
+  display: flex;
+  flex-direction: column;
+}
+.log-in-page-wrap .login-main .login-content .log-in-box .log-in-details-main {
+  display: flex;
+  flex-direction: column;
+}
+.log-in-page-wrap .login-main .login-content .copy-right-text {
+  color: #838a95;
+  font-weight: 300;
+  text-align: center;
+}/*# sourceMappingURL=auth.css.map */

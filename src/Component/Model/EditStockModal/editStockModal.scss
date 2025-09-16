@@ -1,0 +1,182 @@
+@import "../../../styles/variable.scss";
+
+.edit-stock-details-main {
+  .ant-modal-content {
+    height: $hundred-p;
+    padding: $zero !important;
+    .ant-modal-close {
+      top: 0.625rem;
+      right: 1rem;
+      width: 20px;
+      height: 20px;
+      border-radius: $fifty-p;
+      border: 0.063rem $border-style-solid $jasper;
+      background: $jasper;
+      transition: all 0.3s $transition-ease-in-out;
+      box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+      .ant-modal-close-x {
+        .ant-modal-close-icon {
+          svg {
+            width: $hundred-p;
+            height: 12px;
+            fill: $white;
+            transition: all 0.3s $transition-ease-in-out;
+          }
+        }
+      }
+      &:hover {
+        background: #dc354538;
+        border: 0.063rem $border-style-solid $jasper;
+        .ant-modal-close-x {
+          .ant-modal-close-icon {
+            svg {
+              fill: $jasper;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-header {
+      padding: 0.5rem 1rem $zero;
+      margin: $zero;
+      .ant-modal-title {
+        font-size: 1.125rem;
+        padding: $zero $zero 0.313rem $zero;
+      }
+    }
+    .ant-modal-body {
+      max-height: 560px;
+      overflow-y: $auto;
+      overflow-x: $overflow-hidden;
+      padding: 0.563rem 0.938rem;
+      padding-bottom: $zero;
+      .edit-stock-input-main {
+        .input-wrap{
+          .multiple-input-main{
+            height: 75px;
+          }
+        }
+        .edit-stock-title {
+          font-size: 0.938rem;
+          font-weight: $font-weight-semibold;
+          line-height: 1.5;
+          margin-bottom: 0.438rem;
+          text-decoration: $text-decoration-underline;
+        }
+        .edit-stock-input {
+          .input-wrap {
+            .input-area-main {
+              .dropdown_input {
+                background: $alice-blue;
+              }
+              .price-input {
+                background: $alice-blue;
+              }
+              .common-input{
+                background: $alice-blue;
+              }
+              .error-msg {
+                margin-top: 0.125rem;
+              }
+            }
+            .date-picker-input {
+              background: $alice-blue;
+              &:focus-within {
+                border-color: $medium-slate-blue;
+              }
+            }
+            .error-msg {
+              margin-top: 0.125rem;
+            }
+          }
+        }
+        .edit-stock-date-picker {
+          .input-wrap{
+            .input-area-main{
+              .common-input{
+                background: $alice-blue;
+              }
+            }
+          }
+          @media screen and (max-width: 992px) {
+            margin-bottom: $zero;
+          }
+        }
+        .input-wrap {
+          .input-area-main {
+            .dropdown_input {
+              background: $alice-blue;
+            }
+            .ant-select-disabled{
+              background: $soft-peach;
+            }
+            .price-input {
+              background: $alice-blue;
+            }
+            .error-msg {
+              margin-top: 0.125rem;
+            }
+          }
+          .date-picker-input {
+            background: $alice-blue;
+            &:focus-within {
+              border-color: $medium-slate-blue;
+            }
+          }
+          .error-msg {
+            margin-top: 0.125rem;
+          }
+          .multiple-input-main {
+            .multiple-input-wrap {
+              .edit-numeric-input {
+                background: $alice-blue;
+              }
+            }
+            .error-msg-main {
+              left: $zero;
+              bottom: 0.563rem;
+            }
+          }
+        }
+        .no-data-main {
+          width: $hundred-p;
+          .page-not-found-main {
+            position: $position-relative;
+            @media screen and (max-width: 1200px) {
+              height: 200px;
+              display: $d-flex;
+              flex-direction: $flex-column;
+              justify-content: $center;
+              align-items: $center;
+            }
+            .page-not-found-icon {
+              height: 300px;
+            }
+            .not-found-text {
+              position: $position-absolute;
+              top: 80%;
+              left: $fifty-p;
+              transform: translate(-50%, -50%);
+              width: $hundred-p;
+              color: $dark-gray;
+              text-align: $center;
+              font-size: 0.875rem;
+              font-weight: $font-weight-medium;
+              margin: $zero;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-footer {
+      padding: $zero 0.938rem 0.563rem;
+      .edit-stock-details-btn {
+        .anticon {
+          svg {
+            fill: $white !important;
+          }
+        }
+      }
+    }
+  }
+}

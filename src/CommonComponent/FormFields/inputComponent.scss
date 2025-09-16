@@ -1,0 +1,85 @@
+@import "../../../src/styles/variable.scss";
+
+.input-area-main {
+  position: $position-relative;
+  height: 70px;
+  .common-input {
+    width: $hundred-p;
+    height: 50px;
+    background: $white;
+    border: 0.063rem $border-style-solid $border-transparent;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.938rem 0.75rem 1.25rem;
+    font-size: 0.875rem;
+    @media screen and (max-width: 1250px) {
+      font-size: 0.813rem;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 0.75rem;
+    }
+    &:focus {
+      box-shadow: $none;
+      border-color: $medium-slate-blue;
+    }
+    &:focus-within {
+      box-shadow: $none;
+    }
+    &:focus-visible {
+      box-shadow: $none;
+      border-color: $medium-slate-blue;
+    }
+    &::placeholder {
+      color: $tealish-gray;
+      font-family: $font-family !important;
+    }
+  }
+  input {
+    transition:
+      background-color 50000s ease-in-out 0s,
+      color 50000s ease-in-out 0s;
+  }
+  .currency-icon {
+    position: $position-absolute;
+    top: 0.688rem;
+    left: 0.625rem;
+    z-index: $z-index-one;
+    width: 30px;
+    height: 30px;
+    background: $whisper;
+    font-size: 0.875rem;
+    display: $d-flex;
+    justify-content: $center;
+    align-items: $center;
+    border-radius: 0.25rem;
+  }
+  .search-input {
+    height: 39px;
+    background: $alice-blue;
+    align-items: $center;
+    border: 0.063rem $border-style-solid $border-transparent;
+    padding: 0.75rem;
+    margin-bottom: 0.313rem;
+    border-radius: 0.25rem;
+    &:hover {
+      background: $alice-blue;
+      border-color: $alice-blue;
+    }
+    &:focus-within {
+      background: $alice-blue;
+      border-color: $border-transparent;
+      box-shadow: $none;
+    }
+    .ant-input-suffix {
+      cursor: $cursor-pointer;
+    }
+  }
+}
+.search-input-wrap {
+  height: 60px !important;
+}
+.ant-input-affix-wrapper {
+  &:focus {
+    box-shadow: $none;
+    border-color: $medium-slate-blue;
+  }
+}

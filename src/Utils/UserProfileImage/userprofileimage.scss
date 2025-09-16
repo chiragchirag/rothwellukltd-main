@@ -1,0 +1,33 @@
+@import "../../styles/variable.scss";
+
+.navbar-profile-main {
+  .user-profile-images {
+    .ant-image{
+      width: 35px;
+      height: 35px;
+      .dashboard-screenshot-image {
+        width: 35px;
+        height: $hundred-p;
+        border-radius: 0.313rem;
+        object-fit: $cover !important;
+      }
+    }
+  }
+  .dashboard-screenshot-image {
+    width: 40px;
+    height: $hundred-p;
+    border-radius: 0.313rem;
+  }
+  .profile-name-character {
+    height: 40px;
+    width: 40px;
+    display: $d-flex;
+    justify-content: $center;
+    align-items: $center;
+    background: $ebony-clay;
+    border-radius: 0.313rem;
+    color: $white;
+    font-weight: $font-weight-semibold;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,121 @@
+@import "../../../styles/variable.scss";
+
+.delete-modal {
+  padding-bottom: $zero;
+  @media screen and (max-width: 768px) {
+    width: 300px !important;
+  }
+  .ant-modal-content {
+    padding: 1.25rem 1.5rem !important;
+    .ant-modal-close {
+      top: 0.75rem;
+      right: 0.75rem;
+      width: 20px;
+      height: 20px;
+      border-radius: $fifty-p;
+      border: 0.063rem $border-style-solid $jasper;
+      background: $jasper;
+      transition: all 0.3s $transition-ease-in-out;
+      box-shadow:
+        #dc3545 0px 3px 8px -2px,
+        #dc3545 0px 3px 7px -3px;
+      .ant-modal-close-x {
+        .ant-modal-close-icon {
+          svg {
+            width: $hundred-p;
+            height: 12px;
+            fill: $white;
+            transition: all 0.3s $transition-ease-in-out;
+          }
+        }
+      }
+      &:hover {
+        background: #dc354538;
+        border: 0.063rem $border-style-solid $jasper;
+        .ant-modal-close-x {
+          .ant-modal-close-icon {
+            svg {
+              fill: $jasper;
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-header {
+      padding: 0.5rem 1rem $zero;
+      margin: $zero;
+      .ant-modal-title {
+        font-size: 1.125rem;
+        padding: $zero $zero 0.313rem $zero;
+      }
+    }
+    .ant-modal-body {
+      .delete-details {
+        font-size: 1rem;
+        font-weight: $font-weight-medium;
+        margin-top: $zero;
+        text-align: $center;
+        @media screen and (max-width: 768px) {
+          font-size: 0.75rem;
+        }
+      }
+      .delete-animation-image-main {
+        margin-bottom: 1.25rem;
+        text-align: $center;
+        svg {
+          height: 70px !important;
+          width: $fit-content;
+          @media screen and (max-width: 768px) {
+            height: 50px;
+          }
+        }
+        p {
+          margin: $zero;
+        }
+      }
+    }
+  }
+  .delete-main {
+    display: $d-flex;
+    justify-content: $center;
+    align-items: $center;
+    gap: 1.25rem;
+    .cancel-btn {
+      background: $bg-transparent !important;
+      color: $jasper !important;
+      box-shadow:
+        #dc354575 0px 6px 12px -2px,
+        #dc35454f 0px 3px 7px -3px;
+      border: 0.063rem $border-style-solid $jasper;
+      &::after {
+        content: "";
+        background: $jasper;
+        border: 0.063rem $border-style-solid $jasper;
+      }
+      &:hover {
+        box-shadow:
+          #dc354575 0px 6px 12px -2px,
+          #dc35454f 0px 3px 7px -3px;
+        border: 0.063rem $border-style-solid $jasper;
+        border-color: $jasper !important ;
+        color: $white!important;
+      }
+    }
+    .confirm-btn {
+      &::after {
+        content: "";
+        background: $persian-green;
+      }
+      &:hover {
+        box-shadow:
+          #03b2887d 0px 6px 12px -2px,
+          #03b28859 0px 3px 7px -3px;
+      }
+      .anticon {
+        svg {
+          fill: $white !important;
+        }
+      }
+    }
+  }
+}

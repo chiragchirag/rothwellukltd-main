@@ -1,0 +1,112 @@
+.multiple-input-main {
+  height: 90px;
+}
+@media screen and (max-width: 575px) {
+  .multiple-input-main {
+    height: 160px;
+  }
+}
+.multiple-input-main .edit-numeric-input {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  color: #000000;
+  border: 0.063rem solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.75rem 0.938rem 0.75rem 3rem;
+}
+.multiple-input-main .edit-numeric-input:focus-within {
+  outline: none;
+}
+.multiple-input-main .multiple-input-wrap {
+  position: relative;
+}
+.multiple-input-main .currency-icon {
+  position: absolute;
+  top: 0.969rem;
+  left: 1.063rem;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background: #d4d4d4;
+  color: #696565;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+.multiple-input-main .create-input-main {
+  position: relative;
+}
+.multiple-input-main .create-input-main .percentage {
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background: #d4d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+.multiple-input-main .create-input-main .percentage svg {
+  fill: #696565;
+}
+.multiple-input-main .create-input-main .percentage-background {
+  background: #d4d4d4;
+}
+.multiple-input-main .create-input {
+  width: 100%;
+  height: 60px;
+  background-color: #f3f6f9;
+  border: 0.063rem solid transparent;
+  border-radius: 0.25rem;
+  outline: none;
+  padding: 0.75rem 0.938rem 0.75rem 1.25rem;
+  box-sizing: border-box;
+}
+.multiple-input-main .create-input:focus {
+  box-shadow: none;
+  border-color: #6366f1;
+}
+.multiple-input-main .create-input:focus-visible {
+  box-shadow: none;
+  border-color: #6366f1;
+}
+.multiple-input-main .create-input::-moz-placeholder {
+  color: #797c79;
+}
+.multiple-input-main .create-input::placeholder {
+  color: #797c79;
+}
+.multiple-input-main .edit-percentage-icon-main .edit-discount {
+  background: #ebebeb !important;
+}
+.multiple-input-main .edit-percentage-icon-main .edit-discount span svg {
+  fill: #696565 !important;
+}
+.multiple-input-main .edit-percentage-icon-main .edit-icon {
+  position: absolute;
+  top: 0.969rem;
+  right: 1.063rem;
+  width: 30px;
+  height: 30px;
+  background: #d4d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.multiple-input-main .edit-percentage-icon-main .edit-icon span svg {
+  width: 15px;
+  height: 15px;
+  fill: #696565;
+}
+@media screen and (max-width: 575px) {
+  .multiple-input-main .edit-percentage-icon-main .edit-icon {
+    bottom: 0;
+  }
+}/*# sourceMappingURL=multiInput.css.map */

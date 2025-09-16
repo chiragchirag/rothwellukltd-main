@@ -1,0 +1,245 @@
+.discount-list-main {
+  background: #f3f6f9;
+  padding: 0.875rem 1.25rem;
+}
+@media screen and (min-width: 1440px) {
+  .discount-list-main {
+    padding: 1rem 1.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .discount-list-main {
+    padding: 0.625rem;
+  }
+}
+.discount-list-main .table-wrap .table {
+  padding: 0;
+  background: transparent;
+}
+.discount-list-main .discount-list-table {
+  height: calc(100vh - 321px);
+  overflow-x: hidden;
+  background: #fff;
+  overflow-y: auto;
+}
+@media screen and (min-width: 1500px) {
+  .discount-list-main .discount-list-table {
+    height: calc(100vh - 339px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .discount-list-main .discount-list-table {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .discount-list-main .discount-list-table {
+    height: 336px;
+  }
+}
+.discount-list-main .discount-list-table .ant-spin {
+  top: 2.25rem;
+}
+.discount-list-main .discount-list-table .ant-spin-nested-loading {
+  max-height: calc(100vh - 321px);
+  background: #fff;
+  overflow-x: auto;
+}
+@media screen and (min-width: 1500px) {
+  .discount-list-main .discount-list-table .ant-spin-nested-loading {
+    max-height: calc(100vh - 339px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .discount-list-main .discount-list-table .ant-spin-nested-loading {
+    max-height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .discount-list-main .discount-list-table .ant-spin-nested-loading {
+    max-height: 336px;
+  }
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 50px;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  .discount-list-main .discount-list-table table .ant-table-thead tr th {
+    font-size: 0.813rem;
+  }
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0 0.75rem;
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell .ant-table-column-sorters .ant-table-column-title {
+  white-space: nowrap;
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+  border: 0.063rem solid #575fe9;
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background: #575fe9;
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell:first-child {
+  padding-left: 0;
+  border-start-start-radius: 0;
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell:last-child {
+  text-align: center;
+  border-start-end-radius: 0;
+  box-shadow: 0 -7px 10px rgba(0, 0, 0, 0.1098039216);
+  right: 0;
+}
+.discount-list-main .discount-list-table table .ant-table-thead tr .ant-table-cell-fix-right {
+  position: sticky !important;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+  font-size: 0.875rem;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell p {
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+    font-size: 0.813rem;
+  }
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-gold {
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-red {
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .ant-tag-green {
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+  color: #03b288;
+  background: rgba(3, 178, 136, 0.1215686275);
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .disabled span {
+  cursor: not-allowed !important;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell .disabled span svg {
+  fill: #8c8c8c !important;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell-fix-right {
+  position: sticky !important;
+  z-index: 0;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(1) {
+  cursor: pointer;
+  max-width: 150px;
+  padding-left: 0;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(1) p {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:nth-child(2) {
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child {
+  text-align: center;
+  position: sticky;
+  background: #fff;
+  right: 0;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child span {
+  cursor: pointer;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child span svg {
+  height: 100%;
+  width: 19px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+@media screen and (max-width: 768px) {
+  .discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child span svg {
+    width: 15px;
+  }
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child span:nth-child(1) svg {
+  fill: #14ba93;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child a:nth-child(2) span {
+  margin-top: 0.25rem;
+  margin-left: 0.438rem;
+}
+.discount-list-main .discount-list-table table .ant-table-tbody .ant-table-row .ant-table-cell:last-child a:nth-child(2) span svg {
+  fill: #575fe9;
+}
+
+.discount-product-modal .ant-modal-content {
+  padding: 0 !important;
+}
+.discount-product-modal .ant-modal-content .ant-modal-close {
+  top: 0.625rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.063rem solid #dc3545;
+  background: #dc3545;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dc3545 0px 3px 8px -2px, #dc3545 0px 3px 7px -3px;
+}
+.discount-product-modal .ant-modal-content .ant-modal-close .ant-modal-close-x .ant-modal-close-icon svg {
+  width: 100%;
+  height: 12px;
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.discount-product-modal .ant-modal-content .ant-modal-header {
+  margin-bottom: 0;
+}
+.discount-product-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  color: #1e293b;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5;
+  border-bottom: 0.063rem solid #deebff;
+  margin: 0 1rem;
+  padding: 0.375rem 0;
+}
+.discount-product-modal .ant-modal-content .ant-modal-body {
+  max-height: 500px;
+  padding: 1rem;
+  padding-top: 0.438rem;
+  overflow: auto;
+}
+@media screen and (max-width: 767px) {
+  .discount-product-modal .ant-modal-content .ant-modal-body {
+    max-height: 410px;
+  }
+}
+.discount-product-modal .ant-modal-content .ant-modal-body .table-wrap .table {
+  padding: 0;
+}
+.discount-product-modal .ant-modal-content .ant-modal-body .table-wrap .table .disc-modal-table {
+  padding: 0;
+}
+.discount-product-modal .ant-modal-content .ant-modal-body .table-wrap .table .disc-modal-table table {
+  border: 0.063rem solid #deebff;
+  border-collapse: collapse;
+}
+.discount-product-modal .ant-modal-content .ant-modal-body .table-wrap .table .disc-modal-table table .ant-table-thead tr .ant-table-cell {
+  padding: 0.75rem;
+  background: #fafafa;
+  border: 0.063rem solid #deebff;
+}
+.discount-product-modal .ant-modal-content .ant-modal-body .table-wrap .table .disc-modal-table table .ant-table-tbody .ant-table-row .ant-table-cell {
+  padding: 0.75rem;
+  border: 0.063rem solid #deebff;
+}/*# sourceMappingURL=discountList.css.map */
